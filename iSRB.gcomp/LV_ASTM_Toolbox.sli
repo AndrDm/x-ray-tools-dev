@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8B52A7CA1F81FD0E59C2BC327A30221EB1CAD3BF7FFAD81845133B54500799C9BC517E9D9DA576F8E4EACE4D368F21596EB60ABBB46A8707563817005628D577" Timestamp="1DBAB53C47195D1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="12AF128257A1893FD15B927415A36A2839AE69D4410392FE1C661F6105ABB1DD64281D4E08493F9FFD87EBE59D11C9694F73193333AB2E6910D90FC4E4B27361" Timestamp="1DBACA897FCEB35" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
@@ -13,10 +13,9 @@
 				<pE>Users</pE>
 				<pE>Andrey</pE>
 				<pE>Desktop</pE>
-				<pE>2025_04_11_12_05_01</pE>
-				<pE>LooseFiles_iSRB TEST to NXG.lvproject</pE>
-				<pE>Main.gcomp</pE>
-				<pE>LV_ASTM_Toolbox.dll</pE>
+				<pE>x-ray-tools-dev</pE>
+				<pE>iSRB.gcomp</pE>
+				<pE>x-ray-toolbox.dll</pE>
 			</Path>
 		</p.PlatformAgnosticPathToLibrary>
 		<Icon Id="26180a37dbbd47c990c4ee79284ccb84" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -29,7 +28,7 @@
 		<EnvoyManagerRootEnvoy Id="eafe711bf3d34742b3e8ac7e45de03ff" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="10c94af8330d4d82b641c219c64b7a48" Name="LV_ASTM_Toolbox.sli" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Id="1cfad61493dc46cfb1ef6107c197573d" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint" Name="GetProfile">
-				<SharedLibraryEntryPoint Id="1463786295384984b8777f8f487dfbce" Symbol="GetProfile" xmlns="http://www.ni.com/ExternalCode">
+				<SharedLibraryEntryPoint Id="1463786295384984b8777f8f487dfbce" Symbol="GetProfile" UnmangledSymbol="GetProfile" xmlns="http://www.ni.com/ExternalCode">
 					<Icon Id="7544a4d72d6b491399e81a34cd65026c" ListViewIconCrop="0 0 40 50" xmlns="http://www.ni.com/PlatformFramework">
 						<IconPanel Height="[float]50" Id="e92a9f2672f844a38de1c8e200871eda" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Id="6525484ab3204bf590a628b11c8eda35" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">

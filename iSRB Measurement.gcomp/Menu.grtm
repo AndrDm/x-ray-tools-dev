@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5F61F338191954A93AA2DD430CF58F3EC1B644504BC5095342E494320F93B6680316CCCB73CD4231CFE68251F3566A548BECBBC88317E56F789A7EA1136F7D9F" Timestamp="1DBABB0D776BF6A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1226D9F1690D3F66F23B17F9E96E6EF287925806309F94B3514C0B1438C3E77E3ACF19874B1C262FA845368E9CBDBA55FE7FB8809FADBDEAEE021CB9BD5CBDC3" Timestamp="1DBACABBD9F1146" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,16 +7,16 @@
 	</SourceModelFeatureSet>
 	<MenuDefinition Id="67bc6aa4093f402f81c32227cfffb6c8" xmlns="http://www.ni.com/PanelCommon">
 		<Menu Id="1e3a7fd39ccd4af292d64493d6c2fad2" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False">
-			<UserDefinedMenuItem Id="4a915aafe35a473fa31a0e745edd3121" ItemName="[string]File" ItemTag="[string]File" Left="[float]0" Top="[float]0">
-				<UserDefinedMenuItem Id="1224355c54d44bceac75870682028ddf" ItemName="[string]Open..." ItemTag="[string]Open..." Left="[float]0" Shortcut="[string]Ctrl+O" Top="[float]0" />
-				<UserDefinedMenuItem Id="b8924fc5cb844ffd911de08bb1b4e164" ItemName="[string]Save As..." ItemTag="[string]Save As..." Left="[float]0" Shortcut="[string]Ctrl+Shift+S" Top="[float]0" />
+			<UserDefinedMenuItem Id="4a915aafe35a473fa31a0e745edd3121" ItemName="[string]_File" ItemTag="[string]_File" Left="[float]0" Top="[float]0">
+				<UserDefinedMenuItem Id="1224355c54d44bceac75870682028ddf" ItemName="[string]_Open..." ItemTag="[string]_Open..." Left="[float]0" Shortcut="[string]Ctrl+O" Top="[float]0" />
+				<UserDefinedMenuItem Id="b8924fc5cb844ffd911de08bb1b4e164" ItemName="[string]_Save As..." ItemTag="[string]_Save As..." Left="[float]0" Shortcut="[string]Ctrl+Shift+S" Top="[float]0" />
 				<MenuSeparator Id="7a1d9eb3c8b947e4a4be4f1a8928dc0d" ItemName="[string]-" ItemTag="[string]APP_SEPARATOR" Left="[float]0" Top="[float]0" />
-				<UserDefinedMenuItem Id="c10baf6a75e74f599acd91d0ebc15c5d" ItemName="[string]Quit" ItemTag="[string]Quit" Left="[float]0" Shortcut="[string]Ctrl+Q" Top="[float]0" />
+				<UserDefinedMenuItem Id="c10baf6a75e74f599acd91d0ebc15c5d" ItemName="[string]_Quit" ItemTag="[string]_Quit" Left="[float]0" Shortcut="[string]Ctrl+Q" Top="[float]0" />
 			</UserDefinedMenuItem>
-			<UserDefinedMenuItem Id="9c615033ca554a829e55a1ac07855347" ItemName="[string]Help" ItemTag="[string]Help" Left="[float]0" Top="[float]0">
-				<UserDefinedMenuItem Id="346f5e12d20349b791297d97b4dc68a0" ItemName="[string]Demo" ItemTag="[string]Demo" Left="[float]0" Top="[float]0" />
+			<UserDefinedMenuItem Id="9c615033ca554a829e55a1ac07855347" ItemName="[string]_Help" ItemTag="[string]_Help" Left="[float]0" Top="[float]0">
+				<UserDefinedMenuItem Id="346f5e12d20349b791297d97b4dc68a0" ItemName="[string]_Demo" ItemTag="[string]_Demo" Left="[float]0" Top="[float]0" />
 				<MenuSeparator Id="c02f370524384773abc9b0c61e5b64b9" ItemName="[string]-" ItemTag="[string]APP_SEPARATOR" Left="[float]0" Top="[float]0" />
-				<UserDefinedMenuItem Id="2f8d9b548d46426bb415ba293d701815" ItemName="[string]About..." ItemTag="[string]About..." Left="[float]0" Top="[float]0" />
+				<UserDefinedMenuItem Id="2f8d9b548d46426bb415ba293d701815" ItemName="[string]_About..." ItemTag="[string]_About..." Left="[float]0" Top="[float]0" />
 			</UserDefinedMenuItem>
 		</Menu>
 	</MenuDefinition>
