@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="959991083F8D1E0DB5FADB0E2143E0D83A4613A95DB1CD2C0A96E7F2B35DE2DAFEE303758F7E4BF384E5B10F2E7BC52ED3C75D67E9D266F2E164DD26595CBA5C" Timestamp="1DBAC6F628DFE23" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="GE Inspection Technologies GmbH" Product="iSRB Measurement" ShortDescription="GE Inspection Technologies GmbH x-ray_tools" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="d7a996ebd3774a9eb8abcf3fba49c80f" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="af2f7150b25b4dd593037e79ec83d59f" p3:CustomNipmPackageName="geinspectiontechnologiesgmbh-x-raytools" p3:DistributionCategory="Application" p3:MaintainerEmail="andydm@gmail.com" p3:MaintainerName="GE Inspection Technologies GmbH" p3:PackageDisplayName="iSRB Measurement" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="87f2600ce01f4d0ebc8dd255b5232f01" Target="::DevSystem" />
+		<DistributionMemberDependencySource Id="9d4c67f0005d4b9d8e1059fd9ba59d49" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::DevSystem::Interactive::iSRB Measurement.gcomp" />
+	</DistributionDefinition>
+</SourceFile>

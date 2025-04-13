@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="889A4E83C1CB996CDFCA29380A2C5DD3313B7ADB61A43C2B635DE372CCA794535671A64A4CBA0331D2155AF2EDB04EDBE3D08E3DE571C5A748256B78B27FB525" Timestamp="1DBAB6CBC55C3BB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="5df997bf3c39446e8b2c4e72073c2f70" RootNamespaceId="59b2baf5b51a46bf914861cf706504fc" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="1040ef874f1340cba54940ffcadefa47" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="33185869776e470d8b797f3f9e494760" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="38a65623a65a4eea9ead95625f55262e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="cc72b88f89274117a11964967057c339" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="2c7cecc4543d425e96f4e5b7280d32ef" Name="Configuration1">
+			<CompilerSymbolTable Id="9748b12f15f3427fa262a581bd96e210" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="f2ea5d452d654c26bcda58e2a5264292" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="f1440631602d47c895e659762a38328a" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="4940d757389044ac8d5c07ea8d0200f7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="1c9492754d7f4bb4a7d804da6aa2a48e" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="59b2baf5b51a46bf914861cf706504fc" Name="Image_Cropper" />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="e5a4f2e7bbee499f9f346adf32e98356" Name="Image_Cropper.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="2c7cecc4543d425e96f4e5b7280d32ef" Id="2aa8230d0ec34dd7adafc0fd808d20b1" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

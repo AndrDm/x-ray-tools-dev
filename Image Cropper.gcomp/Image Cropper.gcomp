@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="4E5F5CB45CE29D243FF56B9389C76CA2A5EBC7F21D2024E9BC0E8D2741A52BF42DF044561C51B23E1851AFA05AC9FC4439FE0789302913A17EADE29E7448484D" Timestamp="1DBAC4A2E92A683" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="15bcd8caface4a8cb49cea8aeaf0b930" RootNamespaceId="e41193cb73864e41b7bbd07aab292580" UserVersion="0.1.0.3" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="238e00fd8ffc4c3d8d1581adf0dcb19b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="5eab775dd6fe4cbdb686024daa9e6293" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="9cc634c6643a43279ea66c57c769d026" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="47c0be23488a4ced9978457a7ca4fa86" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="ded77a4a7c1d40a2a907b1fa45cfe65d" Name="Configuration1">
+			<CompilerSymbolTable Id="385ec87ebff94784b9ad9348fa138b62" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties Id="3a3aa8450c154a0f8cda76c598691a88" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+			<ComponentItemProperties AssociatedEnvoyId="6497f7de026544d584d5d7f6bb38ab05" Id="f8456bfd43eb435f919b6564b81700cf" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6308cc8759114b7592a3d5c4002fa398" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="8983ef40a4184c55a2e3645cc37ff74f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="da83ef007e6f4b1698e0c83e9ab34d4b" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e41193cb73864e41b7bbd07aab292580" Name="Image Cropper">
+				<SourceFileReference Id="6497f7de026544d584d5d7f6bb38ab05" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ImageCropper.gvi" StoragePath="ImageCropper.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="e3ce340a2bbd47ec925897e3aa30dad2" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Source Path.gtype" StoragePath="Source Path.gtype\Source Path.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="73c6cf3c32f341d48ceccf9b0cf99667" Name="Image Cropper.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="ded77a4a7c1d40a2a907b1fa45cfe65d" Id="daff2b40059340f1948263cf0993b1ce" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

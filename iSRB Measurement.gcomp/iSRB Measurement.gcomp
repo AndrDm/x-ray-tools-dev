@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F5D99D34D9734CEBD9B613983DD2ABFF7141A7E7FC6072B9327C7C6FFB1573E4C69C6373C35A14D1CDCAB599656ADCE7D5909DBFFC42E44AA3AAB1640564B17E" Timestamp="1DBAC6E951BB5A6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="34f72061f42e4c11948aaf31120e39c0" RootNamespaceId="a028b23c869f4b8b946d50808c648a9c" UserVersion="0.1.0.13" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="5672bc4df88c45088604716371c84871" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="2c3dbf8732274f06bd8094a5173634bc" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="c5425be16aab4be79f881051f3750987" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5f08992d17cb4d6d8fbe4de02a5dddab" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="dee3e79fc41e4f918f7f8f3dc7e38ddf" Name="Configuration1">
+			<CompilerSymbolTable Id="854ad5cb340b462894b0993d15221357" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties Id="5623c04b34eb4c198659adf43ba929af" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+			<ComponentItemProperties AssociatedEnvoyId="2330f20016e64282b6d96813dac2163a" Id="798f3aa7f9f6450c8378f8927ca9b8d3" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="9da31bed6db64b1983a1034c7e349c9a" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="387cf34a8b884a4494845ee124714bcf" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="785fca385a0349e3b0103970fbaefbb3" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a028b23c869f4b8b946d50808c648a9c" Name="iSRB Measurement">
+				<SourceFileReference Id="2330f20016e64282b6d96813dac2163a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRB.gvi" StoragePath="iSRB.gvi" />
+				<SourceFileReference Id="46a05fbd41444694a3a4c6ef00930a60" ModelDefinitionType="{http://www.ni.com/PanelCommon}MenuDefinition" Name="Menu.grtm" StoragePath="Menu.grtm" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4c47cc996f4746a7aa558b092f51a943" Name="iSRB Measurement.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="dee3e79fc41e4f918f7f8f3dc7e38ddf" Id="bee4906947894ad6b7131670f9eebc40" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

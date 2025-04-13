@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9AEE8E27BD282CC56ECE097D322B47C5609E1921982C4901E8404C9A24C63675A88F008B5E6C26C31AC6C116A668568752A887B9EAEB7B270CD1D3561E69F664" Timestamp="1DBAAD5CB95236F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="de996043b44f4df09742d4ecf7699840" RootNamespaceId="b531b501e2f487abe9c1b1d37d97682" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="52280bcddd5e450b89c9b99cbe0c96ac" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="10c3746f0bd4660b21f5856b966de22" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="cb147e25ae054732829265e55402b652" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="8396c59478444a24958cdcafb0375faa" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="19faad1c421242ec9793e47503d28d6f" Name="Default">
+			<CompilerSymbolTable Id="7bc43d7897264c8f95719a5f53d75b2d" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="bee45a2fcc60440989a644323989393f" />
+			<ComponentItemProperties AssociatedEnvoyId="8e3e187cebcc4664b3e5bd29d9473641" Exported="True" Id="346a48dc30bf44069579295fafce4a0e" />
+			<ComponentItemProperties AssociatedEnvoyId="fee336c657e04993af272f03bc848d39" Exported="True" Id="82da3a3a6bef4fdf92fe1f0efb431abf" />
+			<ComponentItemProperties AssociatedEnvoyId="f197da3b14794b7a9ef876714f536818" Exported="True" Id="f1264725e6e2409895c6be492cb5e92e" />
+			<ComponentItemProperties AssociatedEnvoyId="fe677720df5e4feeb2a3acf664eeb95b" Exported="True" Id="6917e4266fe34ecb8dee7eacd08b9f9f" />
+			<ComponentItemProperties AssociatedEnvoyId="bbdc7bd5a11a4c7fac397237ba573d77" Exported="True" Id="886961e40af446b69d8d8c57dec3dbe9" />
+			<ComponentItemProperties AssociatedEnvoyId="b31b32cbdfa8445180dd2adba3083218" Exported="True" Id="fdfaa33ee957468aa51bd8580af2c3f2" />
+			<ComponentItemProperties AssociatedEnvoyId="e48c5e2a04ab429c8762e5348879d471" Exported="True" Id="87890b17029d485695ed9d370967d076" />
+			<ComponentItemProperties AssociatedEnvoyId="dbc0f95bc49846ea807457cd29fb9479" Exported="True" Id="ab01eb93eaab4452838d0022177563d6" />
+			<ComponentItemProperties AssociatedEnvoyId="af45e0bcb06744afaa1211c4aaf14de6" Exported="True" Id="2157b6a709da4cfb9852ecd3c6fafca5" />
+			<ComponentItemProperties AssociatedEnvoyId="ba1093f3c350441696acb4bd0521fb8f" Exported="True" Id="d5edbaea547d43a9b4e4cd73736cc7bf" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="5f2d4993d9c3445dbf23952b32e1b2ef" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e6c4700c64f3423196ad3669a10de811" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="85b20c1b204f4315990287b79bee0800" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b531b501e2f487abe9c1b1d37d97682" Name="My Computer">
+				<SourceFileReference Bindings="EnvoyManager" Id="8e3e187cebcc4664b3e5bd29d9473641" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="iSRb.gtype" StoragePath="iSRb.gtype\iSRb.gtype" />
+				<SourceFileReference Id="fee336c657e04993af272f03bc848d39" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Module SRb - Core.gvi" StoragePath="Module SRb - Core.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="f197da3b14794b7a9ef876714f536818" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Graphs Info.gtype" StoragePath="SRb Graphs Info.gtype\SRb Graphs Info.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="fe677720df5e4feeb2a3acf664eeb95b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Line Profile.gtype" StoragePath="SRb Line Profile.gtype\SRb Line Profile.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="bbdc7bd5a11a4c7fac397237ba573d77" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Params.gtype" StoragePath="SRb Params.gtype\SRb Params.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="b31b32cbdfa8445180dd2adba3083218" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Rect Coords.gtype" StoragePath="SRb Rect Coords.gtype\SRb Rect Coords.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="e48c5e2a04ab429c8762e5348879d471" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Results.gtype" StoragePath="SRb Results.gtype\SRb Results.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="dbc0f95bc49846ea807457cd29fb9479" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Dip TypeDef.gtype" StoragePath="Dip TypeDef.gtype\Dip TypeDef.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="af45e0bcb06744afaa1211c4aaf14de6" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Dip Spacing TypeDef.gtype" StoragePath="Dip Spacing TypeDef.gtype\Dip Spacing TypeDef.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="ba1093f3c350441696acb4bd0521fb8f" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="LV_ASTM_Toolbox.sli" StoragePath="LV_ASTM_Toolbox.sli" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="7fac2e2e104942ee94f03495a5cafbd9" Name="My Computer.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="19faad1c421242ec9793e47503d28d6f" Id="e0d9bd35fcd64e1ebe36348541e3e401" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

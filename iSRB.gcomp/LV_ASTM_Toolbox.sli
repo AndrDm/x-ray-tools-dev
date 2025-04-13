@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8B52A7CA1F81FD0E59C2BC327A30221EB1CAD3BF7FFAD81845133B54500799C9BC517E9D9DA576F8E4EACE4D368F21596EB60ABBB46A8707563817005628D577" Timestamp="1DBAB53C47195D1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<SharedLibrary CallingConvention="Cdecl" Id="7703eb9e34ea4d4b8b56fc86106e7689" StringEncoding="CodePage" ThreadRequirements="AnyThread" xmlns="http://www.ni.com/ExternalCode">
+		<p.PlatformAgnosticPathToLibrary>
+			<Path a="1">
+				<pE>C</pE>
+				<pE>Users</pE>
+				<pE>Andrey</pE>
+				<pE>Desktop</pE>
+				<pE>2025_04_11_12_05_01</pE>
+				<pE>LooseFiles_iSRB TEST to NXG.lvproject</pE>
+				<pE>Main.gcomp</pE>
+				<pE>LV_ASTM_Toolbox.dll</pE>
+			</Path>
+		</p.PlatformAgnosticPathToLibrary>
+		<Icon Id="26180a37dbbd47c990c4ee79284ccb84" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a489c0f98a0b4d77b1eec9e9ed884179" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="bfa2b30f61094e5a875b1e25afef1c7c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+	</SharedLibrary>
+	<EnvoyManagerFile Id="280ad35e4e374dbe8d2bb2f71aa32028" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="eafe711bf3d34742b3e8ac7e45de03ff" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="10c94af8330d4d82b641c219c64b7a48" Name="LV_ASTM_Toolbox.sli" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="1cfad61493dc46cfb1ef6107c197573d" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint" Name="GetProfile">
+				<SharedLibraryEntryPoint Id="1463786295384984b8777f8f487dfbce" Symbol="GetProfile" xmlns="http://www.ni.com/ExternalCode">
+					<Icon Id="7544a4d72d6b491399e81a34cd65026c" ListViewIconCrop="0 0 40 50" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]50" Id="e92a9f2672f844a38de1c8e200871eda" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]50" Id="6525484ab3204bf590a628b11c8eda35" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="eb160f4951c0407b97b7577f2f023c36" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="76e70191dc2141fea2edd925054dd8fb" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]46" Id="f379b523c8bc46ccb6be4883cf60b901" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]GetProfile" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6" Id="597ab735c8c042c79839a59ae6e97eea" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="50" Id="5945ef01d08645fcb270deaf0cfb63c6" ListViewHeight="190" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal ListViewHotspot="0 65" Parameter="1ea519c95ff640a5997ac36a2228292c" />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 95" Parameter="46ec2e3627a64e83a10b691ce7d43f75" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 125" Parameter="b014c80c57e1403aa349a28f0a0491fa" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="d8848832df224c34b47a9076445a645a" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 80" Parameter="4993ac56410f4e5384193e8ccb3af303" />
+						<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 110" Parameter="547ddb0d043b449597e7ee8bd8489d83" />
+						<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 140" Parameter="f048c1e08bbd49d8880d3add68704f43" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="d66813884718403389883643a3d6eda7" />
+						<ConnectorPaneTerminal Hotspot="15 50" />
+						<ConnectorPaneTerminal Hotspot="25 50" />
+						<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 155" Parameter="c0f52e7d1c354f03a916f9421cd72e35" />
+						<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 170" Parameter="5dda0761e4dc4cc296980eab405b1358" />
+					</ConnectorPane>
+					<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="c0f52e7d1c354f03a916f9421cd72e35" Name="error in" />
+					<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="5dda0761e4dc4cc296980eab405b1358" Name="error out" />
+					<SharedLibraryParameter Id="3ac2e70a009e4c8a9cd2471295898928" IsReturnParameter="True" Name="return type">
+						<VoidType Id="4fbdbd34f7d448b9237ace6fa8daa17" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="a9001cca461476aa076bcc9519867b7" Name="return type out" Visible="False" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="9db44be71b914410b34a343b4edc1680" Name="image">
+						<Refnum Id="51a02c3b42f348fc9e3837418ceaf33f" ReferencedType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage">
+							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+								<TypeDefinitionTarget TargetName="NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+							</p.TypeDefinitionTargets>
+						</Refnum>
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="1ea519c95ff640a5997ac36a2228292c" Name="image in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="4993ac56410f4e5384193e8ccb3af303" Name="image out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="c0808e77acb54d56b6fecd3a7f874fff" Name="RectCoords">
+						<CustomType Format="HandlesByValue" Id="fe6ca066d20148c09b3400a89fec57fe" ReferencedType="@e19d5489fae6494baed813043ca7cf6b">
+							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+								<TypeDefinitionTarget TargetName="My Computer::SRb Rect Coords.gtype" />
+							</p.TypeDefinitionTargets>
+						</CustomType>
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="46ec2e3627a64e83a10b691ce7d43f75" Name="RectCoords in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="547ddb0d043b449597e7ee8bd8489d83" Name="RectCoords out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="82de0e91d2134b59a074ef266e9a9eb2" Name="UpSampling">
+						<NumericType Id="d2a32e401e6a4d6eb5f2adfaf6612414" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="b014c80c57e1403aa349a28f0a0491fa" Name="UpSampling in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="f048c1e08bbd49d8880d3add68704f43" Name="UpSampling out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="69c2f7d80d6f43a2b1695cb36bdeed96" Name="Profile">
+						<CustomType Format="HandlesByValue" Id="9004147cb39948618cd26f8df3c4d687" ReferencedType="@df4ba9fed3354b56a5a9f30b3c3007b6">
+							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+								<TypeDefinitionTarget TargetName="My Computer::SRb Line Profile.gtype" />
+							</p.TypeDefinitionTargets>
+						</CustomType>
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="d8848832df224c34b47a9076445a645a" Name="Profile in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="d66813884718403389883643a3d6eda7" Name="Profile out" />
+					</SharedLibraryParameter>
+				</SharedLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="e19d5489fae6494baed813043ca7cf6b">
+			<Attributed AttributedType="@893ae023ecc74c68b7f284b4c194b598">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="df4ba9fed3354b56a5a9f30b3c3007b6">
+			<Attributed AttributedType="@1723ea80f7e94b3d9c3aac71209e6da7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="893ae023ecc74c68b7f284b4c194b598">
+			<Typedef TypedefName="SRb Rect Coords.gtype" UnderlyingType="@d224836df4de4dad801570de726bb2a8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1723ea80f7e94b3d9c3aac71209e6da7">
+			<Typedef TypedefName="SRb Line Profile.gtype" UnderlyingType="Single[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d224836df4de4dad801570de726bb2a8">
+			<VariableArray DereferenceType="@564843692f744e7fb0acf6b828fe239e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="564843692f744e7fb0acf6b828fe239e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="X" DataType="Single" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y" DataType="Single" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

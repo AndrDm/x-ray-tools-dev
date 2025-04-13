@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A48A8E39A3FFD18B3D4012AC91FDF6ECAF689696BE839683D7FF2F2E21096854E00F7B60229310AB4764648778C5CD1B436E5EFAF9AA4FB93E4F7329CA5EDE78" Timestamp="1DBAAC93D58288C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@26e0136e5cf54392a49c3c761b42f7d6" Id="dabdded69be448ab9018aec10b60b06c" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="4894af7c197547489e770635f65019b7" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="738f01c249af48ed8545bb1a5e8a0ef5" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="7f4700da56d44892af09bb931ed5a8fd" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="b3c9c508c3f54e178b4a9cc6557d22fb" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="66177431fa91416f82eeaf7cb0330f28" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="bf52221be37341159651cdeb82af5668" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVEhLxZYBsYMwDIZjoRawEAtYwEIsYAELtYCWWsACFnh/m9624xIKG9z7jtu1W/o1hHQbbY/xH+qUUh19i62Gl5lFpM7P0XVdHRUMNbzjOE7TpK/13RbwumpYQIyxzq/TzhoEohDCLrTJOXUIfd8/osYzfEqtWaMsdX6Os2okrqHzPKNV9P1LvNWfHaJqgKkkYWGNuYSRNfoahyWmmDbsU9TMXxzOvRpposqcRKWS7lODZVlqQVCJbM/De9TruuqRAbgDyknfpAZZxgw1tkGJhmH4Sb3rEOhefQ3vbVlrKbzTKHgG0i6RrSYtiHMa4UVIcwN7Mbx21tiMsrQsxJXt3ga2ulkQVZeAPDA3cNV4jMdqfKqoHVf+qim3pWFvNXrjs0OeytqDaCIaX2pPqhhqxB3/7Kr6QKrYWWMBmsT7s9CUKm5BmiubuOrfeUy9bX9lhjicV8DFrwAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@26e0136e5cf54392a49c3c761b42f7d6" Id="2f1cfcfe1c9a4410b6003b0b17fce43f" Name="SRb Results">
+			<p.DefaultValue>0x0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="399975fa7ffa41eaac4e787814a6196e" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d2f3db0bc9014e99a476def07ba5eafd" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="967fe2f4d3014819b0f545289c28aabe" Name="SRb Results.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="1f88c54ac2a44ed2b2993128e957a811" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="bed6c61c5961416999840248df7995f4" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="6a91d4d578424c6b951da2cf9fb64df6" LabelOwner="[UIModel]8f99cdebb6f444bda7d47c839ed9d648" Left="[float]100" Text="[string]SRb Results" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@26e0136e5cf54392a49c3c761b42f7d6" Enabled="[bool]True" Height="[float]60" Id="8f99cdebb6f444bda7d47c839ed9d648" IsTabStop="[bool]True" Label="[UIModel]6a91d4d578424c6b951da2cf9fb64df6" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=2f1cfcfe1c9a4410b6003b0b17fce43f}" Width="[float]55" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="34c855bec6874fd98bbb9914178fe0cb" Interval="[float]1" IsTabStop="[bool]True" Label="[UIModel]5335ee0ac7684aedb17c1d3065fe335d" Left="[float]4" Maximum="[float]Infinity" Minimum="[float]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=SRb}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]39" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Foreground="[SMColor]#ff000000" Id="5335ee0ac7684aedb17c1d3065fe335d" LabelOwner="[UIModel]34c855bec6874fd98bbb9914178fe0cb" Left="[float]4" Text="[string]SRb" Top="[float]4" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="26e0136e5cf54392a49c3c761b42f7d6">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="SRb" DataType="Single" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C900F30DAC55FB6BB59D8B5F532AE1511F9E29BAF2F72F939052542C02F125BFF273385FF777F45202E3F594321DE78C075BCA817AD785F3F9A38411DBCCEAD9" Timestamp="1DBAAC93D57D6BC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@c8d59c7146754002a7e286b5b38ceec4" DataType="@6334ecdac2884c6f852cd7efc9cd4df3" Id="f238740816124bacb7f64caa43a9dfcf" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+			<TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype" />
+			<TypeDefinitionTarget TargetName="My Computer::Dip Spacing TypeDef.gtype" />
+			<TypeDefinitionTarget TargetName="My Computer::SRb Rect Coords.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="f3925db7835542b999cd5bcc9b61b192" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="561b149b51a742f9858bb9c05c57110c" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="9df9c0b9b9bd49e781ec76ca4152b093" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8453f16a924f42dd960ed2e0f24044b9" Id="5ace62ec71f847bdb6cac813b1d76c1c" Target="My Computer::iSRb.gtype::iSRb - Compute (2737)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f3a78d93b1e34be99fffca376df9d86d" Id="6cfb0c68e1c4401bc149f430627e43a" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@fd90f7aa48384c2b81beb1534c48c05e" Id="99ec0f97f545455c88c0e596a03733eb" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@1a678180a0ae440d905e18d7339f77a4" Id="faacec75d83542a8abf1c2ee92620f4f" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f2f408c3b60b4d8b8a8a8011fc386352" Id="ead1e2ddea8b4c7aa0129c23ee356871" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@d45ac2c314414e3e8fc9b8f36f9009f0" Id="bc904760380f4a78b7a0200a5fef2897" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@5006c6e289f6490a8535446b72b6d2f6" Id="8557cff701bc494483591fa1a43d8303" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@99dad417c8774469b8fb01e2fdc89ca9" Id="12b2468f44f44926a6289558ab5d55fc" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@e38b0db5286f4f6abe4d2ae70131a369" Id="d7b2a57e2f8e47eba3f7f78666849777" Target="My Computer::iSRb.gtype::iSRb - Write Rectangle Points.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9c3254451b3e46adaad1c39ac786d4c7" Id="facd5404a0043d89b1d7f7e72e8dba4" Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@af8bb1e8a5a54cab85d53e216bf03f13" Id="d9b4b753eb1e43eaa6a44a9a6b724df1" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9643ebccdddc41b08a357c987cdcde68" Id="67a31617b665418eb0d04c7b7a48870f" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<DataItem DataType="@6334ecdac2884c6f852cd7efc9cd4df3" Id="9c9789a828b64d6d883bf7f86f712a56" Name="Cluster of class private data">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>""</Field1>
+					<Field2>
+						<Array Lengths="0" />
+					</Field2>
+					<Field3>1</Field3>
+					<Field4>
+						<Array Lengths="0" />
+					</Field4>
+					<Field5>
+						<Array Lengths="15" IsBinary="True" Compression="GZip">
+							<BinaryElements>H4sIAAAAAAAEAM1UX2vbMBC3Y8ex8qfZ3sZelg8QTMuatX0IpEvYVjq6Qbu+hJAp7g3EZClIcsGFsYc9bZ9m33C7sw3JoB19KGwyurOku9/d7+Sz53ue9wsHaRrdBop3Z9wJrbg8UdaZPAPlbDLVBoaDSzAWj8aHyS49w8E0ly43MFaQO8PlcPA+X0mRnkJxoT+DGqtcyiahj24DnXHHL7nMAfFlbh2YVwLk1VRLCSmZh+gZfaI921Q8A9suFxfFGmw/rVymfM1T4YogCrwf/nmBe1mygbDJa1BgRJq8FdZ93JvPbzE5obPhILOpNlKsNkT370t0dXDAR+noxd7R833YPTxaLL7cPxXi88DRY7pJFpCgIrImCpohbf1PZaJ8oqXAULa5tOIG4uV1hYonT+9KYr6IYxaha6Oej8P6JWqhCGZiHcW0OkavawiJ+r+9kL/y7G3FLamxLWot4ulRExHH4MldNWFtuugOil6jxf7w6Wzhsy6Z9Uqzfrv+LKKq/79PSvXzW6UnXyvtFbV2k36n9vDLERLYsxr9g8I2PMd6ciluynZ/o+UVGKIeUq+z0oKS6B5bC9lKFmfY1b7nx9GOtynDTGM1oWz+PorTB7wIn4hT0tEjFDt1wJdaS+Dl74ZRxM5v/4hHexoFAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1UX2vbMBCXY8ex8qfZ3spelg8QTMuatX0IpEvoVjq6QbvCCCFVnBuIyVKQ7IIL+wL70u2dY0gG7ehDYZPxyZLufne/O5+Yxxi7x0EzjXYNxZcLkUmjhTrTLrN5Cjpz8dhY6PeuwTo8Gh7Fe/T0e+NcZbmFoYY8s0L1e1/zhZLJORRX5ifooc6VqhP64DHQicjEtVA5IL7KXQb2VIJajo1SkJB6gJbhD9pzdS1ScM1ycVWswHWTtclYrEQis8IPffbbuyxwL403EC7+CBqsTOLP0mU3+9PpIypndNbvpS4xVsnFhujBc4kuDg/FIBm83z9+dwB7R8ez2a/nh0J8Xth7RJXkPglKIq+joDegrf8pTRRPOJfoytXnTt5BNL9do+LJm6eCmM6iiIdoWqve10H1ETZQ+BO5CiNanaDVLQRE/d8W5K88O1t+S2p8i1qDeDJqIuLo7z6VE96kQrdQdGoN/odNawuft0mtU6p1m9VvUbpgIzNa3wOympfreXRTrb+Puq3KwitHQGBvK/RvGtvwEvMplLwr2/2TUUuwRD2gXuelBgXRPnEO0oUqLrCrPeZF4Q7bpGFiMJtQNn8XxfkLFsIj4hR0+ArFTuXwgzEKRHndcPLYegDrLYpTGgUAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1U32vbMBCWY8ex8qPZ3sZelj8gmJY1a/sQSJewLXS0g2Z9CSFT3BuIyVaQ5IILhT7vn97uHEMyaEcfCpuM7izp7rv7Tj4zjzH2CwdpGu0aiotz4aTOhJpm1pk8hczZeKwN9HtXYCweDY/jfXr6vXGuXG5gmEHujFD93pd8pWRyBsVM/4BsmOVK1Ql98BDoRDhxJVQOiK9y68B8kKCux1opSMg8QM/wO+3ZeiZSsM1yMSvWYLvJxmUs1iKRrvBDn/30LgvcS+MthI0/QgZGJvFnad23g/n8AZMpnfV7qU20UXK1JXr4VKKroyMxSAbvDk7eHsL+8clicff0VIjPM0eP6Ca5T4KKyOsoaAa09T+VifIJlxJD2frSyluIljcbVDx5/VgS80UU8RBda9V8GVQvYQOFP5HrMKLVKXrdQEDU/+2F/JVnZyduSY3vUGsQT0ZNRBz9V4/VhDfpolsoOrUG/8OntYPP22TWKc26zeqzCDf9PxuV6v5io9m00pNKj0bdVuXhlSMgsDcV+tcM2/AS6ymUvC3b/ZNW12CIekC9zksLSqJ9ai2kK1WcY1d7zIvCPbYtw0RjNaFs/i6Ks2e8CI+IU9LhCxR7VcD3WisQ5e+GU8TWb4H6L+gaBQAA</BinaryElements>
+						</Array>
+					</Field5>
+					<Field6>
+						<Cluster>
+							<Field1>
+								<Array Lengths="0" />
+							</Field1>
+							<Field2>
+								<Array Lengths="0" />
+							</Field2>
+						</Cluster>
+					</Field6>
+					<Field7>
+						<Array Lengths="0" />
+					</Field7>
+					<Field8>
+						<Cluster>
+							<Field1>
+								<Array Lengths="0" />
+							</Field1>
+							<Field2>
+								<Array Lengths="0" />
+							</Field2>
+							<Field3>
+								<Array Lengths="0" />
+							</Field3>
+						</Cluster>
+					</Field8>
+					<Field9>
+						<Cluster>
+							<Field1>
+								<Array Lengths="0" />
+							</Field1>
+							<Field2>
+								<Array Lengths="0" />
+							</Field2>
+							<Field3>
+								<Array Lengths="0" />
+							</Field3>
+						</Cluster>
+					</Field9>
+					<Field10>
+						<Array Lengths="0" />
+					</Field10>
+					<Field11>0x0</Field11>
+					<Field12>False</Field12>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+				<TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype" />
+				<TypeDefinitionTarget TargetName="My Computer::Dip Spacing TypeDef.gtype" />
+				<TypeDefinitionTarget TargetName="My Computer::SRb Rect Coords.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="492ef16901fb4f9ebc5b2cb3133c7336" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e0e9640239914a19ae569c24dac5ab82" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="99b3e1df06724d00a83c19b185ae2c7b" Name="iSRb.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="e2d16374ac49468bbce3f6a5b04cf406" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9aee82f6124141829fcc138e46d95f08" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="7298193eecea4fd0804f4bfd5cd73b41" LabelOwner="[UIModel]16be7fd1dc645fc9ec6e7337da40d43" Left="[float]100" Text="[string]Cluster of class private data" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@6334ecdac2884c6f852cd7efc9cd4df3" Enabled="[bool]True" Height="[float]1372" Id="16be7fd1dc645fc9ec6e7337da40d43" IsTabStop="[bool]True" Label="[UIModel]7298193eecea4fd0804f4bfd5cd73b41" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=9c9789a828b64d6d883bf7f86f712a56}" Width="[float]1460" xmlns="http://www.ni.com/PanelCommon">
+						<IONameControl BaseName="[string]IMAQImage" DataType="[Type]:UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" Enabled="[bool]True" Height="[float]26" Id="9eed9142f4224c218d93d6bcea069e0d" IsTabStop="[bool]True" Label="[UIModel]c33993542dfe4706a25e1040d03c0dea" Left="[float]4" MinHeight="[float]24" SelectedResource="{ClusterBinding FieldName=Ref\ Image}" ShowType="[bool]False" ShowUserBrowse="[bool]True" TabIndex="[int]0" Top="[float]24" Width="[float]79" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+								<TypeDefinitionTarget TargetName="NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage::ControlDefinition" />
+							</p.TypeDefinitionTargets>
+						</IONameControl>
+						<Label Id="c33993542dfe4706a25e1040d03c0dea" LabelOwner="[UIModel]9eed9142f4224c218d93d6bcea069e0d" Left="[float]4" Text="[string]Ref Image" Top="[float]4" />
+						<ArrayViewer ArrayElement="[UIModel]fa57f7e146b040ea82fffb42790c4dcb" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="52b755e2ce5847948475f2c31747228a" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]7785e2c22b0e4fafaf3c803594f0954d" Left="[float]4" Rows="[int]1" TabIndex="[int]1" Top="[float]78" Value="{ClusterBinding FieldName=Profile}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="fa57f7e146b040ea82fffb42790c4dcb" Interval="[float]1" IsTabStop="[bool]True" Maximum="[float]Infinity" Minimum="[float]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="7785e2c22b0e4fafaf3c803594f0954d" LabelOwner="[UIModel]52b755e2ce5847948475f2c31747228a" Left="[float]4" Text="[string]Profile" Top="[float]58" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="73dbc43a5a14c4d8e7728d04ecf131e" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]d80490548749460eb96c0f45d36b625f" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]140" Value="{ClusterBinding FieldName=UpSampling}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]62" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="d80490548749460eb96c0f45d36b625f" LabelOwner="[UIModel]73dbc43a5a14c4d8e7728d04ecf131e" Left="[float]4" Text="[string]UpSampling" Top="[float]120" />
+						<ArrayViewer ArrayElement="[UIModel]cd7ee1dcd8124602b70d4c89be2906d9" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]61" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="677264878806444599828cfd0ae4dce0" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]d8acb9b178442dd992b134f2e13be32" Left="[float]4" Rows="[int]1" TabIndex="[int]3" Top="[float]192" Value="{ClusterBinding FieldName=Dips}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]1444">
+							<p.DefaultElementValue>0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_False_</p.DefaultElementValue>
+							<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Dip" ClusterType="[Type]@ea5fc0ea0287442aac3bfee6115ca9be" Enabled="[bool]True" Height="[float]60" Id="cd7ee1dcd8124602b70d4c89be2906d9" IsTabStop="[bool]True" TabIndex="[int]0" Width="[float]1072" p8:ControlDefinitionChecksum="BG8mxX67fU39JDAz0xhW9ZUzIfKCwa7/YF3a0VLZxOc=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="a0e2385c713d47669b53d7cb2a092847" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]b206b22a168741078d3eab1a73e59f47" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Nr}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="b206b22a168741078d3eab1a73e59f47" LabelOwner="[UIModel]a0e2385c713d47669b53d7cb2a092847" Left="[float]4" Text="[string]Dip Nr" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="1f55b7d06e384f35b12f3a623c7ed361" IsTabStop="[bool]True" Label="[UIModel]e22ee38db3c84c72aaeee7562c1e92f2" Left="[float]77" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Res}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="e22ee38db3c84c72aaeee7562c1e92f2" LabelOwner="[UIModel]1f55b7d06e384f35b12f3a623c7ed361" Left="[float]77" Text="[string]Dip Res" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="1d8b73e744f64d128585749fcf6291cb" IsTabStop="[bool]True" Label="[UIModel]81e7ff3676244528a040e4b9c2c59c13" Left="[float]150" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Start}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="81e7ff3676244528a040e4b9c2c59c13" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]1d8b73e744f64d128585749fcf6291cb" Left="[float]168" Text="[string]Dip Start" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="91cd1e35f1ca433fb95f2f9a5ffdec5c" IsTabStop="[bool]True" Label="[UIModel]84c5b61fdc0d4881bf93dd9fa582b32d" Left="[float]223" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ End}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="84c5b61fdc0d4881bf93dd9fa582b32d" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]91cd1e35f1ca433fb95f2f9a5ffdec5c" Left="[float]246" Text="[string]Dip End" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="a022935c73dd468fb33314859b1a45ab" IsTabStop="[bool]True" Label="[UIModel]82492d7d9ca84d6eac5fc6567710a56b" Left="[float]296" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="82492d7d9ca84d6eac5fc6567710a56b" LabelOwner="[UIModel]a022935c73dd468fb33314859b1a45ab" Left="[float]296" Text="[string]Valley A Location" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="16a1580d2de644a38b33b42559c78c77" IsTabStop="[bool]True" Label="[UIModel]6b25f950f4424b0fa0dcc1ae870d9f48" Left="[float]369" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="6b25f950f4424b0fa0dcc1ae870d9f48" LabelOwner="[UIModel]16a1580d2de644a38b33b42559c78c77" Left="[float]369" Text="[string]Valley A Amplitude" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="44a48330f0604a0d99926bff91c1f072" IsTabStop="[bool]True" Label="[UIModel]4ce9a5f9db6e4bedbb08147041a4659c" Left="[float]442" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]6" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="4ce9a5f9db6e4bedbb08147041a4659c" LabelOwner="[UIModel]44a48330f0604a0d99926bff91c1f072" Left="[float]442" Text="[string]Valley A 2nd Derivative" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="5f3c7fbac8574c12a1e66dab359da012" IsTabStop="[bool]True" Label="[UIModel]a8ac615bd8c14622ac3034416fa3cd24" Left="[float]515" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]7" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="a8ac615bd8c14622ac3034416fa3cd24" LabelOwner="[UIModel]5f3c7fbac8574c12a1e66dab359da012" Left="[float]515" Text="[string]Valley C Location" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="137e96abd6fa46e7b2f76aad7f48075f" IsTabStop="[bool]True" Label="[UIModel]10544db3135b4a77a1a486655a77e7c7" Left="[float]588" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]8" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="10544db3135b4a77a1a486655a77e7c7" LabelOwner="[UIModel]137e96abd6fa46e7b2f76aad7f48075f" Left="[float]588" Text="[string]Valley C Amplitude" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="7730a63fb3aa437bbe0831e71016591c" IsTabStop="[bool]True" Label="[UIModel]b4da51a639914210a5df7e67c6e7725a" Left="[float]661" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]9" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="b4da51a639914210a5df7e67c6e7725a" LabelOwner="[UIModel]7730a63fb3aa437bbe0831e71016591c" Left="[float]661" Text="[string]Valley C 2nd Derivative" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="5a0f74ee02944803979c600e573bcc26" IsTabStop="[bool]True" Label="[UIModel]fb90924f346447a7863c81747722e3bf" Left="[float]734" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]10" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="fb90924f346447a7863c81747722e3bf" LabelOwner="[UIModel]5a0f74ee02944803979c600e573bcc26" Left="[float]734" Text="[string]Peak B Location" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="abfe599690c4ef1a58ec8d3c9b02e25" IsTabStop="[bool]True" Label="[UIModel]ce286a60325e46f480647c8eb6515536" Left="[float]807" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]11" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="ce286a60325e46f480647c8eb6515536" LabelOwner="[UIModel]abfe599690c4ef1a58ec8d3c9b02e25" Left="[float]807" Text="[string]Peak B Amplitude" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="e4d54c1a41ee48449927c6c0c51ddd2d" IsTabStop="[bool]True" Label="[UIModel]a77034edae94496ea739dea2c1b1fa99" Left="[float]880" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]12" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="a77034edae94496ea739dea2c1b1fa99" LabelOwner="[UIModel]e4d54c1a41ee48449927c6c0c51ddd2d" Left="[float]880" Text="[string]Peak B 2nd Derivative" Top="[float]4" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="718fe4653fae4d32ac726f4856308b5e" IsTabStop="[bool]True" Label="[UIModel]a9a2a450425c4d5da2a21d2c2ae2692b" Left="[float]953" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]13" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ %}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="a9a2a450425c4d5da2a21d2c2ae2692b" LabelOwner="[UIModel]718fe4653fae4d32ac726f4856308b5e" Left="[float]953" Text="[string]Dip %" Top="[float]4" />
+								<Switch BaseName="[string]Square LED" ClickMode="[ClickMode]Press" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]19" Id="20b79fea8c514285abd9ae97f93a321b" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]4dee0fcd197541aa8e9d8e9b8157339e" Left="[float]1026" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]14" TextAlignment="[TextAlignment]Left" Top="[float]24" TrueContent="[string]" Value="{ClusterBinding FieldName=Double\ Dip}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="4dee0fcd197541aa8e9d8e9b8157339e" LabelOwner="[UIModel]20b79fea8c514285abd9ae97f93a321b" Left="[float]1026" Text="[string]Double Dip" Top="[float]4" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Id="d8acb9b178442dd992b134f2e13be32" LabelOwner="[UIModel]677264878806444599828cfd0ae4dce0" Left="[float]4" Text="[string]Dips" Top="[float]172" />
+						<ArrayViewer ArrayElement="[UIModel]299bf331beb74051beb2c2bbd091410b" Columns="[int]17" Dimensions="[int]1" Enabled="[bool]True" Height="[float]112" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="556e62d8704a4195a09aaa2f6b6545d3" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]504a53066d9e45b2895da2ddfe333ac3" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]4" Top="[float]281" Value="{ClusterBinding FieldName=Dips\ Spacing}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]1258">
+							<p.DefaultElementValue>0x0_False_</p.DefaultElementValue>
+							<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" ClusterType="[Type]@4da91bb1ab7a4e98ba70ae065c7f4ebf" Enabled="[bool]True" Height="[float]107" Id="299bf331beb74051beb2c2bbd091410b" IsTabStop="[bool]True" TabIndex="[int]0" Width="[float]81" p8:ControlDefinitionChecksum="gDdvvcO2Hlm/yjksDGWluh9QyjhcR347/aPTaXJBtsI=_v1" xmlns:p8="http://www.ni.com/PanelCommon">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="My Computer::Dip Spacing TypeDef.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="cab9ed3270864fcdba499b35f8156dc9" IsTabStop="[bool]True" Label="[UIModel]7c0235d8837046bb8afd3f8759977f0b" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="7c0235d8837046bb8afd3f8759977f0b" LabelOwner="[UIModel]cab9ed3270864fcdba499b35f8156dc9" Left="[float]4" Text="[string]Dip" Top="[float]4" />
+								<Switch BaseName="[string]Square LED" ClickMode="[ClickMode]Press" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]19" Id="f0553f87ecb4ffa9083f349942abf85" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]adcc3bd4f8a241daa7e42071e2fa06d9" Left="[float]4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" TrueContent="[string]" Value="{ClusterBinding FieldName=Active}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Id="adcc3bd4f8a241daa7e42071e2fa06d9" LabelOwner="[UIModel]f0553f87ecb4ffa9083f349942abf85" Left="[float]4" Text="[string]Active" Top="[float]56" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Id="504a53066d9e45b2895da2ddfe333ac3" LabelOwner="[UIModel]556e62d8704a4195a09aaa2f6b6545d3" Left="[float]4" Text="[string]Dips Spacing" Top="[float]261" />
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" ClusterType="[Type]@91d202a2fc0c4106acc95c4266464ca8" Enabled="[bool]True" Height="[float]246" Id="3c6b286c6a2344aaaa6c1bfea84b7bfa" IsTabStop="[bool]True" Label="[UIModel]ab2a94564454ca38faaea714744a5e9" Left="[float]4" TabIndex="[int]5" Top="[float]421" Value="{ClusterBinding FieldName=ROI}" Width="[float]183">
+							<ArrayViewer ArrayElement="[UIModel]8c7bdeaf0c2a4eb991fa6790c8ddf0e1" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="984ea17dbd2646c0883c2e0483befe76" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]7d2c59990d6c43528b54a89cc2380f05" Left="[float]41" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Global\ Rectangle}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="8c7bdeaf0c2a4eb991fa6790c8ddf0e1" Interval="[int]1" IsTabStop="[bool]True" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="7d2c59990d6c43528b54a89cc2380f05" LabelOwner="[UIModel]984ea17dbd2646c0883c2e0483befe76" Left="[float]41" Text="[string]Global Rectangle" Top="[float]4" />
+							<ArrayViewer ArrayElement="[UIModel]8a77c5e9e36e472bba23df80554564f9" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]151" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3e412501c15b437ba401840efa8593e8" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]532c10dcab8344aba7234c6336c4a59d" Left="[float]41" Rows="[int]1" TabIndex="[int]1" Top="[float]83" Value="{ClusterBinding FieldName=Contours}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]130">
+								<p.DefaultElementValue>
+									<Cluster>
+										<Field1>0</Field1>
+										<Field2>0</Field2>
+										<Field3>null</Field3>
+									</Cluster>
+								</p.DefaultElementValue>
+								<Cluster AutoArrange="[AutoArrange]SizeToFit" ClusterType="[Type]@242e02603b1d4e269dc576050be95792" Enabled="[bool]True" Height="[float]151" Id="8a77c5e9e36e472bba23df80554564f9" IsTabStop="[bool]True" Label="[UIModel]37f91cc3f10c49b7889e40858c33724a" TabIndex="[int]0" Width="[float]130">
+									<NumericText Enabled="[bool]True" Height="[float]24" Id="41e92c4be3646b49313e50570a6b5e7" Interval="[uint]1" IsTabStop="[bool]True" Label="[UIModel]b22220aa16a04086807df85168f6050e" Left="[float]4" Maximum="[uint]4294967295" Minimum="[uint]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Contour\ Type}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<Label Id="b22220aa16a04086807df85168f6050e" LabelOwner="[UIModel]41e92c4be3646b49313e50570a6b5e7" Left="[float]4" Text="[string]Contour Type" Top="[float]4" />
+									<NumericText Enabled="[bool]True" Height="[float]24" Id="d42265307d204053823758ee94323927" Interval="[uint]1" IsTabStop="[bool]True" Label="[UIModel]2d5ae84463a7410d8c81a735ece7ca72" Left="[float]4" Maximum="[uint]4294967295" Minimum="[uint]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]62" Value="{ClusterBinding FieldName=ROI\ Type}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<Label Id="2d5ae84463a7410d8c81a735ece7ca72" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d42265307d204053823758ee94323927" Left="[float]21" Text="[string]ROI Type" Top="[float]42" />
+									<ArrayViewer ArrayElement="[UIModel]790140bf16264adaaa94a0686c6ad73e" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="6fcdde41686f4d2aa8d78e507c599e66" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]39b0a3b4b95c443ea62052fa6f8625f6" Left="[float]45" Rows="[int]1" TabIndex="[int]2" Top="[float]105" Value="{ClusterBinding FieldName=Points}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+										<p.DefaultElementValue>0</p.DefaultElementValue>
+										<NumericText Enabled="[bool]True" Height="[float]24" Id="790140bf16264adaaa94a0686c6ad73e" Interval="[int]1" IsTabStop="[bool]True" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									</ArrayViewer>
+									<Label Id="39b0a3b4b95c443ea62052fa6f8625f6" LabelOwner="[UIModel]6fcdde41686f4d2aa8d78e507c599e66" Left="[float]45" Text="[string]Points" Top="[float]85" />
+									<Label Id="37f91cc3f10c49b7889e40858c33724a" IsVisualChild="[bool]False" LabelOwner="[UIModel]8a77c5e9e36e472bba23df80554564f9" Left="[float]45" Text="[string]Cluster_3" Top="[float]1" />
+								</Cluster>
+							</ArrayViewer>
+							<Label Id="532c10dcab8344aba7234c6336c4a59d" LabelOwner="[UIModel]3e412501c15b437ba401840efa8593e8" Left="[float]41" Text="[string]Contours" Top="[float]63" />
+						</Cluster>
+						<Label Id="ab2a94564454ca38faaea714744a5e9" LabelOwner="[UIModel]3c6b286c6a2344aaaa6c1bfea84b7bfa" Left="[float]4" Text="[string]ROI" Top="[float]401" />
+						<ArrayViewer ArrayElement="[UIModel]c640361646524153b8fa845bd0a099f4" BaseName="[string]nearest integer value" Columns="[int]6" Dimensions="[int]1" Enabled="[bool]True" FirstIndex="[ArrayElementIndex]0" Height="[float]71" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4b1b9c1cd2b34fb2a749c7f728e2c12d" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]841c7446892e4e95b219fcfa243a9558" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]6" Top="[float]695" Value="{ClusterBinding FieldName=Rectangle\ Points}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]625" p7:ControlDefinitionChecksum="WBGeShRQ9yX/nugFL1JNDjALgn0HF+fOjdH9t6O6zgA=_v1" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p.DefaultElementValue>0x0_0x0_</p.DefaultElementValue>
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="My Computer::SRb Rect Coords.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<p7:Cluster AutoArrange="[AutoArrange]None" ClusterType="[Type]@564843692f744e7fb0acf6b828fe239e" Enabled="[bool]True" Height="[float]50" Id="c640361646524153b8fa845bd0a099f4" IsTabStop="[bool]True" Label="[UIModel]497c9a65fb94cfb94d7fc3058698f8e" TabIndex="[int]0" Width="[float]86">
+								<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Point is a point-coordinate cluster.</p.InfoTipDescription>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="2e3daa8b65e147708684cc728368b934" Interval="[float]1" IsTabStop="[bool]True" Label="[UIModel]9093b2ae79c49dfbfe40442f37c26d7" Left="[float]14" Maximum="[float]Infinity" Minimum="[float]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]20" Value="{ClusterBinding FieldName=X}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=2:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+									<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">X-coordinate of the point.</p.InfoTipDescription>
+								</NumericText>
+								<p7:Label Foreground="[SMColor]#ff000000" Id="9093b2ae79c49dfbfe40442f37c26d7" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]2e3daa8b65e147708684cc728368b934" Left="[float]72" Text="[string]X" Top="[float]20" />
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="60b102ba60f44a71aeb840389fd47c04" Interval="[float]1" IsTabStop="[bool]True" Label="[UIModel]94d425fc38cb4af5a6632095cd24fd8b" Left="[float]14" Maximum="[float]Infinity" Minimum="[float]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]26" Value="{ClusterBinding FieldName=Y}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=2:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+									<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Y-coordinate of the point.</p.InfoTipDescription>
+								</NumericText>
+								<p7:Label Foreground="[SMColor]#ff000000" Id="94d425fc38cb4af5a6632095cd24fd8b" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]60b102ba60f44a71aeb840389fd47c04" Left="[float]72" Text="[string]Y" Top="[float]26" />
+								<p7:Label Id="497c9a65fb94cfb94d7fc3058698f8e" IsVisualChild="[bool]False" LabelOwner="[UIModel]c640361646524153b8fa845bd0a099f4" Left="[float]50" Text="[string]Cluster" Top="[float]6" />
+							</p7:Cluster>
+						</ArrayViewer>
+						<Label Id="841c7446892e4e95b219fcfa243a9558" LabelOwner="[UIModel]4b1b9c1cd2b34fb2a749c7f728e2c12d" Left="[float]4" Text="[string]Rectangle Points" Top="[float]675" />
+						<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@94abd0fd92bc4b96a917ffc8949b18ab" Enabled="[bool]True" Height="[float]194" Id="fbf8181ce9504e52b8629d5a494a8548" IsTabStop="[bool]True" Label="[UIModel]6882f0d04ebe494e97ea2ba8bfdc9c5f" Left="[float]4" TabIndex="[int]7" Top="[float]794" Value="{ClusterBinding FieldName=RAW\ Peaks\ Info}" Width="[float]89">
+							<ArrayViewer ArrayElement="[UIModel]eba9ba08ed84e2bb939f4756573053c" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="5a00468a5f254278b3f627a14936ef8e" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]7694eb2344944622883799d5555bb6d4" Left="[float]4" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Locations}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="eba9ba08ed84e2bb939f4756573053c" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="7694eb2344944622883799d5555bb6d4" LabelOwner="[UIModel]5a00468a5f254278b3f627a14936ef8e" Left="[float]4" Text="[string]Locations" Top="[float]4" />
+							<ArrayViewer ArrayElement="[UIModel]c76df3e8c25f41aaa01b9f7b6f94e47a" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="47a6deecb1bf4130988ffd73e3f3334c" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]8c11238385794fcfb01690aae44fcc51" Left="[float]4" Rows="[int]1" TabIndex="[int]1" Top="[float]86" Value="{ClusterBinding FieldName=Amplitudes}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="c76df3e8c25f41aaa01b9f7b6f94e47a" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="8c11238385794fcfb01690aae44fcc51" LabelOwner="[UIModel]47a6deecb1bf4130988ffd73e3f3334c" Left="[float]4" Text="[string]Amplitudes" Top="[float]66" />
+							<ArrayViewer ArrayElement="[UIModel]a3fe56a6991d43b489a085300cfee6e0" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="44552004e5a6498daf32866a4b597ef8" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]513ede329ca4cbe8fefb99367e63718" Left="[float]4" Rows="[int]1" TabIndex="[int]2" Top="[float]148" Value="{ClusterBinding FieldName=2nd\ Derivatives}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="a3fe56a6991d43b489a085300cfee6e0" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="513ede329ca4cbe8fefb99367e63718" LabelOwner="[UIModel]44552004e5a6498daf32866a4b597ef8" Left="[float]4" Text="[string]2nd Derivatives" Top="[float]128" />
+						</Cluster>
+						<Label Id="6882f0d04ebe494e97ea2ba8bfdc9c5f" LabelOwner="[UIModel]fbf8181ce9504e52b8629d5a494a8548" Left="[float]4" Text="[string]RAW Peaks Info" Top="[float]774" />
+						<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@94abd0fd92bc4b96a917ffc8949b18ab" Enabled="[bool]True" Height="[float]194" Id="4344f33e4d604c6e88293c8746b6f731" IsTabStop="[bool]True" Label="[UIModel]7b6f017625f547ff9664b2cc10d5a18c" Left="[float]4" TabIndex="[int]8" Top="[float]1016" Value="{ClusterBinding FieldName=RAW\ Valleys\ Info}" Width="[float]89">
+							<ArrayViewer ArrayElement="[UIModel]2dd0271192e1479b9091a4fba585e255" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="6979c9e0b6fe4fe38965a15be301166c" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]6a3f0581b5ce4515a07609317392a4d8" Left="[float]4" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Locations}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="2dd0271192e1479b9091a4fba585e255" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="6a3f0581b5ce4515a07609317392a4d8" LabelOwner="[UIModel]6979c9e0b6fe4fe38965a15be301166c" Left="[float]4" Text="[string]Locations" Top="[float]4" />
+							<ArrayViewer ArrayElement="[UIModel]879cb68f59f4483d843cae31aa97a349" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8531e0b4b2354074978d33a3dc586138" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]f3d32f6d9052457f8890e4fb9d7083b4" Left="[float]4" Rows="[int]1" TabIndex="[int]1" Top="[float]86" Value="{ClusterBinding FieldName=Amplitudes}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="879cb68f59f4483d843cae31aa97a349" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="f3d32f6d9052457f8890e4fb9d7083b4" LabelOwner="[UIModel]8531e0b4b2354074978d33a3dc586138" Left="[float]4" Text="[string]Amplitudes" Top="[float]66" />
+							<ArrayViewer ArrayElement="[UIModel]50c01da7e03b43f39e497d943ce01932" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1b713365e0b046d28c38f29ccecf14d2" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]d23bdc8cb3f84ca1ba5fa64a6c6d2b77" Left="[float]4" Rows="[int]1" TabIndex="[int]2" Top="[float]148" Value="{ClusterBinding FieldName=2nd\ Derivatives}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText Enabled="[bool]True" Height="[float]24" Id="50c01da7e03b43f39e497d943ce01932" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Id="d23bdc8cb3f84ca1ba5fa64a6c6d2b77" LabelOwner="[UIModel]1b713365e0b046d28c38f29ccecf14d2" Left="[float]4" Text="[string]2nd Derivatives" Top="[float]128" />
+						</Cluster>
+						<Label Id="7b6f017625f547ff9664b2cc10d5a18c" LabelOwner="[UIModel]4344f33e4d604c6e88293c8746b6f731" Left="[float]4" Text="[string]RAW Valleys Info" Top="[float]996" />
+						<ArrayViewer ArrayElement="[UIModel]6b111e5906e847a7bb0dbf47c81c2c8d" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]34" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="c604a3912b224acabee534f619cc20e1" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]84e60f89234342f4ba5116704f8ae1f9" Left="[float]4" Rows="[int]1" TabIndex="[int]9" Top="[float]1238" Value="{ClusterBinding FieldName=Valid\ Valleys\ Indexes}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]73">
+							<p.DefaultElementValue>0</p.DefaultElementValue>
+							<NumericText Enabled="[bool]True" Height="[float]24" Id="6b111e5906e847a7bb0dbf47c81c2c8d" Interval="[int]1" IsTabStop="[bool]True" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="84e60f89234342f4ba5116704f8ae1f9" LabelOwner="[UIModel]c604a3912b224acabee534f619cc20e1" Left="[float]4" Text="[string]Valid Valleys Indexes" Top="[float]1218" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="d3a10458f7654a8ca63ebbd8c8eaf4ac" IsTabStop="[bool]True" Label="[UIModel]4d2fb84160214067baaefcc4755780f2" Left="[float]4" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]10" TextAlignment="[TextAlignment]Left" Top="[float]1300" Value="{ClusterBinding FieldName=(i)SRb\ Result}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]84" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="4d2fb84160214067baaefcc4755780f2" LabelOwner="[UIModel]d3a10458f7654a8ca63ebbd8c8eaf4ac" Left="[float]4" Text="[string](i)SRb Result" Top="[float]1280" />
+						<LED Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" Height="[float]8" Id="ff8a7e5e37c74338a9702868895e4f4a" IsTabStop="[bool]True" Label="[UIModel]b13a8d2bf524f73a6563ade87c61714" Left="[float]4" Shape="[LEDShape]Square" TabIndex="[int]11" TextAlignment="[TextAlignment]Left" Top="[float]1352" TrueContent="[string]" Value="{ClusterBinding FieldName=SWAP\ Coordinates}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="b13a8d2bf524f73a6563ade87c61714" LabelOwner="[UIModel]ff8a7e5e37c74338a9702868895e4f4a" Left="[float]4" Text="[string]SWAP Coordinates" Top="[float]1332" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="fb1698c91d8c449daf8192a88b5f4928" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Compute (2737)SRb.gvi" StoragePath="iSRb - Compute (2737)SRb.gvi" />
+			<SourceFileReference Id="d8a4c311237f4f31bc8945d923ff109d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Compute (i)SRb.gvi" StoragePath="iSRb - Compute (i)SRb.gvi" />
+			<SourceFileReference Id="2b32d431b7cf4d2ea083403885e8eff8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Compute Averaged Line Profile.gvi" StoragePath="iSRb - Compute Averaged Line Profile.gvi" />
+			<SourceFileReference Id="9131a55a57a244e2b9c6ee26c2bfde21" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Compute Dips Percentages.gvi" StoragePath="iSRb - Compute Dips Percentages.gvi">
+				<ContentReference Bindings="IAutoCreateContentReference,CCodeMocForCLibraryComponent" ContentIdentifier="5d11e76def5a42eb964424e53480521f" Id="3f4bda0f4e664c8394325776b8db1874" Name="CCodeNodeDll-5d11e76def5a42eb964424e53480521f" />
+			</SourceFileReference>
+			<SourceFileReference Id="15d9fcd42bf74600a2302f0faebbd748" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Detect Doubles and Write Dips.gvi" StoragePath="iSRb - Detect Doubles and Write Dips.gvi" />
+			<SourceFileReference Id="ec9726c2aede49b0a1be8c05948164f5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Filter Valleys.gvi" StoragePath="iSRb - Filter Valleys.gvi" />
+			<SourceFileReference Id="35078d53d07a448d98168625f8ad2883" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Peaks Valleys Detector.gvi" StoragePath="iSRb - Peaks Valleys Detector.gvi" />
+			<SourceFileReference Id="8ae5632e19844ff5999c89bff374ac73" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Set Relative Angle.gvi" StoragePath="iSRb - Set Relative Angle.gvi" />
+			<SourceFileReference Id="28ed2c1068244cff99e0497865c7bf23" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Write Rectangle Points.gvi" StoragePath="iSRb - Write Rectangle Points.gvi" />
+			<SourceFileReference Id="db63c86c2b334d7aa6408c315f32bece" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Write Ref Image.gvi" StoragePath="iSRb - Write Ref Image.gvi" />
+			<SourceFileReference Id="16f49844217c4ae38b9fb08a504e75cb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Write ROI.gvi" StoragePath="iSRb - Write ROI.gvi" />
+			<SourceFileReference Id="d53e0bddeaa945f18cd296c2a1f428e7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="iSRb - Write Start End Separators for Dips.gvi" StoragePath="iSRb - Write Start End Separators for Dips.gvi" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="c8d59c7146754002a7e286b5b38ceec4">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="6334ecdac2884c6f852cd7efc9cd4df3">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Image" DataType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Profile" DataType="Single[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="UpSampling" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dips" DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dips Spacing" DataType="@f476b70272aa4c0386f3a205aaab8959" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ROI" DataType="@91d202a2fc0c4106acc95c4266464ca8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Rectangle Points" DataType="@e19d5489fae6494baed813043ca7cf6b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RAW Peaks Info" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RAW Valleys Info" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valid Valleys Indexes" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="(i)SRb Result" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SWAP Coordinates" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8453f16a924f42dd960ed2e0f24044b9">
+			<Attributed AttributedType="@a610d54418324e6899f76ce79987841d">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f3a78d93b1e34be99fffca376df9d86d">
+			<Attributed AttributedType="@8eb4098fa6b1401c946d7f6f609da2f0">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fd90f7aa48384c2b81beb1534c48c05e">
+			<Attributed AttributedType="@b08ca166788c49fbb777aa903b945c5b">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a678180a0ae440d905e18d7339f77a4">
+			<Attributed AttributedType="@70f6cab4b5c64fa7814c0efa16e1588a">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f2f408c3b60b4d8b8a8a8011fc386352">
+			<Attributed AttributedType="@b03c26b4eb544ea6946c437d3896afcb">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d45ac2c314414e3e8fc9b8f36f9009f0">
+			<Attributed AttributedType="@4358dfd9263e4acbb06fcbff5af3e0dc">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5006c6e289f6490a8535446b72b6d2f6">
+			<Attributed AttributedType="@3e0ff2382bed4f729a951e5a4da5e142">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="99dad417c8774469b8fb01e2fdc89ca9">
+			<Attributed AttributedType="@da6df8b70bad4f809648edadcea86cd0">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e38b0db5286f4f6abe4d2ae70131a369">
+			<Attributed AttributedType="@00654a4eb9b343f691f5af7520796cc4">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9c3254451b3e46adaad1c39ac786d4c7">
+			<Attributed AttributedType="@abf4cc7e3d2d42f388e401923daed245">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="af8bb1e8a5a54cab85d53e216bf03f13">
+			<Attributed AttributedType="@ece379b058614ada94e1dfa7eeef7323">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9643ebccdddc41b08a357c987cdcde68">
+			<Attributed AttributedType="@4ebe9c314d384375942608a7f23c1f7e">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ea5fc0ea0287442aac3bfee6115ca9be">
+			<Attributed AttributedType="@9e7e9cadbac343bb8752a7116faa2637">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4da91bb1ab7a4e98ba70ae065c7f4ebf">
+			<Attributed AttributedType="@23cedabcacd04d5bbeee387044e3ff7d">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="91d202a2fc0c4106acc95c4266464ca8">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Global Rectangle" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Contours" DataType="@909b0658668e4537bd7eabbef1443593" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="242e02603b1d4e269dc576050be95792">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Contour Type" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ROI Type" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Points" DataType="Int32[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="564843692f744e7fb0acf6b828fe239e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="X" DataType="Single" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y" DataType="Single" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="94abd0fd92bc4b96a917ffc8949b18ab">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Locations" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Amplitudes" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="2nd Derivatives" DataType="Double[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e3259418e4074fe5bc82d0b6fbb58fd8">
+			<VariableArray DereferenceType="@ea5fc0ea0287442aac3bfee6115ca9be" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f476b70272aa4c0386f3a205aaab8959">
+			<VariableArray DereferenceType="@4da91bb1ab7a4e98ba70ae065c7f4ebf" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e19d5489fae6494baed813043ca7cf6b">
+			<Attributed AttributedType="@893ae023ecc74c68b7f284b4c194b598">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a610d54418324e6899f76ce79987841d">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute (2737)SRb.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@0a4814e9969a4d5b89d52e6fe706a8f6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]First Visible" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@1c73cfdcdb7f479dae7f7b9acc933380">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]SRb" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8eb4098fa6b1401c946d7f6f609da2f0">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@0a4814e9969a4d5b89d52e6fe706a8f6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]First Visible" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@821b5b300c7343f383a06797e04d370b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dips" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@1c73cfdcdb7f479dae7f7b9acc933380">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]SRb" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@a6f424ead7fa44de81eec2bd010871aa">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]XY Graph 8" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@1c02be0c17034f43892d12fdd52ec722">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]resulting string" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b08ca166788c49fbb777aa903b945c5b">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@28535b7faf654c41a095487949ce0072">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]UpSampling" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e7ebcc9fa8f44491b6f64c295c9127cf">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Profile" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="70f6cab4b5c64fa7814c0efa16e1588a">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@42ee8c189f7943699ce655608572a424">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dips" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b03c26b4eb544ea6946c437d3896afcb">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@42ee8c189f7943699ce655608572a424">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dips" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4358dfd9263e4acbb06fcbff5af3e0dc">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ae519fffbb2a49478ca141b173cdb909">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]valid valleys" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@d31d429e4d4843c7ba541bb3cc88cf31">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]RAW Valleys Info.Amplitudes" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e0ff2382bed4f729a951e5a4da5e142">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@28535b7faf654c41a095487949ce0072">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Width (3)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@bdec3ec5f2fb4de49f7ce11e94324409">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]RAW Valleys Info" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@d158bd8d7a0b4dc886f0e00df7ccc635">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]RAW Peaks Info" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="da6df8b70bad4f809648edadcea86cd0">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@faa40e0903364ae192b70f20e63d1886">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Angle" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@92c7de59414f47978ead67a2740a4269">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Rectangle Points" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b109a30864324b80bb90937ae6f0a97b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]ROI min(x,y)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="00654a4eb9b343f691f5af7520796cc4">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Rectangle Points.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c26c331df37145ba87a0e745a8755ab5">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Rectangle Points" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="abf4cc7e3d2d42f388e401923daed245">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@18f5c62cb4714c72908d47dd503a8c75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Image" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ece379b058614ada94e1dfa7eeef7323">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write ROI.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@3f91ff485e174679adacd2d8f47944d6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]ROI" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4ebe9c314d384375942608a7f23c1f7e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@42ee8c189f7943699ce655608572a424">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dips Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e7e9cadbac343bb8752a7116faa2637">
+			<Typedef TypedefName="Dip TypeDef.gtype" UnderlyingType="@96c8c20ed60e4acd89021c1bd321c95e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="23cedabcacd04d5bbeee387044e3ff7d">
+			<Typedef TypedefName="Dip Spacing TypeDef.gtype" UnderlyingType="@48e17acfd8424a8dac28886bd08854e6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="909b0658668e4537bd7eabbef1443593">
+			<VariableArray DereferenceType="@242e02603b1d4e269dc576050be95792" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="893ae023ecc74c68b7f284b4c194b598">
+			<Typedef TypedefName="SRb Rect Coords.gtype" UnderlyingType="@d224836df4de4dad801570de726bb2a8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1096d84cf51944528912d7d0d7e91b23">
+			<Attributed AttributedType="@0aa3f9853c474600928ec9e20299e8c9">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0a4814e9969a4d5b89d52e6fe706a8f6">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="B0" DataType="UInt16" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="6d4a458823ca48a2afe9d645a83cdc75">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@1096d84cf51944528912d7d0d7e91b23" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="33517a5423de4493bc4b86a1fb30811d">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4fd6bf504ff84a97a160ce6442d044c6">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@1096d84cf51944528912d7d0d7e91b23" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1c73cfdcdb7f479dae7f7b9acc933380">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e514662b8b6a49ffb833fe0f7de20c2a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="821b5b300c7343f383a06797e04d370b">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B1" DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a6f424ead7fa44de81eec2bd010871aa">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="@9c73f920f8564b56acc0e7d176f7ffbe" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1c02be0c17034f43892d12fdd52ec722">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="T1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="28535b7faf654c41a095487949ce0072">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e7ebcc9fa8f44491b6f64c295c9127cf">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="T1" DataType="Single[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="42ee8c189f7943699ce655608572a424">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ae519fffbb2a49478ca141b173cdb909">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Int32[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d31d429e4d4843c7ba541bb3cc88cf31">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="T0" DataType="Double[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bdec3ec5f2fb4de49f7ce11e94324409">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d158bd8d7a0b4dc886f0e00df7ccc635">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="faa40e0903364ae192b70f20e63d1886">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="92c7de59414f47978ead67a2740a4269">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@c58a34a9a770484f81b5fdc85cd5ee68" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b109a30864324b80bb90937ae6f0a97b">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c26c331df37145ba87a0e745a8755ab5">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@c58a34a9a770484f81b5fdc85cd5ee68" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="18f5c62cb4714c72908d47dd503a8c75">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3f91ff485e174679adacd2d8f47944d6">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@91d202a2fc0c4106acc95c4266464ca8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="96c8c20ed60e4acd89021c1bd321c95e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip Nr" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip Res" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip Start" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip End" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley A Location" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley A Amplitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley A 2nd Derivative" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley C Location" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley C Amplitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valley C 2nd Derivative" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Peak B Location" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Peak B Amplitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Peak B 2nd Derivative" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip %" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Double Dip" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="48e17acfd8424a8dac28886bd08854e6">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Active" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d224836df4de4dad801570de726bb2a8">
+			<VariableArray DereferenceType="@564843692f744e7fb0acf6b828fe239e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0aa3f9853c474600928ec9e20299e8c9">
+			<Composite Id="1" Name="iSRb.gtype">
+				<MemberScopes>
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+				</MemberScopes>
+				<GenericTypeDefinition>Void</GenericTypeDefinition>
+				<BaseType>@c8d59c7146754002a7e286b5b38ceec4</BaseType>
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Ref Image" DataType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Profile" DataType="Single[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="UpSampling" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dips" DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dips Spacing" DataType="@f476b70272aa4c0386f3a205aaab8959" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ROI" DataType="@91d202a2fc0c4106acc95c4266464ca8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Rectangle Points" DataType="@e19d5489fae6494baed813043ca7cf6b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RAW Peaks Info" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RAW Valleys Info" DataType="@94abd0fd92bc4b96a917ffc8949b18ab" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Valid Valleys Indexes" DataType="Int32[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="(i)SRb Result" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SWAP Coordinates" DataType="Boolean" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (2737)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="iSRb - Write ROI.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="iSRb - Write Rectangle Points.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9c73f920f8564b56acc0e7d176f7ffbe">
+			<VariableArray DereferenceType="@df4a6e8b8ca8441ab85f0a6e79d3fd93" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c58a34a9a770484f81b5fdc85cd5ee68">
+			<VariableArray DereferenceType="@8786acfd05bf40499ea8dabe13eea12f" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="df4a6e8b8ca8441ab85f0a6e79d3fd93">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Element 1" DataType="@613353f666ea46429ccb7a77007ecbde" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8786acfd05bf40499ea8dabe13eea12f">
+			<Attributed AttributedType="@030b1e278c0a4fcbbdffbb9469bda323">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::Vision::Core::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="613353f666ea46429ccb7a77007ecbde">
+			<VariableArray DereferenceType="@5067beead1b5462bb204d47ced0f7ad1" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="030b1e278c0a4fcbbdffbb9469bda323">
+			<Typedef TypedefName="Point Coordinates.gtype" UnderlyingType="@564843692f744e7fb0acf6b828fe239e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="5067beead1b5462bb204d47ced0f7ad1">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Dip %" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Compute (2737)SRb.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC8SURBVEhL7YxRDsMgDEM57e600zJD0ix1gFYDJk3akz8SB156PPOmfF2dkvYYBJrjGjNS0zdb6UrPLJ3WfaMZNNeYC7VfrWyuMZ32+Cz4sneN6R7m86PqjeQD3StazXFSl61miV0V3rtebfYlXlAs1VViyG2Sk1rscphHXPvV5i3TeQaDvgkO79A7v96ZCRw09OiOi74QuOJcMvjTW6kncFW0qGgVFL4Efo7I49GLj9nlBbu84K8mtqlzfgEy/dyGG+DAjQAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7YxREoAgCEQ9bXfqtIaCZKD1IdtMM73ZDxfkpW3PoLyuTknm9GDM21efO7U502q25ptmMu3OzJsYVp8HdV91OKw+k2k7ZvrhbOszXazno2oguSG9IqM1LurSakLsoui98Wq1h3iJYqmuEoV3i1zUbOfFOuzCqwO9xOkFqmO9BBthakYGcaC8BMpLoLzErzbA1Dkf+KEzPnjUapcAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVEhL1Y0BDsMwCAP72v1pr81ITIgDpZ2UdNJOqLINcY/Xuzw0P68+Ds1FAKejjXNV7Z6ZdVt3ZpOk9Mxp4dTGualma+GpjZOk/THgMNvGSRfr86fVD1I66hsarTFVV9dmS7tWcO/+amvf0ivUltZVx8Bukaka7Visg67nq7k3akvMAoQRWYzhu6jrugv7XiBrHXfKlrvq3SwysK7j7thCW+JshhwoGnQ0pRZ82QKEkZv1CqO3/aJyagW20AK0fZnpJYsvrRATMF2AzLJoG5/AGsO7XfbSWSEmwF8YZlnEUIBuywpCYajNlPIBbngyMbFJApoAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVEhL7Y7dDoAgCEZ92t6ppzUEIoNIm9LW1tl3IX+n0rLmoLyuTon78CDU25Y2d2p1JqWaqjWJ063O1Bu4LG0a6rqU5mVp43T3Y6JuelMbdzCej6oDyTtcI9wa46QuFWaKnRW1d75a7FO8QLGgq0Sg2SAnNdlpMA654tUTvcDhvVfLqP/zLMWT9k2/FyBjl/qRFyhGghsOstDcFND68Hc6ifICUV7gVyvC1DlvmOAhUJ7TzRkAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADESURBVEhL7YxbDsMwCAR92typp3V4mRIwyYdNpEodoYhdnGnHpxfN6+rWpIeFcXuMce7U7jeN7uqe6SSt+c3twDTGeVDbqOU0xkna8TNjy+waJz2sz4+qC+kDyYRUa1zUmGi22EVhvfvVat/iBdBCLhyFb4tc1GznwzrsqlerFzdCYywByaaxQPsdfeQW+40xA84y9unUgi8IuiAuOviGYx/pzov9Rm56QQpCqlHyopGhOyI58HBeocoLVHmBv9pRpu79BF9sxJ598AvPAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVEhL1YwBDsMgDAP72v1pr2UBU9dNINPUMqknC9kh8fZ6l0X6e/W29bkZ4HyMUVm1O2N0v26NmkzlzHljGKO+VGvkcBijJtP9GOhw9hs1/biuh1YvpOz03Oija5yqa2q6pb1XaO/91WxnL4xG9TAJPK4i/a8ZjephEnjcpTfw+saYYDu2dMjdMNaPHZ0nYLUrHnDiTF1tYDjE/g7lq7+yqtdA47JqoAGeL2g/lcQrpymNAa8TI9lUAyyelhhhGIH+Om8gkvGlAe8OGOOmGjC+NODtBTqEAW4IA07hXp5YXcoHNElQE5n0d18AAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD3SURBVEhL1YxrDsMwCIN72t1pp80AU5dAk/1IOmmfUGLz8PF6t4fq59HH4X0RIOlqa82i0xltmqY11qAbzpIWbm2tL9HRsnlraw265zGIzdG01nCwXn8a/SDtxL3hrTW6aHVWW9I9Iubuj2b6llxBUyxLi2C2SBeNdAzWQdbz0cjVz7g2jGipk4hI6ypspIN0pkvTBSJdr3gAoqWOwibeqWCmxaW0Ha0uncDyrdiW4Y2yiqkAzWa1CWkq7rZy5UJEGzWEkDSA5gvyDWciooYQ5rrr+N/PuHFz0OvRSOjNObMTJ/aFkRay9d/gLAl5wUTDQoDO7KS1DzS+HUabfrivAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVEhL1YwBDsMgDAP72v1pr2WAU88EyFq1TOopQrZDvL3eadH8vXrbLM8CON3bfqJqd0brtu4bZ5LKmdOZoe3nR7VahkPbzyTdj4GGs20/08X1eWj1QtKO+YpF12iqi6tzS7tVaO/91Wx3vbbaNcQRytd6UIZgBzRxq5jytR7YBMdlV7cUMfj0neDmSJ3SVMfHp6t1zh7HrOrNoHFZNVBP3QugYQZhxnzFR2qp9SVq3QrkcPADgm9gAUOl8fgBYJkHNqOaNNHsWAUINGnMvTyxOqUPYcJw8lwXF9wAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Write Rectangle Points.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVEhL1YxRDsMgDEM5be+007KAaeY60H0AlfoUVU5cXjo+edM8rk6p3S0AyXGNc6eWZ75KK7/5DK70TLLRXeP8UfPqx+4aZ3A9HwM+jto4w2J+XqreSD5pe6Wd5rioy1Znib0p2Lte7fYlXqNYqquMg26Sixp2FPPAtV+90Gv8vBvVa70GjNvUoB3odLNyNrAKnc5XBG6l4hCxSrtyqvDqGcGJF6dTiIgfS8Uh0inkmX2BHz0bnIVhMc8b1Tl/Aa5LwaFzyBPcAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL1Y4BDoMwDAN57f6013ZpHUzq0A4JOmmnCNluYrG93mXR/Lx62zw3AURnm2dWLWe08iprnEEazkQbpzbPl+poGZ7aPIN0PwYxHL3mGT7cnz+tXkjZcd/w6B5ddXVtHmn3itj7fDXb2YvQyNbV9A98rwksV/ytF7RG1CN44yP3INqsR2DjmHhADXH6NMF2bMlHDmgh6nODyRzbOObKwXVW9RpoXFYNYPgF1HWjz4HoSJdCMKHIGgKIJceBAT36irWvCKGLuAprMCEMKWiFLs2rkkQBREfUP8g/VpfyAUqvPiUmsGTeAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC9SURBVEhL7YxBDsMwCAT92vypr3XA4BWB0Ei1qVSpoz2wGE87Xr0oX1e3pnsaBDfHGvNO7b6huld3hiRb883NxG2NeVDbiuVtjUm287Ngl9lrTPqwnh9VF9In2ge6WuOi5jayxa4K692vhn2Ll2DLcHGAvC1yUYtdHtYRV73aebkPtM8NZhky2Ii4a2fJagY9a+IprwaodkDNkJ+ceIqNDFnNoANFFwYs7RCXGXL8cPQZVV6iykv81Y4yde8nq9XigPa9YZgAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVEhL1YwBDoMwDAN57f6013ZpHYxJUxCCTuIUVbabePl8y6T5e/WyeG4CBN3bfo6qwxlt+A1rnEEqZ0Ebqe3npFotw9T2M0jXY6Dh6Lef4cf9eWn1RMqK+4ZH99hVV9fmkXav0N7nq9mOXiQGdNtKvg7gZR2yhk4I8apI4aqPnqnWBK+KFGxvk56FMN3psV/79tHVahrQDPEChCPse5vT7UvM6jXQOK0aBB80rWojtWAXURBN2mLc7AXZtkH1klAHUZcaCA3VIHrAPRUk5EGQna93DffjilGuRP8gb6wu5Qdtdj4l/CyiOgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

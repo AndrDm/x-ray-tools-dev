@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="426AABCDA25E311DF7ED1FC844B7D7FE76C778E3B782BADBBC22C520DE61C0A44EFCF192613F52CBE76328DBEB924BCFDEB697ED1A0AA45B7F84B96E38F67E93" Timestamp="1DBAAC93D58288C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@e54547b086fb4532a5be8a5e817a1f94" Id="c21f722182a04ff282b92ff7ff636ded" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2c60e50d8f254d6d8a71ff9d97e7135b" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3119f1d9ff5742d88d009c3ca1aef4cb" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="e62aa159a72440c4be05691d4796acaa" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="dccb1470ced44d898a7fcea3ac2aa6fa" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="dcce47b3b5d740f4ba5f8f07907a108e" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="c65c26d0e2eb4519869ad50f89a4af76" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD+SURBVEhL7ZLtDcIwDESzEyt0lq7ALKzQWbJTOOdc44Z+JEr6A4knyzWX9jUEQkp3Vfm5v4AOFg0porOlo+qvLuoH1YbMfmFs3Um6DVHrS9qh4ghVPytYlgU9xhd7g1q2cUqf+hECHkE3XAL1NE0xxtxb1XL/2olLoIbRCgkVRzg1NwjQufFtktXcMmhSHxiFnPBAUny1Hwh1xNRGl9rDjXPLKx0HckXlz2i5qvFYDZdqhJarGrfyBH19J75MUVCqYQlh9i7MWDix16rzrZsnkRZDUbXqzKxXrOn1M+xCRYHlm+X8j5vtg5Rc16SOfTXhC6xrWkf+MoLMjMaT0hueZF5dAo9SGQAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@e54547b086fb4532a5be8a5e817a1f94" Id="65ecda5c4992435c88495d1fb338249f" Name="Params">
+			<p.DefaultValue>1_0_False_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="4543df2bb05f45809fc28e67d58b7aa7" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d168dcdf37d8417e9c76684872832c40" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="75575c222c624318ab2f995edf8bc840" Name="SRb Params.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="e0f235616a474cc0a181ca47df95bf2b" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="3b43bfefc6a3431b97d9eadc71a0c9a2" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="39f81e76c74b41998622bbe4d7e3ce12" LabelOwner="[UIModel]b89fb7fc63fd466cb282bf8fe9b543d2" Left="[float]100" Text="[string]Params" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@e54547b086fb4532a5be8a5e817a1f94" Enabled="[bool]True" Height="[float]168" Id="b89fb7fc63fd466cb282bf8fe9b543d2" IsTabStop="[bool]True" Label="[UIModel]39f81e76c74b41998622bbe4d7e3ce12" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=65ecda5c4992435c88495d1fb338249f}" Width="[float]100" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="52847dc24f1e43bc9b21e3ece9cd62d5" Interval="[int]1" IsTabStop="[bool]True" Label="[UIModel]7c17f38e3a541f3b1df40cb250210fc" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=UpSampling}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="7c17f38e3a541f3b1df40cb250210fc" LabelOwner="[UIModel]52847dc24f1e43bc9b21e3ece9cd62d5" Left="[float]4" Text="[string]UpSampling" Top="[float]4" />
+						<RingSelector AllowNonSequentialValues="[bool]False" AllowUndefinedValueEntry="[bool]False" Enabled="[bool]True" Height="[float]24" Id="3ff3725b762e4999a2f16f8738e3b728" IsTabStop="[bool]True" Label="[UIModel]aa44cabc2f6a44c7a552969aaf81de0f" Left="[float]4" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]76" Value="{ClusterBinding FieldName=First\ Visible}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]84" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<RingSelectorInfo DisplayValue="[string]1D" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]2D" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]3D" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]4D" Value="[ushort]3" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]5D" Value="[ushort]4" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]6D" Value="[ushort]5" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]7D" Value="[ushort]6" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]8D" Value="[ushort]7" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]9D" Value="[ushort]8" ValueType="[Type]UInt16" />
+							<RingSelectorInfo DisplayValue="[string]10D" Value="[ushort]9" ValueType="[Type]UInt16" />
+						</RingSelector>
+						<Label Id="aa44cabc2f6a44c7a552969aaf81de0f" LabelOwner="[UIModel]3ff3725b762e4999a2f16f8738e3b728" Left="[float]4" Text="[string]First Visible" Top="[float]56" />
+						<Switch ClickMode="[ClickMode]Release" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]28" Id="9c475839e982439ba672ff4293bf400c" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]aa4ffc6fb6104b4fae19d141d7499e1b" Left="[float]4" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]128" TrueContent="[string]" Value="{ClusterBinding FieldName=Auto\ Rotate}" Width="[float]58" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="aa4ffc6fb6104b4fae19d141d7499e1b" LabelOwner="[UIModel]9c475839e982439ba672ff4293bf400c" Left="[float]4" Text="[string]Auto Rotate" Top="[float]108" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="e54547b086fb4532a5be8a5e817a1f94">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="UpSampling" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="First Visible" DataType="UInt16" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Auto Rotate" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
