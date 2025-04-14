@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="06E93F46CE965C6BDD5D7938FB1DC451CFB147895F7C84BD8E770875510BFCE6D125A728AD0C8A5FB5F55C205682AC46EB5CBB38C857A6F9DA9430806B6D8D51" Timestamp="1DBAB5E64292D21" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E1E5C96678562CB7CA2BA28FB88A95F18D00D91B9539E432BAF849BC275609D9858271EF14BEE8AC9573D150F310F9F16D0C81DCC64CFBAD082DC205F48BACE7" Timestamp="1DBAD746FD85F36" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -57,18 +57,7 @@
 			<NodeLabel AttachedTo="c2a2eca305f44be38729231ec4f09d1f" Bounds="3100 1278 66 14" Id="76a824d9f1b485c818f1051e61a050f" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>SRb Results</p.Text>
 			</NodeLabel>
-			<Literal Bounds="330 1245 40 15" DataType="@1096d84cf51944528912d7d0d7e91b23" Id="b4fb9753cd6a479cabf55ac8ccb54327" Label="2c51eb0a475b48cb88b8e727ceba73ba" p4:ControlDefinitionChecksum="QAa+gBTnNlpDkMYybgWRI0WlOOxFvjjaBKCLEafExuc=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>null</p.Data>
-				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="My Computer::iSRb.gtype" />
-					<p4:TypeDefinitionTarget TargetName="My Computer::iSRb.gtype::ControlDefinition" />
-				</p4:p.TypeDefinitionTargets>
-				<ValueClassLiteralBehavior />
-			</Literal>
-			<NodeLabel AttachedTo="b4fb9753cd6a479cabf55ac8ccb54327" Bounds="330 1224 52 18" Id="2c51eb0a475b48cb88b8e727ceba73ba" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>iSRb in</p.Text>
-			</NodeLabel>
-			<ClusterLiteral Bounds="2965 1190 61 46" DataType="@b069ea67c80145728cf7c725dcebe44c" Id="66245959ec9d4280a304236dd5a7974a" Label="f2f69e3ab99e4466a38f6261f6023acc" p4:ControlDefinitionChecksum="gF3A5WCk0ExaMRbst3wYG0clGlIDT1aSkVytTSWiejw=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ClusterLiteral Bounds="2865 1255 61 46" DataType="@b069ea67c80145728cf7c725dcebe44c" Id="66245959ec9d4280a304236dd5a7974a" Label="f2f69e3ab99e4466a38f6261f6023acc" p4:ControlDefinitionChecksum="gF3A5WCk0ExaMRbst3wYG0clGlIDT1aSkVytTSWiejw=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>0x0_</p.Data>
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="My Computer::SRb Results.gtype" />
@@ -83,7 +72,7 @@
 					<p.Text>SRb</p.Text>
 				</NodeLabel>
 			</ClusterLiteral>
-			<NodeLabel AttachedTo="66245959ec9d4280a304236dd5a7974a" Bounds="2965 1169 88 18" Id="f2f69e3ab99e4466a38f6261f6023acc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="66245959ec9d4280a304236dd5a7974a" Bounds="2865 1234 88 18" Id="f2f69e3ab99e4466a38f6261f6023acc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>SRb Results</p.Text>
 			</NodeLabel>
 			<ClusterLiteral Bounds="1322 15 226 912" DataType="@c3146c735c644616b349c49c8c4f2286" Id="512c6a629f034ac7a7a40bfa639eda23" Label="3b386424231141ef923a60aecfc457e6" p4:ControlDefinitionChecksum="cunOVEpE4YF0Xn7TqRPX6t4xjsxk1k4Gb+KnikSTPzo=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
@@ -117,7 +106,7 @@
 					<ArrayBehavior ElementType="Single" IndexEditorWidth="42">
 						<p.DefaultElementValue>0x0</p.DefaultElementValue>
 					</ArrayBehavior>
-					<Literal Bounds="48.2 2 40 15" DataType="Single" Id="a54993ba014f4c8b8c415721ebd26f01">
+					<Literal Bounds="48 2 40 15" DataType="Single" Id="a54993ba014f4c8b8c415721ebd26f01">
 						<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 					</Literal>
 				</ArrayLiteral>
@@ -131,103 +120,106 @@
 					<ArrayBehavior ElementType="@ea5fc0ea0287442aac3bfee6115ca9be" IndexEditorWidth="42">
 						<p.DefaultElementValue>0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_False_</p.DefaultElementValue>
 					</ArrayBehavior>
-					<ClusterLiteral Bounds="48 1.5 151 565" DataType="@ea5fc0ea0287442aac3bfee6115ca9be" Id="24d6d98ce76345bfbc8aa6932a2a69df" p4:ControlDefinitionChecksum="BG8mxX67fU39JDAz0xhW9ZUzIfKCwa7/YF3a0VLZxOc=_v1">
+					<ClusterLiteral Bounds="138 2 61 565" DataType="@ea5fc0ea0287442aac3bfee6115ca9be" Id="24d6d98ce76345bfbc8aa6932a2a69df" Label="6752ebc309e24afa85233ea15d40d488" p4:ControlDefinitionChecksum="NBXHfyTbMFp6yvzIs9wINoQvBeuZR+1jwMkPtChuUKU=_v1">
 						<p4:p.TypeDefinitionTargets>
 							<p4:TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype" />
 							<p4:TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype::ControlDefinition" />
 						</p4:p.TypeDefinitionTargets>
 						<ClusterBehavior AutoArrange="ArrangeVertically" />
-						<Literal Bounds="2 20 40 15" DataType="Int32" Id="a7df1ba5ba3e4226b83665e6d4bce86d" Label="5f1ca0f76a2d40aa96154cb0fc4d69b9">
+						<Literal Bounds="2 20 40 15" DataType="Int32" Id="1a01475ac04e459bbfb7e358ba5ef477" Label="3322644a604644cbba1bee088bda0df4">
 							<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="a7df1ba5ba3e4226b83665e6d4bce86d" Bounds="2 2 40 15" Id="5f1ca0f76a2d40aa96154cb0fc4d69b9" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="1a01475ac04e459bbfb7e358ba5ef477" Bounds="2 2 30 15" Id="3322644a604644cbba1bee088bda0df4" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Dip Nr</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 57 40 15" DataType="Double" Id="5a7267a160324eebad337ec8a60259b0" Label="6c667203138449069816f6eb4b8b85cc">
+						<Literal Bounds="2 57 40 15" DataType="Double" Id="59bd5226e8b404eb9f94003fafa1258" Label="ee3beacf6b0740b590615ab1884440c1">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="5a7267a160324eebad337ec8a60259b0" Bounds="2 39 45 15" Id="6c667203138449069816f6eb4b8b85cc" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="59bd5226e8b404eb9f94003fafa1258" Bounds="2 39 30 15" Id="ee3beacf6b0740b590615ab1884440c1" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Dip Res</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 94 40 15" DataType="Double" Id="7dd36676d9c140d09bc0420894db6d20" Label="be366f66844046479b145d772c19d9c9">
+						<Literal Bounds="2 94 40 15" DataType="Double" Id="b873f3205ec8445799558c001420f144" Label="f70210368b0f459cbdc4a05fb5037147">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="7dd36676d9c140d09bc0420894db6d20" Bounds="2 76 50 15" Id="be366f66844046479b145d772c19d9c9" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="b873f3205ec8445799558c001420f144" Bounds="2 76 30 15" Id="f70210368b0f459cbdc4a05fb5037147" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Dip Start</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 131 40 15" DataType="Double" Id="52c4496791d54390811eb6bfecc46569" Label="fc51c9c3b41420cbd5207fbb9b77b7b">
+						<Literal Bounds="2 131 40 15" DataType="Double" Id="696f8bc239a8472e8df09f4d81e3ac0d" Label="4e8f808bedfa4658a7dd124379e13ece">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="52c4496791d54390811eb6bfecc46569" Bounds="2 113 45 15" Id="fc51c9c3b41420cbd5207fbb9b77b7b" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="696f8bc239a8472e8df09f4d81e3ac0d" Bounds="2 113 30 15" Id="4e8f808bedfa4658a7dd124379e13ece" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Dip End</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 168 40 15" DataType="Double" Id="eed282c4260f45b2b95108e20ac84d4e" Label="8fa98d8dd5da4b958955e345b858e9fa">
+						<Literal Bounds="2 168 40 15" DataType="Double" Id="1b945291594d479e8a9aeb25e40ccb7e" Label="89567c138aa64ae8a2ff1ea88b26f2f9">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="eed282c4260f45b2b95108e20ac84d4e" Bounds="2 150 95 15" Id="8fa98d8dd5da4b958955e345b858e9fa" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="1b945291594d479e8a9aeb25e40ccb7e" Bounds="2 150 30 15" Id="89567c138aa64ae8a2ff1ea88b26f2f9" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley A Location</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 205 40 15" DataType="Double" Id="8ecc2c740da642b59779050f03dc77ca" Label="80c2e00690f74755ba75fbe34a2ae132">
+						<Literal Bounds="2 205 40 15" DataType="Double" Id="a23a51a83a0b455f987d883ebacf6b5d" Label="5cf1d77180064313863c320cbdcba7b0">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="8ecc2c740da642b59779050f03dc77ca" Bounds="2 187 105 15" Id="80c2e00690f74755ba75fbe34a2ae132" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="a23a51a83a0b455f987d883ebacf6b5d" Bounds="2 187 30 15" Id="5cf1d77180064313863c320cbdcba7b0" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley A Amplitude</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 242 40 15" DataType="Double" Id="75c1e6cbd5c448ad8eee51e4bf6a57f6" Label="751137199ab041ada072573b2ed9c403">
+						<Literal Bounds="2 242 40 15" DataType="Double" Id="3d022c5dd15442df9ebd8066af9ca8a6" Label="ccd8f4964545408f3f3d15b71f9598">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="75c1e6cbd5c448ad8eee51e4bf6a57f6" Bounds="2 224 130 15" Id="751137199ab041ada072573b2ed9c403" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="3d022c5dd15442df9ebd8066af9ca8a6" Bounds="2 224 30 15" Id="ccd8f4964545408f3f3d15b71f9598" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley A 2nd Derivative</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 279 40 15" DataType="Double" Id="9864bcab9e784cb38625d891cd196c06" Label="4dd7359a756c4f47b3184dcc4e0aa44b">
+						<Literal Bounds="2 279 40 15" DataType="Double" Id="a09db78826d84236988a0deb44b78f37" Label="4094583dad1c407ba3a451950b380395">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="9864bcab9e784cb38625d891cd196c06" Bounds="2 261 95 15" Id="4dd7359a756c4f47b3184dcc4e0aa44b" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="a09db78826d84236988a0deb44b78f37" Bounds="2 261 30 15" Id="4094583dad1c407ba3a451950b380395" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley C Location</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 316 40 15" DataType="Double" Id="c2bf0268df0b45d680db16627e98977b" Label="548e59096a9043d193a75ef21fc9605c">
+						<Literal Bounds="2 316 40 15" DataType="Double" Id="df86ab25d4b049b7a0beb6136f8750f1" Label="d35d6e31fd024f5ebc4efcd7c2609460">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="c2bf0268df0b45d680db16627e98977b" Bounds="2 298 105 15" Id="548e59096a9043d193a75ef21fc9605c" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="df86ab25d4b049b7a0beb6136f8750f1" Bounds="2 298 30 15" Id="d35d6e31fd024f5ebc4efcd7c2609460" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley C Amplitude</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 353 40 15" DataType="Double" Id="1426155f62c44d64b678dc815c9df085" Label="581063f9770e4b40b831605a6ddd497f">
+						<Literal Bounds="2 353 40 15" DataType="Double" Id="7ce4ca752b1c444e9e6006de641661d2" Label="cdd849e4b8f6404ebf73accbd9645c12">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="1426155f62c44d64b678dc815c9df085" Bounds="2 335 130 15" Id="581063f9770e4b40b831605a6ddd497f" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="7ce4ca752b1c444e9e6006de641661d2" Bounds="2 335 30 15" Id="cdd849e4b8f6404ebf73accbd9645c12" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Valley C 2nd Derivative</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 390 40 15" DataType="Double" Id="10855b9f69e24ad688010a9c452007c8" Label="bc2a283a2053427ab8b23bbd0bad86ef">
+						<Literal Bounds="2 390 40 15" DataType="Double" Id="b29a0e696a2a472db714742ab192d356" Label="465c3f0a9e4b479ba90ccf4c57586b27">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="10855b9f69e24ad688010a9c452007c8" Bounds="2 372 90 15" Id="bc2a283a2053427ab8b23bbd0bad86ef" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="b29a0e696a2a472db714742ab192d356" Bounds="2 372 30 15" Id="465c3f0a9e4b479ba90ccf4c57586b27" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Peak B Location</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 427 40 15" DataType="Double" Id="c5e6128eb3de481a9d2fb625f3d99e15" Label="4a66e709b39240b5b97dafacd843ee32">
+						<Literal Bounds="2 427 40 15" DataType="Double" Id="3ca7386f50dd45cbb3e68d9f021270bc" Label="ab6ce69534644786b540ddaeb1e73d57">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="c5e6128eb3de481a9d2fb625f3d99e15" Bounds="2 409 100 15" Id="4a66e709b39240b5b97dafacd843ee32" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="3ca7386f50dd45cbb3e68d9f021270bc" Bounds="2 409 30 15" Id="ab6ce69534644786b540ddaeb1e73d57" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Peak B Amplitude</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 464 40 15" DataType="Double" Id="ca83bbf43264ac9b127e1488b0c9d8c" Label="96b83c89a57a4b0d8fb99ec51dbabc53">
+						<Literal Bounds="2 464 40 15" DataType="Double" Id="8065b24c529d47e8b7b04646ff7be32f" Label="77533c3aa5b9407fbd03791745ab597d">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="ca83bbf43264ac9b127e1488b0c9d8c" Bounds="2 446 125 15" Id="96b83c89a57a4b0d8fb99ec51dbabc53" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="8065b24c529d47e8b7b04646ff7be32f" Bounds="2 446 30 15" Id="77533c3aa5b9407fbd03791745ab597d" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Peak B 2nd Derivative</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 501 40 15" DataType="Double" Id="a6b020f6c6ba424485b44347079aaa22" Label="cf2b410eed124fc4a8798fd24c10de68">
+						<Literal Bounds="2 501 40 15" DataType="Double" Id="f5349ba683a7494a81cc0369b3249a15" Label="3e03c33f506148e387e0ff1c3fdae240">
 							<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 						</Literal>
-						<NodeLabel AttachedTo="a6b020f6c6ba424485b44347079aaa22" Bounds="2 483 35 15" Id="cf2b410eed124fc4a8798fd24c10de68" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="f5349ba683a7494a81cc0369b3249a15" Bounds="2 483 30 15" Id="3e03c33f506148e387e0ff1c3fdae240" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Dip %</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 538 25 15" DataType="Boolean" Id="657589a2af4041a98078133234e9b1cf" Label="842cf6f3f8b24ca5b5b0526adb10f4b6">
+						<Literal Bounds="2 538 25 15" DataType="Boolean" Id="3ed3adf216d5474fb713c137da68f539" Label="254e40c37aa4c96b2fcac25e04b0d50">
 							<BooleanBehavior />
 						</Literal>
-						<NodeLabel AttachedTo="657589a2af4041a98078133234e9b1cf" Bounds="2 520 65 15" Id="842cf6f3f8b24ca5b5b0526adb10f4b6" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="3ed3adf216d5474fb713c137da68f539" Bounds="2 520 30 15" Id="254e40c37aa4c96b2fcac25e04b0d50" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Double Dip</p.Text>
 						</NodeLabel>
 					</ClusterLiteral>
+					<NodeLabel AttachedTo="24d6d98ce76345bfbc8aa6932a2a69df" Bounds="138 -16 30 15" Id="6752ebc309e24afa85233ea15d40d488" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Dip TypeDef</p.Text>
+					</NodeLabel>
 				</ArrayLiteral>
 				<NodeLabel AttachedTo="12e33b0438bf4939a49a30e3cc958ba1" Bounds="2 48 25 14" Id="67673f0fc15647d1838e9f00a7455c83" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Dips</p.Text>
@@ -243,13 +235,13 @@
 							</Cluster>
 						</p.DefaultElementValue>
 					</ArrayBehavior>
-					<ClusterLiteral Bounds="48 1.75 136 121" DataType="@df4a6e8b8ca8441ab85f0a6e79d3fd93" Id="f44ca0c0d26249508684e92455824d59">
+					<ClusterLiteral Bounds="48 2 136 121" DataType="@df4a6e8b8ca8441ab85f0a6e79d3fd93" Id="f44ca0c0d26249508684e92455824d59">
 						<ClusterBehavior AutoArrange="ArrangeVertically" />
 						<ArrayLiteral Bounds="2 20 115 89" DataType="@613353f666ea46429ccb7a77007ecbde" Id="37ffdfa51a32467e86c0119463f9d9b8" Label="6799c8f891ea4f3493888a591258c535">
 							<ArrayBehavior ElementType="@5067beead1b5462bb204d47ced0f7ad1" IndexEditorWidth="42">
 								<p.DefaultElementValue>0x0_0x0_</p.DefaultElementValue>
 							</ArrayBehavior>
-							<ClusterLiteral Bounds="48.25 2.3125 61 84" DataType="@5067beead1b5462bb204d47ced0f7ad1" Id="c0098d8437bb4c99afe0a3e40fb3e62b">
+							<ClusterLiteral Bounds="48 2 61 84" DataType="@5067beead1b5462bb204d47ced0f7ad1" Id="c0098d8437bb4c99afe0a3e40fb3e62b">
 								<ClusterBehavior AutoArrange="ArrangeVertically" />
 								<Literal Bounds="2 20 40 15" DataType="Double" Id="9a38566c4eb45c6928ab19fd674393a" Label="e581b24fabad495ca87f29440a0c567c">
 									<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
@@ -305,10 +297,10 @@
 			<NodeLabel AttachedTo="512c6a629f034ac7a7a40bfa639eda23" Bounds="1322 -6 80 18" Id="3b386424231141ef923a60aecfc457e6" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Graph Info</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="2685 980 40 15" DataItem="cb951873e80b4fb7838e6444c6adc766" Id="3ccb7a173e4b0aab7eda3b9b04ae48" Label="398c85ecd62746e89d1bf0316eecbe34" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="2670 1095 40 15" DataItem="cb951873e80b4fb7838e6444c6adc766" Id="3ccb7a173e4b0aab7eda3b9b04ae48" Label="398c85ecd62746e89d1bf0316eecbe34" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="@c3146c735c644616b349c49c8c4f2286" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="3ccb7a173e4b0aab7eda3b9b04ae48" Bounds="2685 963 66 14" Id="398c85ecd62746e89d1bf0316eecbe34" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="3ccb7a173e4b0aab7eda3b9b04ae48" Bounds="2670 1078 66 14" Id="398c85ecd62746e89d1bf0316eecbe34" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>SRb Graphs</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="205 1825 40 15" DataItem="44270b88639b4e70bdc59920f268d7c2" Id="8bc84e77af124414b883b18fdb3ba4ed" Label="fe910070d0414f48ac11c7b138bab635" xmlns="http://www.ni.com/MocCommon">
@@ -350,7 +342,7 @@
 			<NodeLabel AttachedTo="46a3596e5fa94cd4ba0d73196ef7d410" Bounds="2140 1188 91 14" Id="af7d6b5b04d04cc6a46c85d942d81fe8" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Rectangle Points</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="415 1280 40 40" Id="9ae9256303b445439d8b39771f901940" Label="c39e57c6288941598feaadd2a7e3b520" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write Ref Image.gvi&quot;" Signature="@46cfef914efe4e569baaf0d88c3551f2" Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="415 1280 40 40" Id="9ae9256303b445439d8b39771f901940" Label="c39e57c6288941598feaadd2a7e3b520" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write Ref Image.gvi&quot;" Signature="@2bacf18900ad4a8789fca0b82938fb4c" Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -360,16 +352,16 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="9ae9256303b445439d8b39771f901940" Bounds="415 1259 189 18" Id="c39e57c6288941598feaadd2a7e3b520" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Write Ref Image</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2135 1285 40 40" Id="1970d49f7ba64232a67883466dfe76b9" Label="7dce243d149f4c6ea06645af00510416" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute Averaged Line Profile.gvi&quot;" Signature="@b0b0d0d0a0c14ae2a1b227b5867476a4" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2135 1285 40 40" Id="1970d49f7ba64232a67883466dfe76b9" Label="7dce243d149f4c6ea06645af00510416" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute Averaged Line Profile.gvi&quot;" Signature="@ef78e72e330c4e16abd0be7fba9a608f" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -380,17 +372,17 @@
 						<Parameter Id="T1" Desc="Profile" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Single[]" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="1970d49f7ba64232a67883466dfe76b9" Bounds="2135 1264 296 18" Id="7dce243d149f4c6ea06645af00510416" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Compute Averaged Line Profile</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2220 1285 40 40" Id="7428ca6b770c4c6b84a5e2a85ebf24ec" Label="2f4fb50738de470a87f33cbed64268cc" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Peaks Valleys Detector.gvi&quot;" Signature="@608dd4d3b0ef4c85b9bdce9bf8f448b9" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2220 1285 40 40" Id="7428ca6b770c4c6b84a5e2a85ebf24ec" Label="2f4fb50738de470a87f33cbed64268cc" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Peaks Valleys Detector.gvi&quot;" Signature="@e4f00dfe2c4e4acc9756b228512fdf55" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -402,10 +394,10 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@94abd0fd92bc4b96a917ffc8949b18ab" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@94abd0fd92bc4b96a917ffc8949b18ab" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -413,7 +405,7 @@
 			<NodeLabel AttachedTo="7428ca6b770c4c6b84a5e2a85ebf24ec" Bounds="2220 1264 234 18" Id="2f4fb50738de470a87f33cbed64268cc" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Peaks Valleys Detector</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2295 1285 40 40" Id="418ac2da170c4a7fa28f1cc831df8830" Label="9467192faaeb4846be1287223a092a82" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Filter Valleys.gvi&quot;" Signature="@02d9271651de4a09b9bc9e9ee9799104" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2295 1285 40 40" Id="418ac2da170c4a7fa28f1cc831df8830" Label="9467192faaeb4846be1287223a092a82" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Filter Valleys.gvi&quot;" Signature="@8b037b0d2cac4a3a8f4412b41f1f6ace" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -424,9 +416,9 @@
 						<Parameter Id="T0" Desc="RAW Valleys Info.Amplitudes" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double[]" Direction="Output" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
@@ -434,7 +426,7 @@
 			<NodeLabel AttachedTo="418ac2da170c4a7fa28f1cc831df8830" Bounds="2295 1264 163 18" Id="9467192faaeb4846be1287223a092a82" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Filter Valleys</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2360 1285 40 40" Id="8e3e1d0c976a40999195c0f89618808d" Label="e285b71a934141a7880688e72572b44c" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Detect Doubles and Write Dips.gvi&quot;" Signature="@52e0f73998104ac786d6ca524d59f5fc" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2360 1285 40 40" Id="8e3e1d0c976a40999195c0f89618808d" Label="e285b71a934141a7880688e72572b44c" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Detect Doubles and Write Dips.gvi&quot;" Signature="@02589dd8d6e2430da5140c4ae1379410" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -444,16 +436,16 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="8e3e1d0c976a40999195c0f89618808d" Bounds="2360 1264 295 18" Id="e285b71a934141a7880688e72572b44c" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Detect Doubles and Write Dips</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2435 1285 40 40" Id="4ef8208d77254d2385e5d27e142af85a" Label="17e93ed6043447daa4fb4a5360f547b" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write Start End Separators for Dips.gvi&quot;" Signature="@3328ff05b6f94106b3b8147002a51e23" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2435 1285 40 40" Id="4ef8208d77254d2385e5d27e142af85a" Label="17e93ed6043447daa4fb4a5360f547b" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write Start End Separators for Dips.gvi&quot;" Signature="@ba3da15de8a34f1c9daf46f8aeed0f69" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -463,16 +455,16 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="4ef8208d77254d2385e5d27e142af85a" Bounds="2435 1264 330 18" Id="17e93ed6043447daa4fb4a5360f547b" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Write Start End Separators for Dips</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2520 1285 40 40" Id="5f275c187cfc45c99ba0d1223412dd25" Label="2c65ca0b7354b28836d0dc6c3d53e51" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute Dips Percentages.gvi&quot;" Signature="@9508e190202f4414a483be38153614d3" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2520 1285 40 40" Id="5f275c187cfc45c99ba0d1223412dd25" Label="2c65ca0b7354b28836d0dc6c3d53e51" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute Dips Percentages.gvi&quot;" Signature="@a26ac22d0f8449599c7349845dd122e2" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -482,16 +474,16 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="5f275c187cfc45c99ba0d1223412dd25" Bounds="2520 1264 267 18" Id="2c65ca0b7354b28836d0dc6c3d53e51" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>iSRb - Compute Dips Percentages</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="2040 1285 40 40" Id="86d5b6c2db594e6eb4cdc64084f58b09" Label="993e2a567ad42eaadf608a0d04c77d4" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Set Relative Angle.gvi&quot;" Signature="@156f25ca32cc42bba1ec83c851abb7e8" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2040 1285 40 40" Id="86d5b6c2db594e6eb4cdc64084f58b09" Label="993e2a567ad42eaadf608a0d04c77d4" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Set Relative Angle.gvi&quot;" Signature="@e97abf880cb84848b077bff41b619b20" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="iSRb in" />
@@ -503,10 +495,10 @@
 						<Parameter Id="R3" Desc="error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@c58a34a9a770484f81b5fdc85cd5ee68" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -547,7 +539,7 @@
 					<NodeLabel AttachedTo="28cb1b3c8751406aabdbd4b958c38112" Bounds="1070 307 40 20" Id="60e60a0d41114b7daf1d048010c914ab" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>angle</p.Text>
 					</NodeLabel>
-					<MethodCall Bounds="955 375 40 40" Id="b38c04b146ca4d7ea6a10153ffed9be2" Label="f30993877f83453e81c4c1b0dc4e8a4a" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@66526977a2c247bebe8ed7c225a912e6" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
+					<MethodCall Bounds="955 375 40 40" Id="b38c04b146ca4d7ea6a10153ffed9be2" Label="f30993877f83453e81c4c1b0dc4e8a4a" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@48dc7073d0ab49e294dad1afec1f10f7" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
 						<p.MethodDeclaration>
 							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 								<Parameter Id="L0" Desc="iSRb in" />
@@ -557,10 +549,10 @@
 								<Parameter Id="R3" Desc="error out" />
 							</MethodDeclaration>
 						</p.MethodDeclaration>
-						<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="@91d202a2fc0c4106acc95c4266464ca8" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-						<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					</MethodCall>
 					<NodeLabel AttachedTo="b38c04b146ca4d7ea6a10153ffed9be2" Bounds="955 354 141 18" Id="f30993877f83453e81c4c1b0dc4e8a4a" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -588,7 +580,7 @@
 						<AbsoluteValue Bounds="265 555 30 30" Id="f19bb0c086d84d5fa44c65836419f88c" />
 						<ArrayMaxAndMin Bounds="1005 330 40 40" Id="79cdf2aa48e8481b98ccd12b14ce2f68" />
 						<ArrayIndex Bounds="1125 385 40 30" Id="e4b5ed06021a4684a6d7733f9e9a5274" Terminals="array=bc1e8f754de24a5cb5b9386bda5678a0, c0t0v=a37f72ce6f0f48eb8062068533df98a6, c0out=22855edc8ae84a7dbb15159a5e038df7" />
-						<MethodCall Bounds="1205 270 40 40" Id="854094798ca24ae1b4c19a4700ddc1e3" Label="88c052e5d9184edca41157e5d2ae7e24" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@66526977a2c247bebe8ed7c225a912e6" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="1205 270 40 40" Id="854094798ca24ae1b4c19a4700ddc1e3" Label="88c052e5d9184edca41157e5d2ae7e24" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@48dc7073d0ab49e294dad1afec1f10f7" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="iSRb in" />
@@ -598,10 +590,10 @@
 									<Parameter Id="R3" Desc="error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="@91d202a2fc0c4106acc95c4266464ca8" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<NodeLabel AttachedTo="854094798ca24ae1b4c19a4700ddc1e3" Bounds="1205 249 141 18" Id="88c052e5d9184edca41157e5d2ae7e24" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -609,7 +601,7 @@
 						</NodeLabel>
 						<ForLoop Bounds="105 20 848 523" DiagramId="619edf88c684d7189a515f613f078f0" Id="8b2f49c427d4d2ca7ae5e15e2a70f56">
 							<LoopIteration Bounds="95 495 15 15" Id="83a00b3eb4d47bf976cdd0f3f42c1a7" />
-							<MethodCall Bounds="240 245 40 40" Id="4b7080d07fdf4147ac6dc84679670b4f" Label="74263ef3d89f4e108c4d5a4415d86074" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute Averaged Line Profile.gvi&quot;" Signature="@b0b0d0d0a0c14ae2a1b227b5867476a4" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="240 245 40 40" Id="4b7080d07fdf4147ac6dc84679670b4f" Label="74263ef3d89f4e108c4d5a4415d86074" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute Averaged Line Profile.gvi&quot;" Signature="@ef78e72e330c4e16abd0be7fba9a608f" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -620,17 +612,17 @@
 										<Parameter Id="T1" Desc="Profile" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Single[]" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="4b7080d07fdf4147ac6dc84679670b4f" Bounds="240 224 296 18" Id="74263ef3d89f4e108c4d5a4415d86074" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Compute Averaged Line Profile</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="310 250 40 40" Id="8e9225c999504b13939e4017ea3376fb" Label="6f47cb414e9c45e195f84ca9c8c756f0" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Peaks Valleys Detector.gvi&quot;" Signature="@608dd4d3b0ef4c85b9bdce9bf8f448b9" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="310 250 40 40" Id="8e9225c999504b13939e4017ea3376fb" Label="6f47cb414e9c45e195f84ca9c8c756f0" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Peaks Valleys Detector.gvi&quot;" Signature="@e4f00dfe2c4e4acc9756b228512fdf55" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -642,10 +634,10 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@94abd0fd92bc4b96a917ffc8949b18ab" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@94abd0fd92bc4b96a917ffc8949b18ab" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -653,7 +645,7 @@
 							<NodeLabel AttachedTo="8e9225c999504b13939e4017ea3376fb" Bounds="310 229 234 18" Id="6f47cb414e9c45e195f84ca9c8c756f0" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Peaks Valleys Detector</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="465 250 40 40" Id="a1af0a8cf307466e9ac4da57367db37e" Label="9880f1cf2b0444deb15a1872514f729b" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Filter Valleys.gvi&quot;" Signature="@02d9271651de4a09b9bc9e9ee9799104" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="465 250 40 40" Id="a1af0a8cf307466e9ac4da57367db37e" Label="9880f1cf2b0444deb15a1872514f729b" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Filter Valleys.gvi&quot;" Signature="@8b037b0d2cac4a3a8f4412b41f1f6ace" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -664,9 +656,9 @@
 										<Parameter Id="T0" Desc="RAW Valleys Info.Amplitudes" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Int32[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Double[]" Direction="Output" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
@@ -674,7 +666,7 @@
 							<NodeLabel AttachedTo="a1af0a8cf307466e9ac4da57367db37e" Bounds="465 229 163 18" Id="9880f1cf2b0444deb15a1872514f729b" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Filter Valleys</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="560 250 40 40" Id="ea43c1135162490aa81fc7de6ded4ba1" Label="435a3535a6764ee9ae4153bfa0feae09" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Detect Doubles and Write Dips.gvi&quot;" Signature="@52e0f73998104ac786d6ca524d59f5fc" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="560 250 40 40" Id="ea43c1135162490aa81fc7de6ded4ba1" Label="435a3535a6764ee9ae4153bfa0feae09" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Detect Doubles and Write Dips.gvi&quot;" Signature="@02589dd8d6e2430da5140c4ae1379410" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -684,16 +676,16 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="ea43c1135162490aa81fc7de6ded4ba1" Bounds="560 229 295 18" Id="435a3535a6764ee9ae4153bfa0feae09" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Detect Doubles and Write Dips</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="635 250 40 40" Id="26021f19a3c2407697fba113e74ce230" Label="a11138c466ad43edabb7ab6b80e0e2d9" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write Start End Separators for Dips.gvi&quot;" Signature="@3328ff05b6f94106b3b8147002a51e23" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="635 250 40 40" Id="26021f19a3c2407697fba113e74ce230" Label="a11138c466ad43edabb7ab6b80e0e2d9" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write Start End Separators for Dips.gvi&quot;" Signature="@ba3da15de8a34f1c9daf46f8aeed0f69" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -703,16 +695,16 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="26021f19a3c2407697fba113e74ce230" Bounds="635 229 330 18" Id="a11138c466ad43edabb7ab6b80e0e2d9" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Write Start End Separators for Dips</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="720 250 40 40" Id="80362c49f782493ea9d4ee8fa5ecd1ff" Label="92171dad6d134402bdfb08d890e5cf2c" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute Dips Percentages.gvi&quot;" Signature="@9508e190202f4414a483be38153614d3" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="720 250 40 40" Id="80362c49f782493ea9d4ee8fa5ecd1ff" Label="92171dad6d134402bdfb08d890e5cf2c" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute Dips Percentages.gvi&quot;" Signature="@a26ac22d0f8449599c7349845dd122e2" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -722,16 +714,16 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="80362c49f782493ea9d4ee8fa5ecd1ff" Bounds="720 229 267 18" Id="92171dad6d134402bdfb08d890e5cf2c" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Compute Dips Percentages</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="780 250 40 40" Id="7cac012513e643f7b7b6827808f8e6ad" Label="52d1919b5e524052ae2e8b8536b53e6f" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute (i)SRb.gvi&quot;" Signature="@b34f8f8e5ce445d99e0a7808c7498d49" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="780 250 40 40" Id="7cac012513e643f7b7b6827808f8e6ad" Label="52d1919b5e524052ae2e8b8536b53e6f" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute (i)SRb.gvi&quot;" Signature="@56b5c1c124b24ab480413784378d799e" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="B0" Desc="First Visible" />
@@ -746,10 +738,10 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="UInt16" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@9c73f920f8564b56acc0e7d176f7ffbe" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -758,7 +750,7 @@
 							<NodeLabel AttachedTo="7cac012513e643f7b7b6827808f8e6ad" Bounds="780 229 187 18" Id="52d1919b5e524052ae2e8b8536b53e6f" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>iSRb - Compute (i)SRb</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="160 245 40 40" Id="7bd9cddf5094cc18d39f6ce689b2be2" Label="2b2811dd3dd1465c89867042b7281f81" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Set Relative Angle.gvi&quot;" Signature="@156f25ca32cc42bba1ec83c851abb7e8" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="160 245 40 40" Id="7bd9cddf5094cc18d39f6ce689b2be2" Label="2b2811dd3dd1465c89867042b7281f81" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Set Relative Angle.gvi&quot;" Signature="@e97abf880cb84848b077bff41b619b20" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -770,10 +762,10 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@c58a34a9a770484f81b5fdc85cd5ee68" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Int32" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -783,7 +775,7 @@
 							</NodeLabel>
 							<Add Bounds="240 445 30 30" Id="7e2cf0cd51df45c5b73e4c14aee528c1" Terminals="o=4afe944fde38462fbd8da788d7cc7733, c0t0v=4ae9f0d1ec7a42d0935f0cec3cf8314a, c1t0v=53cf652c0d334cf2a459f5124baaf975" />
 							<IsGreaterThan0 Bounds="805 350 30 30" Id="215cedf0440a49dcb0b0346d04410814" />
-							<MethodCall Bounds="35 245 40 40" Id="3aaf4673138742f88e721b46e2362464" Label="8769a6210e8a4924b65337d399f1b39a" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@66526977a2c247bebe8ed7c225a912e6" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="35 245 40 40" Id="3aaf4673138742f88e721b46e2362464" Label="8769a6210e8a4924b65337d399f1b39a" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Write ROI.gvi&quot;" Signature="@48dc7073d0ab49e294dad1afec1f10f7" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="iSRb in" />
@@ -793,10 +785,10 @@
 										<Parameter Id="R3" Desc="error out" />
 									</MethodDeclaration>
 								</p.MethodDeclaration>
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="@91d202a2fc0c4106acc95c4266464ca8" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="3aaf4673138742f88e721b46e2362464" Bounds="35 224 141 18" Id="8769a6210e8a4924b65337d399f1b39a" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -1016,7 +1008,7 @@
 				<CaseStructure.Tunnel Bounds="-4 95 13 10" Docking="Left" Id="7c48fbe9bd7e40e2a18b0c3be1bae947" Terminals="32d14b819e714407abfb5182cf641427=23cac0a275fc4d739d309457c8440945, bb9b14f27ce34f338894b3a32bf3e979=b87a45a790314d4a911a03a9f9986d6a, 48f339e187cc4ef59502f1ea0325aa00" />
 				<CaseStructure.Tunnel Bounds="490 -4 10 13" Docking="Top" Id="60e93c6d800c4773bc8b4fb673df0699" Terminals="32d14b819e714407abfb5182cf641427=62c5b60ac504258b9912ce0765d5d90, bb9b14f27ce34f338894b3a32bf3e979=f82f9190341945dcb1a79754f9b5119b, 48f339e187cc4ef59502f1ea0325aa00=2b2f573e42844aa48958aecf3233bfd5" />
 			</CaseStructure>
-			<MethodCall Bounds="2610 1295 40 40" Id="43f4becebd3d4596870a696224128dd8" Label="defadcfd0a44eab938ccecdc30cc086" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\2025_04_11_12_05_01\\iSRB TEST to NXG.lvproject\\My Computer.gcomp\\iSRb.gtype\\iSRb - Compute (i)SRb.gvi&quot;" Signature="@b34f8f8e5ce445d99e0a7808c7498d49" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="2610 1295 40 40" Id="43f4becebd3d4596870a696224128dd8" Label="defadcfd0a44eab938ccecdc30cc086" ResolveFailedHint="&quot;C:\\Users\\Andrey\\Desktop\\x-ray-tools-dev\\iSRB\\iSRB.gcomp\\iSRb.gtype\\iSRb - Compute (i)SRb.gvi&quot;" Signature="@56b5c1c124b24ab480413784378d799e" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="B0" Desc="First Visible" />
@@ -1031,10 +1023,10 @@
 					</MethodDeclaration>
 				</p.MethodDeclaration>
 				<Terminal DataType="UInt16" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@e3259418e4074fe5bc82d0b6fbb58fd8" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@1096d84cf51944528912d7d0d7e91b23" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@9c73f920f8564b56acc0e7d176f7ffbe" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1080,12 +1072,12 @@
 			<Wire Id="4e5fdba701e3441aaf050b1b002c8779" Joints="N(604f220352846029a57175dad4cecf8:c0t0v)|(401,1780) h(164) v(-400) N(be3e535872584368914695cdf6572efe:6a5b74da6f0947e4a27c80cc47d8abf4)|(571,1380)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="166b2df9724f4150a3c461358d380385" Joints="N(604f220352846029a57175dad4cecf8:c1t0v)|(401,1795) h(1004) B(1) h(1220) N(43f4becebd3d4596870a696224128dd8:B0)|(2625,1335) B(1) N(b589d99a80f241bb8216281ba5309d4f:6a5b74da6f0947e4a27c80cc47d8abf4)|(1405,1639)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="9b99c4f3b87147bab7904eb806ac7df3" Joints="N(8bc84e77af124414b883b18fdb3ba4ed:Value)|(245,1830) h(49) v(-60) N(604f220352846029a57175dad4cecf8:instance in)|(300,1770)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="f2d7f2bb1bdf461d96ef28f4be7c9038" Joints="N(b6662ede38b941b7a13b6d0efea3f963:instance out)|(2658,1100) h(22) v(-115) N(3ccb7a173e4b0aab7eda3b9b04ae48:Value)|(2688,985)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="f2d7f2bb1bdf461d96ef28f4be7c9038" Joints="N(b6662ede38b941b7a13b6d0efea3f963:instance out)|(2658,1100) N(3ccb7a173e4b0aab7eda3b9b04ae48:Value)|(2673,1100)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="d107dfe960da4924b02dc928cd37ca92" Joints="N(43f4becebd3d4596870a696224128dd8:R1)|(2650,1310) h(13) B(1) N(c5a1db71d5844d7d9518f2925afe96df:c0t0v)|(2965,1310) B(1) v(-100) h(-168) v(-25) N(b6662ede38b941b7a13b6d0efea3f963:c5t0v)|(2500,1185)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="7f04d0c7c4014701a0328d400c053d90" Joints="N(4cd0a5714fdf4b1a85b061ef5c2af38e:6a5b74da6f0947e4a27c80cc47d8abf4)|(2027,1245) h(90) v(-135) N(b6662ede38b941b7a13b6d0efea3f963:c0t0v)|(2500,1110)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="7be87f13cabc4349a20b097318d0cc00" Joints="N(43f4becebd3d4596870a696224128dd8:T1)|(2635,1295) v(-75) h(-150) v(-65) N(b6662ede38b941b7a13b6d0efea3f963:c3t0v)|(2500,1155)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="aeb125167c36468e90cd73cf76f1da99" Joints="N(512c6a629f034ac7a7a40bfa639eda23:Out)|(1548,20) h(912) v(1080) N(b6662ede38b941b7a13b6d0efea3f963:instance in)|(2500,1100)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="70bc27c9f79148189da426db822b120e" Joints="N(66245959ec9d4280a304236dd5a7974a:Out)|(3026,1195) h(6) v(96) h(-73) v(9) N(c5a1db71d5844d7d9518f2925afe96df:instance in)|(2965,1300)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="70bc27c9f79148189da426db822b120e" Joints="N(66245959ec9d4280a304236dd5a7974a:Out)|(2926,1260) h(33) v(40) N(c5a1db71d5844d7d9518f2925afe96df:instance in)|(2965,1300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="47584779c20646b9b0508df212fef5e3" Joints="N(9ae9256303b445439d8b39771f901940:R0)|(455,1285) N(6917fd1b9ff04da79e5040841722ba5b:6a5b74da6f0947e4a27c80cc47d8abf4)|(571,1285)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="889de74be7364ca19b43d06753cafd93" Joints="N(3c5182a9e09e43fd92d5c4afe8416773:6a5b74da6f0947e4a27c80cc47d8abf4)|(2027,1300) h(6) B(1) N(86d5b6c2db594e6eb4cdc64084f58b09:L1)|(2040,1300) B(1) v(90) N(a22203fda4d047cbbedf43c6271b48ca:Value)|(2058,1390)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="e6aea24aa9a2445d9ddd437f06057958" Joints="N(86d5b6c2db594e6eb4cdc64084f58b09:R1)|(2080,1300) h(44) v(-90) N(46a3596e5fa94cd4ba0d73196ef7d410:Value)|(2143,1210)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1101,6 +1093,17 @@
 			<Wire Id="c512d2a7e89d45dba6e80418ca6ec80d" Joints="N(c5a1db71d5844d7d9518f2925afe96df:instance out)|(3024,1300) N(c2a2eca305f44be38729231ec4f09d1f:Value)|(3103,1300)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="c448997e261f4d03bf8d5ac05457d252" Joints="N(6cb081fe0de4138b20816886b6a28a5:Value)|(150,1115) h(149) v(240) B(2) N(f2878b3240024e248b45f84f99074d5b:6a5b74da6f0947e4a27c80cc47d8abf4)|(571,1355) B(2) v(265) N(8891f84f5b7a4538adda9cb833167972:L0)|(320,1620)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="383f725234e044cf92b0cdc30cd33294" Joints="N(92bcea94a3964444a2af53ee57a71ba1:Value)|(140,1220) h(6) v(75) N(9ae9256303b445439d8b39771f901940:L1)|(415,1295)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="330 1245 40 15" DataType="@d8ac076e9aa44a3dbf04d72aade036f7" Id="b4fb9753cd6a479cabf55ac8ccb54327" Label="2c51eb0a475b48cb88b8e727ceba73ba" p4:ControlDefinitionChecksum="QAa+gBTnNlpDkMYybgWRI0WlOOxFvjjaBKCLEafExuc=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>null</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="My Computer::iSRb.gtype" />
+					<p4:TypeDefinitionTarget TargetName="My Computer::iSRb.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<ValueClassLiteralBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="b4fb9753cd6a479cabf55ac8ccb54327" Bounds="330 1224 52 18" Id="2c51eb0a475b48cb88b8e727ceba73ba" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>iSRb in</p.Text>
+			</NodeLabel>
 		</BlockDiagram>
 		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Background="[SMSolidColorBrush]#ffffffff" Height="[float]1600" HtmlPanel="[bool]False" Id="fd698e511e534e88a96faf9e457a34ff" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2237" WindowTitleOption="[WindowTitleOption]None">
 			<PanelExecutionWindow Id="75e97ad2eac846eb9a7c24a2908cb663" StartupLocation="[SMWindowStartupLocation]CenterScreen" />
@@ -1168,7 +1171,7 @@
 				<p4:Label Foreground="[SMColor]#ff000000" Height="[float]16" Id="dcf18ba22f204654a709074975d24e48" LabelOwner="[UIModel]eec9051627994c5b933bf71d5aaf6d69" Left="[float]4" Text="[string]SRb" Top="[float]4" Width="[float]21" />
 			</Cluster>
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="48230f52044a4650ae39313e87de74dd" LabelOwner="[UIModel]1e9a1ce049b14e99aca552de2bc25164" Left="[float]458" Text="[string]SRb Graphs" Top="[float]115" Width="[float]62" xmlns="http://www.ni.com/PanelCommon" />
-			<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Graph Info" ClusterType="[Type]@c3146c735c644616b349c49c8c4f2286" Enabled="[bool]True" Height="[float]174" Id="1e9a1ce049b14e99aca552de2bc25164" IsTabStop="[bool]True" Label="[UIModel]48230f52044a4650ae39313e87de74dd" Left="[float]458" TabIndex="[int]3" Top="[float]135" Value="{DataItemBinding Id=cb951873e80b4fb7838e6444c6adc766}" Width="[float]1855" p4:ControlDefinitionChecksum="cunOVEpE4YF0Xn7TqRPX6t4xjsxk1k4Gb+KnikSTPzo=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Graph Info" ClusterType="[Type]@c3146c735c644616b349c49c8c4f2286" Enabled="[bool]True" Height="[float]174" Id="1e9a1ce049b14e99aca552de2bc25164" IsTabStop="[bool]True" Label="[UIModel]48230f52044a4650ae39313e87de74dd" Left="[float]458" TabIndex="[int]3" Top="[float]135" Value="{DataItemBinding Id=cb951873e80b4fb7838e6444c6adc766}" Width="[float]2132" p4:ControlDefinitionChecksum="cunOVEpE4YF0Xn7TqRPX6t4xjsxk1k4Gb+KnikSTPzo=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="My Computer::SRb Graphs Info.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
@@ -1177,46 +1180,47 @@
 					<NumericText Enabled="[bool]True" Height="[float]24" Id="c419c8200082420e8161443335a92814" Interval="[float]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Maximum="[float]Infinity" Minimum="[float]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Single" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				</p4:ArrayViewer>
 				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="50f444f73b084f12a0ccb35a51f017a8" LabelOwner="[UIModel]8fd911f4a59f467684196a684cd54796" Left="[float]4" Text="[string]Line Profile" Top="[float]4" Width="[float]59" />
-				<p4:ArrayViewer ArrayElement="[UIModel]ea09638db49046159338e3dbb317be08" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1dba13b1a1c342358232f16eaafa36f8" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]95ccd3569d6d416aa68e3acb5990e83e" Left="[float]144" Rows="[int]1" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Dips}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]1139">
+				<p4:ArrayViewer ArrayElement="[UIModel]ea09638db49046159338e3dbb317be08" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1dba13b1a1c342358232f16eaafa36f8" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]95ccd3569d6d416aa68e3acb5990e83e" Left="[float]144" Rows="[int]1" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Dips}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]1416">
 					<p.DefaultElementValue>0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_False_</p.DefaultElementValue>
-					<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Dip" ClusterType="[Type]@ea5fc0ea0287442aac3bfee6115ca9be" Enabled="[bool]True" Height="[float]60" Id="ea09638db49046159338e3dbb317be08" IsTabStop="[bool]True" TabIndex="[int]0" Width="[float]1072" p4:ControlDefinitionChecksum="BG8mxX67fU39JDAz0xhW9ZUzIfKCwa7/YF3a0VLZxOc=_v1">
+					<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Dip" ClusterType="[Type]@ea5fc0ea0287442aac3bfee6115ca9be" Enabled="[bool]True" Height="[float]60" Id="ea09638db49046159338e3dbb317be08" IsTabStop="[bool]True" Label="[UIModel]dec3a2c20c0d41eeb3f47521e7393803" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]1349" p4:ControlDefinitionChecksum="NBXHfyTbMFp6yvzIs9wINoQvBeuZR+1jwMkPtChuUKU=_v1">
 						<p4:p.TypeDefinitionTargets>
 							<p4:TypeDefinitionTarget TargetName="My Computer::Dip TypeDef.gtype::ControlDefinition" />
 						</p4:p.TypeDefinitionTargets>
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="4a46f7bc9f11489384c86eb88dfab95a" Interval="[int]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]32f336a6a6fa4df4b61e841d44c2df31" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Nr}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="32f336a6a6fa4df4b61e841d44c2df31" LabelOwner="[UIModel]4a46f7bc9f11489384c86eb88dfab95a" Left="[float]4" Text="[string]Dip Nr" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="8a3c068f3c6047cfbcdf83fbe7c86a21" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]d028de6a9d324bb193851e40ae13a134" Left="[float]77" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Res}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="d028de6a9d324bb193851e40ae13a134" LabelOwner="[UIModel]8a3c068f3c6047cfbcdf83fbe7c86a21" Left="[float]77" Text="[string]Dip Res" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="d3505e6d55ba455a9089422085d17b17" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]abc5f3af17de4850af023f8f5a262c11" Left="[float]150" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Start}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="abc5f3af17de4850af023f8f5a262c11" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d3505e6d55ba455a9089422085d17b17" Left="[float]168" Text="[string]Dip Start" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="12f5602b03d54d498307a161322663bb" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]ba059bccdf294c0790cfba7679c6b733" Left="[float]223" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ End}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="ba059bccdf294c0790cfba7679c6b733" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]12f5602b03d54d498307a161322663bb" Left="[float]246" Text="[string]Dip End" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="8910098c1f6e4a148cb5c490d8eaea64" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]f287b2682d544ecf92218676c9506ea2" Left="[float]296" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="f287b2682d544ecf92218676c9506ea2" LabelOwner="[UIModel]8910098c1f6e4a148cb5c490d8eaea64" Left="[float]296" Text="[string]Valley A Location" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="e377359f4bdd4a45aec72cca0050a7b4" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]6d8c202a920b4ff6b7db5e2df9426d68" Left="[float]369" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="6d8c202a920b4ff6b7db5e2df9426d68" LabelOwner="[UIModel]e377359f4bdd4a45aec72cca0050a7b4" Left="[float]369" Text="[string]Valley A Amplitude" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="1d04a7a586954c28a7a680d2dbdb1733" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]e303a8699e7544f8bb376d70dbc7e60a" Left="[float]442" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]6" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="e303a8699e7544f8bb376d70dbc7e60a" LabelOwner="[UIModel]1d04a7a586954c28a7a680d2dbdb1733" Left="[float]442" Text="[string]Valley A 2nd Derivative" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="a9dc37a59b304ddb97806d871c71d072" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]57fcc50167ef4661a66ae826d2ab4870" Left="[float]515" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]7" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="57fcc50167ef4661a66ae826d2ab4870" LabelOwner="[UIModel]a9dc37a59b304ddb97806d871c71d072" Left="[float]515" Text="[string]Valley C Location" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="3f74a6e1e23f47f6836ad5b62d2cb339" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]a73b63d2c7a84047ac09441bcc136c10" Left="[float]588" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]8" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="a73b63d2c7a84047ac09441bcc136c10" LabelOwner="[UIModel]3f74a6e1e23f47f6836ad5b62d2cb339" Left="[float]588" Text="[string]Valley C Amplitude" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="fa53421a7e5e4c1d963381f0d6b81daf" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]e4bb8bdc71e24018bf6d67a6d0fa64e4" Left="[float]661" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]9" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="e4bb8bdc71e24018bf6d67a6d0fa64e4" LabelOwner="[UIModel]fa53421a7e5e4c1d963381f0d6b81daf" Left="[float]661" Text="[string]Valley C 2nd Derivative" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="53817b3f30bd442aa0c72b500c25aa5f" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]2222c80213714c38946fc3a21bddfa19" Left="[float]734" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]10" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="2222c80213714c38946fc3a21bddfa19" LabelOwner="[UIModel]53817b3f30bd442aa0c72b500c25aa5f" Left="[float]734" Text="[string]Peak B Location" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="846c6bc4450444f5ba1494b200d90278" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]bf6673d6f87e44f58707748dbe665342" Left="[float]807" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]11" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="bf6673d6f87e44f58707748dbe665342" LabelOwner="[UIModel]846c6bc4450444f5ba1494b200d90278" Left="[float]807" Text="[string]Peak B Amplitude" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="46eb6905d75743e3947e0d286927107b" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]5d56c14ef7e248738563871091c13ef2" Left="[float]880" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]12" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="5d56c14ef7e248738563871091c13ef2" LabelOwner="[UIModel]46eb6905d75743e3947e0d286927107b" Left="[float]880" Text="[string]Peak B 2nd Derivative" Top="[float]4" />
-						<NumericText Enabled="[bool]True" Height="[float]24" Id="ed05c3f15b14e6ab2eb3ee9622e74c6" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]20188b7fd9094e17b6c3476687736737" Left="[float]953" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]13" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ %}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="20188b7fd9094e17b6c3476687736737" LabelOwner="[UIModel]ed05c3f15b14e6ab2eb3ee9622e74c6" Left="[float]953" Text="[string]Dip %" Top="[float]4" />
-						<Switch BaseName="[string]Square LED" ClickMode="[ClickMode]Press" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]19" Id="7d58d502dbc2405486f9c6430e5337d4" IsMomentary="[bool]False" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]8624198f817c4fd689532f405e1473b6" Left="[float]1026" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]14" TextAlignment="[TextAlignment]Left" Top="[float]24" TrueContent="[string]" Value="{ClusterBinding FieldName=Double\ Dip}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-						<p4:Label Id="8624198f817c4fd689532f405e1473b6" LabelOwner="[UIModel]7d58d502dbc2405486f9c6430e5337d4" Left="[float]1026" Text="[string]Double Dip" Top="[float]4" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="1a782a7651b94545916000c91faf3075" Interval="[int]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]963d3284f7e4456b8bae3052b3d54b50" Left="[float]4" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Nr}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]43" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="963d3284f7e4456b8bae3052b3d54b50" LabelOwner="[UIModel]1a782a7651b94545916000c91faf3075" Left="[float]4" Text="[string]Dip Nr" Top="[float]4" Width="[float]35" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="1931c7875db24d559b2f0368d88b81b6" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]279175bc790e46e3b0b58abfe33740d5" Left="[float]55" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]1" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Res}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]43" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="279175bc790e46e3b0b58abfe33740d5" LabelOwner="[UIModel]1931c7875db24d559b2f0368d88b81b6" Left="[float]55" Text="[string]Dip Res" Top="[float]4" Width="[float]40" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="f12b45d36da54a26b6bccdd0b3be1c0f" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]7ba80ae9308646668e524a0f88ad9478" Left="[float]106" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ Start}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]47" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="7ba80ae9308646668e524a0f88ad9478" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]f12b45d36da54a26b6bccdd0b3be1c0f" Left="[float]106" Text="[string]Dip Start" Top="[float]4" Width="[float]47" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="cafe95687467493c9bb906473715584b" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]519bde93fe084a199462473db5d8312b" Left="[float]161" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ End}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]44" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="519bde93fe084a199462473db5d8312b" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]cafe95687467493c9bb906473715584b" Left="[float]163" Text="[string]Dip End" Top="[float]4" Width="[float]42" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="e4a2db43027e4863b835c6cf78c6e34d" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]63c033741ad74d628b1f10691b5db82d" Left="[float]213" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]4" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]63" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="63c033741ad74d628b1f10691b5db82d" LabelOwner="[UIModel]e4a2db43027e4863b835c6cf78c6e34d" Left="[float]213" Text="[string]Valley A Location" Top="[float]4" Width="[float]91" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="dd02bfe98c954605b76305eb784987bf" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]60210aaf22784b71bcfa35b37da54515" Left="[float]312" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="60210aaf22784b71bcfa35b37da54515" LabelOwner="[UIModel]dd02bfe98c954605b76305eb784987bf" Left="[float]312" Text="[string]Valley A Amplitude" Top="[float]4" Width="[float]101" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="d5a55a95d81d4421b69e3c8ce42b50b6" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]b509358eb8ef4aecabce990002f837db" Left="[float]421" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]6" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ A\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="b509358eb8ef4aecabce990002f837db" LabelOwner="[UIModel]d5a55a95d81d4421b69e3c8ce42b50b6" Left="[float]421" Text="[string]Valley A 2nd Derivative" Top="[float]4" Width="[float]122" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="593d52b3971b459aae0b53d64a43741b" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]a083d08ce29349188da201b03bcc7f39" Left="[float]551" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]7" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="a083d08ce29349188da201b03bcc7f39" LabelOwner="[UIModel]593d52b3971b459aae0b53d64a43741b" Left="[float]551" Text="[string]Valley C Location" Top="[float]4" Width="[float]90" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="22d17facd47749778f7596bb73e0293e" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]7e94bd79cd994427848c7c41396d6125" Left="[float]649" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]8" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="7e94bd79cd994427848c7c41396d6125" LabelOwner="[UIModel]22d17facd47749778f7596bb73e0293e" Left="[float]649" Text="[string]Valley C Amplitude" Top="[float]4" Width="[float]100" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="7a4a5b46dff04146863313e2e34d95fa" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]e03d10b85714404be85737e73c1530e" Left="[float]757" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]9" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Valley\ C\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="e03d10b85714404be85737e73c1530e" LabelOwner="[UIModel]7a4a5b46dff04146863313e2e34d95fa" Left="[float]757" Text="[string]Valley C 2nd Derivative" Top="[float]4" Width="[float]121" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="91ed3f47360946f583e8f2b2b487e651" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]5ea96f05a27549649d6bc98bebfc05ca" Left="[float]886" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]10" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Location}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="5ea96f05a27549649d6bc98bebfc05ca" LabelOwner="[UIModel]91ed3f47360946f583e8f2b2b487e651" Left="[float]886" Text="[string]Peak B Location" Top="[float]4" Width="[float]84" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="6d5334d78a6048eb9f7f848faeb5e2ce" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]c7ab223eec8f4ff5a6fe770edb07be35" Left="[float]978" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]11" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ Amplitude}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="c7ab223eec8f4ff5a6fe770edb07be35" LabelOwner="[UIModel]6d5334d78a6048eb9f7f848faeb5e2ce" Left="[float]978" Text="[string]Peak B Amplitude" Top="[float]4" Width="[float]94" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="b2702057dd654d3e8c0609bd46156d01" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]604fc8a1953240809350f19b75b4130c" Left="[float]1080" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]12" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Peak\ B\ 2nd\ Derivative}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="604fc8a1953240809350f19b75b4130c" LabelOwner="[UIModel]b2702057dd654d3e8c0609bd46156d01" Left="[float]1080" Text="[string]Peak B 2nd Derivative" Top="[float]4" Width="[float]115" />
+						<NumericText Enabled="[bool]True" Height="[float]24" Id="8e946b88e3b542b1b60c2c51a899a055" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]e73dce7411ce4a10b9b04affd226e953" Left="[float]1203" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]13" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=Dip\ %}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="e73dce7411ce4a10b9b04affd226e953" LabelOwner="[UIModel]8e946b88e3b542b1b60c2c51a899a055" Left="[float]1203" Text="[string]Dip %" Top="[float]4" Width="[float]32" />
+						<Switch BaseName="[string]Square LED" ClickMode="[ClickMode]Press" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]19" Id="261aba2f2cdd461588533414f4dc093d" IsMomentary="[bool]False" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]c838ef3b144f472987d569b4c3fa5d04" Left="[float]1276" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]14" TextAlignment="[TextAlignment]Left" Top="[float]24" TrueContent="[string]" Value="{ClusterBinding FieldName=Double\ Dip}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<p4:Label Height="[float]16" Id="c838ef3b144f472987d569b4c3fa5d04" LabelOwner="[UIModel]261aba2f2cdd461588533414f4dc093d" Left="[float]1276" Text="[string]Double Dip" Top="[float]4" Width="[float]61" />
+						<p4:Label Height="[float]16" Id="dec3a2c20c0d41eeb3f47521e7393803" IsVisualChild="[bool]False" LabelOwner="[UIModel]ea09638db49046159338e3dbb317be08" Left="[float]61" Text="[string]Dip" Top="[float]-14" Width="[float]19" />
 					</p4:Cluster>
 				</p4:ArrayViewer>
 				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="95ccd3569d6d416aa68e3acb5990e83e" LabelOwner="[UIModel]1dba13b1a1c342358232f16eaafa36f8" Left="[float]144" Text="[string]Dips" Top="[float]4" Width="[float]24" />
-				<p4:ArrayViewer ArrayElement="[UIModel]7308fd01d134ba6bc009ceaf6bd8575" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]138" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="651bc68dd7b94e8bbfa1142d73bf8890" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]690f41248b2d46db838d2b2421f5cd5c" Left="[float]1291" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Interpolation\ Graph}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]231">
+				<p4:ArrayViewer ArrayElement="[UIModel]7308fd01d134ba6bc009ceaf6bd8575" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]138" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="651bc68dd7b94e8bbfa1142d73bf8890" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]690f41248b2d46db838d2b2421f5cd5c" Left="[float]1568" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Interpolation\ Graph}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]231">
 					<p.DefaultElementValue>
 						<Cluster>
 							<Field1>null</Field1>
@@ -1237,16 +1241,16 @@
 						<p4:Label Id="855385c91f8c41159aec79ffa0eb9c81" IsVisualChild="[bool]False" LabelOwner="[UIModel]7308fd01d134ba6bc009ceaf6bd8575" Left="[float]61" Text="[string]Cluster_2" Top="[float]-14" />
 					</p4:Cluster>
 				</p4:ArrayViewer>
-				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="690f41248b2d46db838d2b2421f5cd5c" LabelOwner="[UIModel]651bc68dd7b94e8bbfa1142d73bf8890" Left="[float]1291" Text="[string]Interpolation Graph" Top="[float]4" Width="[float]105" />
-				<p4:ArrayViewer ArrayElement="[UIModel]ef72a4ca1c7a4ef3b6c10be73fc28514" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]36" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1bcb9e6c107a44cc979b1508b176f652" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]80d3148a08dd4139b35b2ea8abab7fc8" Left="[float]1530" Rows="[int]1" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Angles\ Graph}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]132">
+				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="690f41248b2d46db838d2b2421f5cd5c" LabelOwner="[UIModel]651bc68dd7b94e8bbfa1142d73bf8890" Left="[float]1568" Text="[string]Interpolation Graph" Top="[float]4" Width="[float]105" />
+				<p4:ArrayViewer ArrayElement="[UIModel]ef72a4ca1c7a4ef3b6c10be73fc28514" Columns="[int]1" Dimensions="[int]1" Enabled="[bool]True" Height="[float]36" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1bcb9e6c107a44cc979b1508b176f652" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" IsTabStop="[bool]True" Label="[UIModel]80d3148a08dd4139b35b2ea8abab7fc8" Left="[float]1807" Rows="[int]1" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Angles\ Graph}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]132">
 					<p.DefaultElementValue>0x0</p.DefaultElementValue>
 					<NumericText Enabled="[bool]True" Height="[float]24" Id="ef72a4ca1c7a4ef3b6c10be73fc28514" IsReadOnly="[bool]True" IsTabStop="[bool]True" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				</p4:ArrayViewer>
-				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="80d3148a08dd4139b35b2ea8abab7fc8" LabelOwner="[UIModel]1bcb9e6c107a44cc979b1508b176f652" Left="[float]1530" Text="[string]Angles Graph" Top="[float]4" Width="[float]72" />
-				<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Disabled" Id="39ee199d7f76436d9e6d6d8b124dc737" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]f55f169318de48c4841fd82610ccae45" Left="[float]1670" TabIndex="[int]4" Text="{ClusterBinding FieldName=Polynom\ String}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" TypeToReplace="[bool]False" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="f55f169318de48c4841fd82610ccae45" LabelOwner="[UIModel]39ee199d7f76436d9e6d6d8b124dc737" Left="[float]1670" Text="[string]Polynom String" Top="[float]4" Width="[float]81" />
-				<NumericText Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="b395684b623a4564a762e6a17cf6d779" Interval="[double]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]95b3b5130cde47969f6e96203f8cfcaf" Left="[float]1778" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=SRb}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="95b3b5130cde47969f6e96203f8cfcaf" LabelOwner="[UIModel]b395684b623a4564a762e6a17cf6d779" Left="[float]1778" Text="[string]SRb" Top="[float]4" Width="[float]21" />
+				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="80d3148a08dd4139b35b2ea8abab7fc8" LabelOwner="[UIModel]1bcb9e6c107a44cc979b1508b176f652" Left="[float]1807" Text="[string]Angles Graph" Top="[float]4" Width="[float]72" />
+				<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Disabled" Id="39ee199d7f76436d9e6d6d8b124dc737" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]f55f169318de48c4841fd82610ccae45" Left="[float]1947" TabIndex="[int]4" Text="{ClusterBinding FieldName=Polynom\ String}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]24" TypeToReplace="[bool]False" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="f55f169318de48c4841fd82610ccae45" LabelOwner="[UIModel]39ee199d7f76436d9e6d6d8b124dc737" Left="[float]1947" Text="[string]Polynom String" Top="[float]4" Width="[float]81" />
+				<NumericText Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="b395684b623a4564a762e6a17cf6d779" Interval="[double]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]95b3b5130cde47969f6e96203f8cfcaf" Left="[float]2055" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]5" TextAlignment="[TextAlignment]Left" Top="[float]24" Value="{ClusterBinding FieldName=SRb}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="95b3b5130cde47969f6e96203f8cfcaf" LabelOwner="[UIModel]b395684b623a4564a762e6a17cf6d779" Left="[float]2055" Text="[string]SRb" Top="[float]4" Width="[float]21" />
 			</Cluster>
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="9820c0f2e7964a4a9b1d55f3e84932f5" LabelOwner="[UIModel]13a86903338747658a761edbb1c4a0fb" Left="[float]229" Text="[string]Parameters" Top="[float]324" Width="[float]59" xmlns="http://www.ni.com/PanelCommon" />
 			<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Params" ClusterType="[Type]@f9993a082f7347e59be8ac028598ee25" Enabled="[bool]True" Height="[float]168" Id="13a86903338747658a761edbb1c4a0fb" IsTabStop="[bool]True" Label="[UIModel]9820c0f2e7964a4a9b1d55f3e84932f5" Left="[float]229" TabIndex="[int]4" Top="[float]344" Value="{DataItemBinding Id=44270b88639b4e70bdc59920f268d7c2}" Width="[float]100" p4:ControlDefinitionChecksum="iyjt6vLSuKOAMjfStKYVtBso4W1p6AwAo4CvJY8ufvw=_v1" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
@@ -1335,19 +1339,19 @@
 					</Field1>
 					<Field2>
 						<Array Lengths="13" IsBinary="True" Compression="GZip">
-							<BinaryElements>H4sIAAAAAAAEAM1VW08TQRTete222xaGAgVEhRVERZqGq1wSzELrhXANRXyoDWy3o1mZ7jZ7IVkS3tQHTbwlJhoTfPNJ/4Hx8m7iX9DE/+CLBucsW7ooGBJJZJv9uvOdM985c87sDsMyDLNJL/iHK3qEwuyMZCqaKpEJ1TB1q4hV00imNB0nhEWsG9Q0OpTshl9CSFnEtHQ8qmLL1CWSEOasPFHkSWwvaCtYHVUtQgKgPrCbaFoypUWJWJjqE8swsX5JwaSQ0gjBMrj76UzuBnBGQJWK2Ag7gwW7hA0kb01JSSVJVkzb5/Mx99iMTblisiJhJC9jFeuKnJxSDHO5J5vdxWUCbAmhaMiaTpR8ZaH9+11ofnBQGpAHzvcM9/Xj7qHhXO7xbrnM5m/Rx2mtgElyHkuFWZXYFbsnu4ypK+rNA05pff/VgRIfcPQQbC7eBwB95QMUYGv4gTpMnYN8uCWFhjICS4ayhkNLq1uq1NK8VxLZXCjEc3Qqcm8/rPIQ7gKn5oRm7EM7wmRzfBBM0Jf/u1P+2oAqT1yn5iFPzYPQAGdX1dDb17RXs3gedmAYIAIQBagCqAYAKR4U+BhALUAdQD1AHKABoJFCOBZ0g3NNAGmlJMzo3FHIBp7nscE1gzMMMqakm9yxsu2iWuCO00GMfgUJtoUxYUqTnQ8ld4LStdv0WLFEFNMqYK6F8o3bfK9aENK0K6t00irmWj1aqYqW4NFKebROerRSv2u1warmsLQijFeU2qGyLlnROUXZuMv+ptJBTQFYagd3GoqV1mjzsUCZYGhHqyKetvJnoF5n/xU6ISDi3ShOOBR2R5x74jEo8gcTLTMtr+783FwfEVFVmUknflx/j9pFVO2ZJbaTRyJCXp0L009FVFNmPr15fvfdyx4RxTw+XzY2Hoqo1juLf/FERHVl5qtqj8TbukRU7/FZvv3srYji3lnfXz/4gBrKzP1vHztHPl8TUaPLsKwfytnq1veqSs/KDG2QRJQ1p6lXNFLAOrxzfjiQeccD2hAdMwxczBN7hh69LMOGuHPUKeoKTahmX69zQHdRmDzADwAL3YOcuQRTed+3do5zckBAtrPslKRQ7TqNaxrBkrrtFfkFX4R6muMIAAA=</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1WTU8TQRhubbvttoWhfAsK6wci2jR8SlFJtm79qCAQilygge12NCvT3WY/SEpC9GJi1AsHPWrCQW/+AL0QExMNB9SLVy/ejPEPEJx32dKFgCGRRLbp051n3nnemfeZ3anL7XK5NugFv3CFj1AYHRENWVVEklJ0QzPzWDH0mKBqOMpNYk2nXYPxWCd8opxgEsPU8KCCTUMTSZQbM7NEloZwcUKdw8qgYhLiA/W+3USToiFOisTEVJ+YuoG1azImOUElBEsQ7qUjmTvA6T5FzGM9aDUmigWsI2lziCAWREk2ih6Px/XYnS5SLh8rS+ix61jBmizFhmXdmO2amtolJAV9US6vS6pG5Gx5ob37XWi2v1/sk/oudA309OLO+EAms7TbXEaz9+jtLTWHSWwci7lRhRTL/Y7ZpQ1NVu4e8JQW918dKPEBZw/A5mI9AOAr66MAW8ML1GFyDubDzMg0le6b0eUFHJiZ31SlPU17TWIqEwiwDB2K7K8XVnkId4FVc0Jn7EHb0kxlWD90gS//d6f81YAKR16r5gFHzf1ggLWrqujX07iXWSwLOzAIEAIIA1QAVAKAFAsKbASgGqAGoBagDqAeoIFCMOK3kzONAEm5wI1ozFGYDdyPY51pgmBopA1RM5jmUt9VJccco40IfQsSXOQS3LAqWS9K5jilq7foRL5AZMPMYaaF8g1bfLeS45LUlXk6aB4zrQ4toazFObQEh9YJh5awU+skrGoMi3PclbLSKaisTZZ1TlO2zmZ3qLTRLh8stY05A8VKqtR8zFHGH9hmVchhK9sO9Tr7r9ABCRFrZ7HSoaDdYuwTz4VCJabl1cP1jcWLPAqXmGgP9/T3xxSPKkpMfC3+lnuT4FGlQ2f219JzHiEHsxJ4tsyjqhJz8/23n5fWkjyKOGK+v/hKR1U7mM+vv9BRNSVmerp5buKywKNaR8yDH4/e8ajOuYrV+8srqL7ErD75tP7h5SSPGmzG7fZCOVvt+t5W6FmZpgaJRF6wTL2hkhzW4JnzwoHMWhFgQzih6zifJcURevS6Xe4Acw7+I9hCKcXo6bYO6PMUhg7wBeAG99otA1zl531z51gnByR0d5SCYhQq7aArqkqwqGxFhf4A1MSB9OMIAAA=</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1WTU8TQRju2nbb7QdD+RY/WEVEpGn4FDAhWWxVGqA0FEhM0+B2O+rKdLfZD5KSmOjJxKiJFw960USM3ryYaLwQTl68evIHGE9ePBAOOu+ypQsBQyKJbNOnO8+887wz7zO7Uxfjcrl+0wt+4QodoTCdEg1ZVUSSVHRDM4tYMfRYXNVwlJ/Hmk67RodjPfCJ8nGTGKaGRxVsGppIonzazBNZmsDlWXURK6OKSYgX1Ad3E02IhjgvEhNTfWLqBtauyJgU4iohWIJwDx3J3gBO9ypiEesBqzFbLmEdSZtD4mJJlGSj7Ha7XQ+YTJlyxVhVQo9dxQrWZCk2KevG9d5sdpeQJPRF+aIuqRqR89WFDux3ofmhIXFQGrzQO9I/gHuGR3K5J7vNZTp/m95OqQVMYjNYLEwrpFztd8wuY2iycvOAp3Rn/9WBEh9wdj9sLs4NAL5yXgqwNTxAHSbnYD7sgkxT6d4FXV7G/oWlTVXa07rXJLI5v59j6VBkfz2wykO4C6yaEzpjN9qWJpvjfNAFvvzfnfJXA8KOvFbN/Y6a+8AAa1fV0q+7ZS+zOA52YAAgCBACCAPUAIAUBwpcBKAOoB6gAaARoAmgmUIg4rOTsy0ACbnEpzT2KMwG7mewzrZCMDQyhqgZ7LFK32WlwB6njQh9CxJc5sf4SVWyXpTsCUrXbdFjxRKRDbOA2ZOUb97i+5QCn6CuLNFBS5htc2jFq1q8Qyvu0Drl0Irv1DoNq0pjcZG/VFVqh8raZFXnDGUbbXaHSgft8sJSO9izUKyESs3HPGV8/m1WBR22cp1Qr3P/Cl2QEHF2FisdCtgt1j7xXChYYaL9/MOfn5MCClWYp+sbG/cvZgQUrjDhV7e6V9ZSAqpx6Kx+e/5SQMjB8I8m3wiotsKsi49/vVtJCyjiiBHav74QUJ2Dufvx2lsB1VeYe+PpD5KbjmpwjlpjPgmo0bkK7svrVdRUYaa+/3i/8mxOQM02wzAeKGebXd85hZ6VGWqQSORly9RxlRSwBs+cBw5kzooAG0Jjuo6LeVJO0aOXcTF+9jz8R7CFkorR32cd0N0UJg7wBcCAe52WJa7q8765c6yTAxIyXZWgGIUaO+iSqhIsKltRwT9dg8iL4wgAAA==</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1WW08TQRTepe222xaGchcV1gsq2my4VS6RZKFVJCBFCsSkNnXbjmZlutvshWQxJL6ZGF9IDP/AJ2OMbxpf+AfGJx9M/BE+aXjAOcuWLgQMiSSyTb/ufHPOd86cM7tThmUYZode8AtXtI5Cek42FU2VybRqmLpVxqppiElNx3FhGesGnRofEfvgExeSFjEtHY+r2DJ1mcSFeatAlOIMthe1FayOqxYhAVBPHCaakk15WSYWpvrEMkys31EwKSU1QnARzP3Uk3sMnBFQ5TI2ws5g0a5gAxV3XZJyRS4qpu3z+ZiXbMamXFmsSRjiFFaxrhTFWcUwH/Vns4eYTMNcXCgbRU0nSqG20KHjLrQwPCwniomb/aODQ7hvZDSX2zgsl3ThKb29p5UwERewXEqrxK7Ne7LLmLqiPjnhlNaPXx0o8QlHD8Hm4n0A0Fc+QAG2hh+o09Q5yIfLKzSUEcgbyhoO5Vd3VelM51FJZHOhEM9RV+R+/bDKU7gLnJoTmrEP7QuTzfFBmIK+/N+d8tcG1HviOjUPeWoehAY4u6qRfn0dRzWL52EHhgEiAFGAeoAGAJDiQYGPATQBNAO0ALQCtAG0UwjHgm5wrgMgpVSEOZ07A9nA/QI2uE4whkHGlHWTO1udu62WuHN0EKNvQYJtYUKY1YrOi5I7T+mmPXqiXCGKaZUw10X59j1+QC0JKdqVVeq0irluj1aypiV4tJIerQsereRBrYuwqnksrwiTNaVLUFmXrOlcpmyryx5Q6aFTAVhqD3cFipXSaPOxQJlgaF+rIp628lehXtf+FXohIOLdKE44FHZHnHviMShSZTZ/b2+/GMtIKFplPnc9ZH59fyCh+ioztKHU5b8sSahhn078jYSQl0mMvZdQY5V5PeXf3Py6LKGYx+Z5+gP1avIwWzvZdxJqrjK3Pq7b3+5TrxavV+fYJwm1er2eiW+3UFuV+dn/qs38sSChdpdhWT+Us9ut75JKz8oMbZBMlDWnqXc1UsI6PHN+OJB5xwLaEJ0wDFwuEHuOHr0sw4a46/AfwRWaVs3BAeeAvkFh5gRfACx0D3Lm4kzted/dOc7JAQHZ3qqRSKHBNZrUNIJldc8q8gfezTWd4wgAAA==</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1WTUwTQRTe2nbbbQvDXwHxh0VFRZuGX4EYkoVWkYCUUCBqbWC7Hc3CdLfZH5JiTDx4MCYejBcv3ryowRjxYGJiPHszHr2oiR48cDMxHtR5y7ZdCBgSSWSbft355s333rz3dqeMi2GY3/SCX7hCeygkxkVDVhWRjCi6oZk5rBh6NKZqOMLPYE2nUwN90Xb4RPiYSQxTwwMKNg1NJBF+wswQWRrFhSl1ASsDikmIF9R7NhONi4Y4IxITU31i6gbWzsqYZGMqIVgCcw9dyV4BTvcqYg7rAWswVchjHUlrS2JiXpRko+B2u5nbrmSBcrloWUKPDmMFa7IUHZN1Y64jldrEZATmInxOl1SNyJnyRru3u9FMb6/YI/Wc6ujv6sbtff3p9N3NYklk5unteTWLSXQSi9mEQgrleUd0SUOTlas7HNL17WcHUrzD3v3QXJwbAOrKeSlAa3iA2k2Vg3jYWZm60r2zuryE/bOLa6p0pmmrIFJpv59j6VJkfz2wy13YBVbOCY3Yjda5SaU5H0xBXf5vp/y1ABUOv1bO/Y6c+6AAVldV0a+7caticRx0YAAgCBACqACoBAApDhS4aoAagFqAOoAwQD1AA4VAtc92zjYCxOU8P66xeyEauJ/EOtsExjBIGqJmsPuKc2eULLufDqrpW5DgAj/Ij6mS9aJkD1C6pkQP5vJENswsZg9SvqHEdypZPk6rskgXLWK22aEVK2vxDq2YQ6vFoRXbqHUIdjWBxQV+qKx0GDJrk2WdI5QN2+wGlVY65YWttrJHIVlxlRYf85Tx+deVKugoK3cM8nX8X6ENHCLO9mK5QwF7xNonHoOCRebVwcvMjw8XBBQqMp+fT9279jMtoIoS831l/uLXSwKqdOgId74tCwg5mI/vbz0UUFWROf0o3PLrRUpA1Q6bG19uPhZQzbp4vM8EVFtk3j55vfJgmK6qc9jMrXa/FFDYqbP6afkNqi8y4c7700/fJQTUYDMulwfS2Wznd1qhZ2WSFkgk8pJV1HMqyWINnjkPHMicZQFlCA3qOs5lSGGcHr0uxuVnT8B/BFtoRDG6Oq0D+iSF0R18AbigehAzG2HKz/ta51gnBzh0tRWNohQqbaMhVSVYVEpWwT9quAOt4wgAAA==</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1VS0/UUBRunZlOOw8uw1tEqQ8UdDLh/ViQFGYACQiEQWJCRui0V1O40076IBmMG+LKuND4B0yIJrpSF27cqDvjf3Bh4tq9j+g9pcMUAoZEEumk3/R+59zvnHvObS/DMgzzm17wD1fsBIXZGdnWDF0mk7plm04B67aVShsmToqL2LSoaXgw1Qm/pJh2iO2YeFjHjm3KJCnOOXmiKVO4tGCsYX1YdwgJgXrffqIZ2ZYXZeJgqk8cy8bmuIaJmjYIwQq4B+lM7hZwVkiXC9iKuIOFUhFbSNmekpaLsqLZpUAgwNxnsyXKFVIVCSs1gXVsakpqWrPsla6lpX1cJsGWFAuWYphEy1cW2nvYheYHBuQ+pa+/a6inF3cODuVyj/bLZTa/Sh+vGSomqXksq7M6KVXsvuyytqnpt484pbuHrw6U+Iij87C5hAAA9FUIUYCtEQTqOHUO8uGWNRrKCi1b2gbml9e3Vaml+aAklnI8L3B0KvLuIKzyGO4Ct+aEZhxAu8Is5YQwmKAv/3en/LUBcV9ct+a8r+ZhaIC7q6rpHWg6qFmCADswAhAFiAHEAaoAQEoABSEBUANQC1AHUA/QANBIIZIIe8G5JoCMVhRnTO4kZAPP89jimsEZBllbNm3uVNk2pqtcCx0k6FeQ4JI4Ik4bivuh5E5TumaHHikUiWY7KubOUL5xh+/WVTFDu7JOJ61jrtWnla5oiT6ttE/rrE8rvVfrHKxqDstr4mhF6TxU1iMrOhcoW++xe1TaqCkES23jLkKxMgZtPhYpE+Z3tSrqa6twCerV/q/QAQGR4EVxw6GIN+K8E49B0TLz5fXC4zvfcxKKlRle3frVck+WULzMjH3+uPmzdUVCVT4d6YP2UkLIr3xDeiGh6jLz9ml801HorITf5xP7SkI1fmb12ZaEasvMVP/Xb+8lOqvO5/Nk/McbCdXvWkXD83eooczcfNiWaH8wIaFGj2HZIJSz1avvdZ2elVnaIJloG25TrxpExSa8c0E4kAXXA9oQG7EsXMiT0gw9elmG5bnL1CnmCU3qdk+3e0BfoTB1hB8AFroHOXNJpvK+b+8c9+SAgGxH2SlFocpzGjUMgmV9xyv6B3BFwtDjCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1W3U/TUBRv3da126AMGCAfUlFUZFn4FDCZ6dxUCAiEAS/LxG69mspdu/SDpCQaH3zSJ999E581Ppj4YLIHE/8A33jyH/BZX4zeU1rWETAkkkiX/db7u+f8zrnn3PaOoimK+k0u+IUrdobA0qJkKpoq4TnVMHWrglTTSGU1HSWFdaQbZCo9nRqBT1LIWti0dJRWkWXqEk4Ky1YJK+V5ZK9qm0hNqxbGIVCfPEw0J5nSuoQtRPSxZZhIv60gLGc1jFEZzIPEk3kAnBFSpQoyIs5g1a4igy/vuWSlqlRWTDsQCFDP6bxNuEqqLmGk7iAV6Uo5taAY5v3RQuEQkzmYSwoVo6zpWCnVFzpx3IWWpqakyfLktdGZ8Qk0Mj1TLL48LJel0iNye1eTEU6tIEleUrFdn/dllzd1RX14wik9Pn51oMQnHJ2FzcUFAKCvXIgAbI0gUKepc5APs6GQUEZow1C2EbuxtadKZrqPSqJQZFmOIa68+w3CKk/hLnBqjknGAb4hTKHIhWEK+vJ/d8pfG9Dki+vUnPXVPAwNcHZVC/kGuo5qFsfBDowARAFiAE0AzQAgxYECFwdoBWgDaAdIAHQAdBKIxMNucKYLIKdUhUWdOQvZwP0KMphuMIZB3pR0k+nx5m6pMtNLBnHyFsTIFjLCglZ2XpRMH6Fb9+lMpYoV05IRc47wnfv8mCoLOdKVLeK0hZh+n1a2riX4tLI+rfM+rexBrQFY1TKSNoWbdaULUFmXrOtcJGzCZQ+oDJKpECx1kLkExcpppPlIIEyYbWhV1NdW7jLU68q/whAE5Dk3ihOOj7gjxj3xKD7qMaz8+lfvM0nkYx6z8j3zMxGSRb7JY9YGZuzPOyWRb/bpfPv69r3I8z5G/Di8I/ItHvMpvvtiapd4xX02T7trxKvVx9TYL29Evs1j3qWjfYM14tXe4HX9g8gnGpj4qxrf4TH3ZjM9T37cEPlOl6HpIJSz363vmkrOyjxpkISVbaepsxqWkQ7PXBAOZM6xgDbEMoaBKiVsL5Kjl6ZolrkK/xFcoTnVHB9zDuhhAvMn+AKgoXuQM5Ok6s/73s5xTg4ISA95RikCza7RTU3DSFL3raJ/ANMJlcvjCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1WzU8TQRTfte222xaGAgXEDxYVFK0rnwKHJlsKCAGBUOTSNLjdHczKdLfZD5KSmHDWk4mJF2O8+gfImaNXjyYejTdvJHoxOm/ZpQsBQyKJbNNfd37z5vfevPd2pwzLMMxvesEvXMkLFBYXZFszdJnM6pZtOhWs25aYN0ycEVaxadGp7JjYD5+MkHeI7Zg4q2PHNmWSEZacMtGUOVxbMTawntUdQiKgPnKc6KRsy6sycTDVJ45lY3Naw0TNG4RgBczDdCW3DpwV0eUKtuLuYKVWxRZS9pfk5aqsaHYtFAoxz9lCjXIVsS5hiQ+wjk1NEec1y348UCweYzILcxmhYimGSbRyfaPDp91oeXRUHlFG7g+MDw3j/rHxUunlcbEslp/S24eGiom4jGV1USe1+nwguoJtavqTMw7p2emzAyk+Y+8xaC4+BAB15SMUoDXCQJ2nykE83JpGXVmRNUvbwrG1zX1VOtN5UhDFUizGc3Qp8r5h2OU57AI354RGHEKH3BRLfBSmoC7/t1P+WoCGgF8357FAzqNQALermug31HFSsXgeOjAOkABIAjQANAKAFA8KfAqgGaAFoBUgDdAG0E4hnop6zrkOgEmtKiyY3EWIBu6XscV1gjEMCrZs2twlf25KV7nLdJCib0GCa0JOmDcU90XJXaF08wGdq1SJZjsq5q5Svv2AH9RVYZJWZZMu2sRcV0ArX9cSAlr5gFZ3QCt/VOsa7GoJyxvCRF3pOmTWI+s6Nyib9tgjKj10KgJb7eF6IVmTBi0+FigTjR0qVSJQVv4m5OvWv0IfOES858V1h+LeiPNOPAYlfGb5e+5nOqJKKOkzb/mZrym8LqEGn/n28b26dw9LqDGg8y6l7UgIBZV/7L2WUJPPfNoeUF6s0FWpgI2QIR8k1Bxgtqeb3kioxWeWfnWLU/10VWvAZje7QX2lg76+tFR3UZvPvOq9++3zToeE2j2GZcOQzi4vv490elYWaIFkom25RZ0xiIpNeObCcCDzrgWUIZmzLFwpk9oCPXpZho1xt+E/gic0q9tDg+4BfYfC3Bm+AFioHsTMZZj6877fOe7JAQ7ZPt9IpNDoGU0YBsGyfmCV+APub4MP4wgAAA==</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1VW08TQRTe2nbabQtLuYsX1gsq2jTcKvBAUmhFEARCkZem4nQ74Mp0ttkLSVGfTHzwDZ98Mv4LExP/iM/+Dz1n2dKFgiGRRLfZrzvfOfOdM+fM7kgBSZJ+wYX/eCUuAayuUFs3BOWLwrJNp8qEbaVzhslS6iYzLTDNTKVH8JdScw63HZPNCObYJuUpdc0pc11bYvUNY5eJGeFwHkb1zGmieWrTTcodBvrcsWxmzuuMV3IG50xD9xDMJNvIWWFBq8yKuYONeo1ZinY4JUdrVNPtejAYlD4ECnXgqummhJV+zAQzdS29rFv2i9Fi8RSXRbSl1KqlGSbXy82FTpx3oeXJSZrRMg9Hp8cn2MjUdKl0cFouq+VX8PjUqDCeXme0sip4vWn3ZVewTV3sXHBKb89fHSzxBUeP4uaSgwjYVzkMgFsjhNT/1DnMh2zpEMoKb1n6Potu7R2qgmXgrCSKpWhUJjBV8e4QrvI/3AVuzTlkHFSOhSmW5AiasC//dqf8sQFtvrhuzaO+mkewAe6u6oA72H9Ws2QZd2AMIY6QQGhDaEdAKRkV5CRCJ0IXQjdCD0IvQh9ALBnxgpN+hLxeU1dMchmzwed1ZpEBdMZBwaamTa40bI9EhVyFQRK+gpzV1Vl12dDcDyW5BnTnET1brXHddiqMXAe+74gfExU1D13Zg0l7jAz6tHJNLdWnlfNp3fBp5U5q3cRVrTG6q841lW5hZT2yqXMb2B6PPaEyBKYwLnWI3MFi5Q1oPlOBiUSPtSrua6t8F+t1729hGAMqshfFDafEvBHxTjxJiTeYz/LCzyTbziqJBvOm9G7vycHLrNLWYHY/PmefnJ2s0u7XySS/ZhXFz7z+9j6rdLTESvqYL/M/vmeVzhafrhamu2VWT4tPbwvT5zEBKYTlHPTq+0zAWVmABlGu77tNXTB4hZn4zoXwQJZdD2xDYtayWLXM6ytw9AakQJTcB6eEJ7Qo7PEx94B+ALB0gR+AAHYPcyYpqfm+H+4c9+TAgIHhhlMaoN1zmjMMzqg48or/Bm4N893jCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1VW08TQRTe2nbabQtLuYsX1gsK2jRcBR5ICq0ogkAoEpOmwel21IXpbLOz26REExMfTExM5B/46IM/wAf1VX+AT77zF3wy0TnLli4UDIkkss1+3fnOme+cOWd2R/JJkvRbXPAPV+yMgKVFbOkGw3SOccu0S4RZPJk2TJJQ14jJhWlqIjkIv4Satqllm2SKEdsyMU2oy3aB6to8qa4am4RNMZvSIKiPHSaawRZew9QmQp/a3CLmrE5oMW1QSjRwD4iZ6DFwPMhwifCIM1itlglXtN0paVzGmm5V/X6/9NqXrQqulKxL8OQdwoipa8kFnVuPhnK5Q1zmwJZQS1wzTKoX6gsdPe5CC+PjeEwbuzU0OTJKBicm8/ntw3JZKmyIx/tGkdDkCsHFJUardbsnu6xl6uzJCaf0/PjVgRKfcPQwbC7ZDwB9lYMCYGsEgDpNnYN80LouQvHgOte3SHi9sqsqLD1HJZHLh8MyElMV9w7AKk/hLnBqTkXGfmVfmFxeDoEJ+vJ/d8pfG9DkievUPOypeQga4OyqFnH7u49qlizDDowARAFiAE0AzQAgJYOCHAdoBWgDaAfoAOgE6BIQiYfc4KgbIKOX1UUTnYVs4HmFcNQDzjDIWti00Lma7TYrovNiEBdfQUqq6rS6YGjOhxJdEHTrHj1dKlPdsosEXRR81x4/zIpqRnSlIiZVCOr1aKXrWqpHK+3RuuTRSh/UugyrWiZ4U52pK12ByrpkXeeqYDtc9oBKnzAFYal96BoUK2OI5hNVMKHwvlZFPW2Vr0O9+v8VBiCgIrtRnHBKxB0h98STlGiNeZZ/Wbm3/TSlxGrMw6/fP/38tpFSmmrMm/73r3590FNKs0fnRc+XjylF2cfsvE0pLQ2x4h7m3eyPzymltcGnrYFpb5jV0eDT2cB0uYxPCkA5e936PmDirMyKBmGqbzlNvWvQIjHhnQvAgSw7HtCG2DTnpFSg1UVx9PokXxjdEE4xV2iOWSPDzgF9U8D8CX4AfNA9yBklpPr7vrtznJMDAvoGak5JAc2u04xhUILZnlf0D90PrFXjCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1VzU8TQRTfte202xaW8i1+sKKoaFP5FDiQFFpRAgKhSEyaBqfbwSxMZ5udXZKSmHj2pP+BN/8GEzXeNPHqybMXL8Z48Krzli1dKBgSSWSb/XXn99783pv3ZnckWZKk3+KCf7jiZwQsLWLbMBmmc4zbllMmzOapjGmRpLZGLC5MUxOpQfgltYxDbcciU4w4toVpUlt2itTQ50l11dwibIo5lIZAfeww0Sy28RqmDhH61OE2sWYNQksZk1Kig3tQzEQbwPEQw2XCo+5gtVohXNV3p2RwBeuGXQ0EAtIzOVcVXDlVl+Cpu4QRy9BTCwa3Hw3l84e4zIEtqZW5blrUKNYXOnrchRbHx/GYPnZ7aHJklAxOTBYKLw7LZam4KR7vmyVCUysEl5YYrdbtvuxytmWwxyec0pPjVwdKfMLRI7C5lAAA9FUJCYCtEQTqNHUO8kHrhgjFQ+vc2CGR9e1dVWHpOSqJfCESUZCYqnp3EFZ5CneBW3MqMg6o+8LkC0oYTNCX/7tT/tqAJl9ct+YRX83D0AB3V7WIO9B9VLMUBXZgFCAGEAdoAmgGACkFFJQEQCtAG0A7QAdAJ0CXgGgi7AVH3QBZo6ItWugsZAPPK4SjHnCGQc7Glo3O1Wx3WAmdF4OE+ApSUtWmtQVTdz+U6IKgW/fo6XKFGrZTIuii4Lv2+GFW0rKiK9ti0jZBvT6tTF1L82llfFqXfFqZg1p9sKplgre0mbrSZaisR9Z1rgi2w2MPqPQLUwiW2o+uQrGypmg+0QQTjuxrVczXVuUa1Ov6v8IABFQVL4obTo16I+SdeJIaqzEPP3x+8+vjZlqN15jZd7e+L8jltNpUY/o25J8/vm6l1Wafznvr0+u0qvqYp6++PU+rLQ2xEj7m5eyXt2m1tcGnrYFpb5jV0eDT2cB0eYwsBaGcvV59HzBxVuZEgzA1dtym3jNpiVjwzgXhQFZcD2hDfJpzUi7S6qI4emVJjqAbwinuCc0xe2TYPaBvCpg/wQ+ADN2DnFFSqr/vuzvHPTkgoDxQc0oJaPacZkyTEsz2vGJ/ANdqNmHjCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1V3U4TQRTete202xaW8i+KrD+oaFP5FTAhKbSCBARCkZum4nQ7moXpbLOzS1KML2C84c5LL3kGE30J77zy2gsTfQGds93ShYIhkUS22a873znznTPnzO5IsiRJv8UF/3DFLwlYXcG2YTJMFxm3LadMmM1TGdMiSW2TWFyYZqZSw/BLahmH2o5FZhhxbAvTpLbmFKmhL5HqhrlD2AxzKA2B+sRJolls401MHSL0qcNtYs0bhJYyJqVEB/egmIleAsdDDJcJj7qDjWqFcFWvTcngCtYNuxoIBKS3cq4quHKqIcFTC4QRy9BTywa3X4zk8ye4LIItqZW5blrUKDYWOn7WhRYnJ/GEPvFwZHpsnAxPTRcK+yflslrcFo9PzRKhqXWCS6uMVht2X3Y52zLYq3NO6c3ZqwMlPufoEdhcSgAA+qqEBMDWCAJ1kToH+aAtQ4TioS1u7JHI1m5NVVj6TksiX4hEFCSmqt4dhFVewF3g1pyKjAPqkTD5ghIGE/Tl/+6UvzagxRfXrXnEV/MwNMDdVW3iDvSe1ixFgR0YBYgBxAFaAFoBQEoBBSUB0A7QAdAJ0AXQDdAjIJoIe8FRL0DWqGgrFroM2cDzOuGoD5xhkLOxZaMrddtjVkJXxSAhvoKUVLVZbdnU3Q8l6hd0+yE9W65Qw3ZKBF0TfM8hP8pKWlZ0ZVdM2iVowKeVaWhpPq2MT+u6TytzXOsGrGqN4B1trqF0EyrrkQ2dW4Lt8thjKoPCFIKlDqLbUKysKZpPNMGEI0daFfO1VbkD9br7rzAEAVXFi+KGU6PeCHknnqTG6sz85wc/luVyWo3Xmf0D8/3CIzOtttSZ7e7n3w/6WVpt9el8+/LzY1pV/cqvf71Lq21NsRI+5sP8109ptb3Jp6OJ6Wya1dXk093E9HiMLAWhnANefZ8xcVbmRIMwNfbcpj4xaYlY8M4F4UBWXA9oQ3yWc1Iu0uqKOHplSY6ge8Ip7gktMnts1D2g7wtYOscPgAzdg5xRUmq877Wd454cEFAeqjulBLR6TnOmSQlmh16xP7CBPYrjCAAA</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1V3U/TUBTv3Ha3boMyvsUPqoiKLAufAiYkhU2QgEAY8jIXvOuupnLXzt6WZCTGNx9MfODNFxMf/SP0H/Gf0XNKxwoDQyKJdOlvvb9z7u+ce85trxSSJOk3XPiPV+oawMY6dQzLpHzFFI7tVpnpiGzOsllG3WG2ANP8bHYMfxk153LHtdm8yVzHpjyjbrplbuirrL5t7TFz3nQ5j6L69FmieerQHcpdBvrcFQ6zlwzGKzmLc6ajewRmktfIiahJq0wkvMF2vcaEoh9NydEa1Q2nHg6HpU+hQh24arYpIbLLzGS2oWfXDOG8Gi8Wz3BZQVtGrQrdsrlRbi506qILLc/M0Gl9+vH43OQUG5udK5UOz8plo/wWHp9bFcazW4xWNkxeb9oD2RUc2zDfXHJK7y9eHSzxJUeP4+aSwwjYVzkKgFsjgtRV6hzmQ3YNCCWiu8I4YPHd/SNVsAycl0SxFI/LBKYq/h3BVV7BXeDVnEPGYeVEmGJJjqEJ+/J/d8pfG9AWiOvVPB6oeQwb4O2qDrjD/ec1S5ZxByYQkggphDaEdgSUklFBTiN0InQhdCP0IPQi9AEk0jE/OOlHyBs1dd0m1zEbfN5iggygMw4KDrUdcqNhe2pWyE0YpOEryFldXVDXLN37UJJbQHce0wvVGjcct8LIbeD7jvkJs6LmoSv7MGmfkcGAVq6ppQa0cgGtOwGt3Gmtu7iqTUb31MWm0hBW1iebOveA7fHZUyrDYIriUofJfSxW3oLmMxWYWPxEq5KBtsoPsF4P/xVGMKAi+1G8cErCHxH/xJOUZIM5/G59WX5iaUrqhE/HO01pazAvv2pDYrSmKe0BH+3z5A9NUYKzPrIPmtLREisdYL4t/fqpKZ0tPl0tTHfLrJ4Wn94Wps9nQlIEyzno1/eFCWdlARpEuXHgNfWZxSvMxncuggey7HlgG1ILQrBqmdfX4egNSaE4eQROKV9oxXQmJ7wDehRg9RI/ACHsHuZMMlLzfT/aOd7JgQFDIw2nLEC777RoWZxR89gr+QdzLiT84wgAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VW0/UQBRu3d3ZLSwMoNxvhQUFWTdc5ZJgCrteCIhEEB+QQLc7Jg2z7abTkiwJb+qDJmpMTDQm+OaT/gOD+m7iX9DE/+CLBueULlsRDIkk2s1+nX5zzndmzjmdCqIgCDv8gjtc0RMcrs2qtm4aKp0ymG05WWLYLJE0LRKXF4nF+NT4SKIXfnE56VDbsci4QRzbUmlcnnPSVNemSX7BXCPGuOFQGgL1oYNEU6qtLqrUIVyfOswm1iWd0EzSpJRoYB7knug2cCxkqFnCStyHhXyOMKztuiTVnKrpdj6AAsJ9cT7PuWyiKMESl4lBLF1LzOjMXu1bWjrAZArm4nKWaaZF9XRxo4NH3Wh6eFgd0obO940ODJLekdHl5c2jLwX2c8zRI1BJKQAASZRCHKAOQaD+pzTBetCKzkOx0ArTN0hkZX1Xlc80HLaIpeVIRELcFXv/yqA3QGGAlJ6TZy0U4eMwjK8ThiTIAzzM26plo5LC3EUjg0pBgrciJXl5Qp4xNbdbUZTTVXv0RDZHddvJEFTG+do9vt/IyCmeu3XutE5QuU8rWdTCPq2kT6vCp5Xcr1UJu5oj6po8WVSq4mSFRxZ1TnK22mP3qZziUyHYaieq5sOSlMmrQmTOBKEv/m2n/rEBynxx3ZrX+GoehgZwuxpyGKg7rFmkWqh8HUA9QANAI0ATQDNAC0ArgAzQBtAOEAPoAOiE1IVrfolZ6lufdBqszvwtdEEYXOtFgQ4WcJ33hLxzWsD1vzENBabl1d0fO5tjCm4sMKn491vvcEzBTT4vJUYfK7jZr3Ph6lMFtxSYj2+e39t+2afgVp/N562tRwqW/V7SiycKbiswX4z8WHV7j4LbfTard569VXDM7/Xt9cP3uKPAPPj6oXvs000Fd3qMKAYhna1efm8Y/ISf5x2pUn3DfQuumDRDLGieIHxGJNcCyhCdYIxk0zQ/yz8YoiBGUDc3inpCU4Y90O9+Vs5ymD7GThaherBm1CMUG3f3VXOPYAgodhWMznEo94wmTZMS1dizKv0JYDaVR5kHAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1Vy08TQRjfte205TWA8n4tL0WtDU8pKsmWrY8KQSLIBQhst2OyYbpL9kFSEqIXE6NePOhREw568w/QCzEx0XBAvXj14s0Y/wGC8y27dCVgSCTRbfrbmd988/tmvu/bGY7nOG6bPfCGp+QYgxvjsqXqmkzTmmkZdo5olhmXdIPEhGlimGxoOBHvhl9MkGxq2QYZ1ohtGTKNCRN2hqrKKMlP6YtEG9ZsSkOgPrCfaEq25GmZ2oTpU9u0iHFFJTQr6ZQSBcyDbCa6DZwZ0uQcMYuczlR+iZhY2ZkiyUuyolr5AApwD/jJPONy8YKEGb9KNGKoSnxMNa2FnpmZfUzSMBYTcqaiG1TNFDbaf9iNZgYH5QFl4HzPUF8/6U4Mzc2tHn4psJ8j9h6BTEYDABDEaIgB5CEI1P8UJlgPmleZKzM0b6orJDK/vKPKRuoPWsTMXCQSRWwqdv8VQbeBwgApdUkYN1CEtcPQvklMFIU4QGfSkg0LFXljl7UsKgYJVoqU5IWkMKYrTrWiEkZX7tLJ3BJVLTtLUCnja3b5Xi0rpFjsltmkZYLKfFpSQQv7tCSfVrlPS9qrVQG7miDyojBSUKpkZLlLFnSOM7bKZfeonGBDIdhqJ6pizaKUzrJCBMYEoS7+baX+sQBKfX6dnFf7ch6GAnCqGmIYqD2oWKI1kPlagDqAeoAGgEaAJoBmgBYAAaAVoA2gHaADoBNCF67+zWexb33Rk2B16m+hC9zgGtcLVDCHa90ecs9pDtd5TPOLe1vbqxdEXO8xsT7h0c/3aRE3eExiM/FaeJUUcaNPZ+HH46cibvIx65EnayJu9pjrb798v7iZEnGLz+brs89sluBjPr78xGa1eszsbMPi1CVJxG0+m7vf7r8Rcbt/Fxt31tZxh8dsPPyw9e75tIg7XYbngxDOFje+tzR2wk+yipSpuuJ8Bdd0miUGFE8QrpGoYwFpKEmaJsllaH6cXRg8x0fQabjZXKG0ZvX1OtfKGQajR1jJPGQP1ozOcoXC3fnUnCMYHPJdntE5BmWu0YiuUyJru1bFvwDrdm4pmQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1Vy2sTQRjfNckk24fTVvt+bV9abQx92lYobJuoDa0xmLYgpdTNZsSlk92wj0IKgp4EUY8e9KJgRW9eBMVL6cmLV0/+AeLJi4fSg8633W3W0krBgm7Ib2d+883vm/m+b2c4nuO4n+yBNzwVxxhcTcmWqmsyTWqmZdh5ollmLK4bJCouEMNkQxNjsX74RcW4TS3bIBMasS1DplExbWepqsyQ4py+QrQJzaY0BOoj+4kmZEtekKlNmD61TYsYl1RCc3GdUqKAeZDNRDeBM0OanCdmmdOZKxaIiZWdKXG5ICuqVQygAHefzxQZl4+VJMzYZaIRQ1Vis6pp3RhYXNzHJAljUTFvKrpB1Wxpo8OH3Wh2dFQeUUbOD4wPDZP+sfGlpduHXwrs54i9RyCTQgAAgiiEGEAegkD9T2GC9aBllbkyQ8umukYiy6s7qmyk6aBFLC5FIgJiU7H7rw66DRQGSKgFMWWgCGuHoX2NmEiAOEAnY8mGhcq8sYtaDpWDBCtFSoripDirK061ogpG1+zSk/kCVS07R1Al4+t3+UEtJyZY7FbZpFWCjvu04iUt7NOK+7SqfFrxvVrVsKs0kVfEqZJSDSOrXLKkc4KxtS67R+UkGwrBVntQLWuWJXSWFSIyJgh18W8r9Y8FUOnz6+S8zpfzMBSAU9UQw0DDQcUi1EPmGwAaAZoAmgFaAFoB2gDaAUSADoBOgC6AboAeCF247jef5b71CafA6vTfQi+4wfWuF6hgDje4PeSe0xxu9JjokPjg+8ekhJs85vHW9va9CxkJN3tM5YtbfeubKQm3+HQ2vjx9LuFWHyM+nH0l4TaP2ZIf/XiznpZwu89G6vr8TMKij7nz/vprCXd4zN3p9DslwGZ1+mdt8h8k3OXfhfDp5Qbu9pgrX7+9XX8yL+Eel+H5IISz3Y3vvMZO+AyrSJmqa85XMK3THDGgeIJwjQiOBaShYtI0ST5Liyl2YfAcH0Fn4GZzhZKaNTToXCtnGcwcYSXzkD1YM+rjSoW786k5RzA45Hs9o3MMjrtGU7pOiaztWpX/AmIxJ1aZBwAA</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VW08TQRTepe205TaAciu35aaoteFWuUSSha0igQBSICaV1O12TDZMd5u9kBRD4puJ8cXE8A98Msb4pvGFf2B88sHEH+GThgecs+zShYAhkUS36bez35zznZlzzu5wPMdxB+yCO1zVFQyWFmVL1TWZzmmmZdgFollmQtINEhfWiWGyqanxxCD84oJkU8s2yJRGbMuQaVxYtnNUVeZJaVXfJNqUZlMaAvXkaaIp2ZLXZWoTpk9t0yLGXZXQvKRTShQwDzJP9Bg4M6TJBWJWOg+rpSIxsXLoIslFWVGtUgAFuOd8usS4QqIsYSZmiUYMVUksqKb1aCiTOcVkDubiQsFUdIOqufJGR8+70dzYmJxUkreGJkZGyeD4xMbGzvmXAvu54OgRqGQ0AABJjIYYQB2CQP1PaYL1oKzKQpmhrKluk0h261CVzcTOWkRmIxKJIuaK3X990B2gMEBKLQqLBoqwcRjGK8REUcgDPKQt2bBQpTd3R8ujKpBgrUhJSZgWFnTF6VZUzeiGI3q6UKSqZecJqmF88xE/rOWFFMvdFnPaIqjWpyWVtbBPS/Jp1fm0pJNa9bCrZSJvCjNlpQZG1rlkWecSYxtd9oTKZTYVgq32o0Y2rEzprCpEYEwQ+uLfduofG6DGF9epeZOv5mFoAKerIYeBlrOaJdoMlW8BaAWIAbQBtAN0AHQCdAEIAN0APQC9AH0A/ZC6cNOxmFW+9UWvgNXVv4UBCIOb3SjQwRxucZ+Q+53mcKvH7P7a3382mRZxzGM+dT7kfn57IOI2jxl9qVZkP6+JuP2YTvy1iDv8THLynYg7PebVbHB398u6iLt8Nk+X3jMvwcfsHWTeirjbY25/2Cl9vc+8evxescmPIu71ez1JvNnDfR7zY+hFk/V9RcT9LsPzQUhnl5vfNY194dOsI2WqbjtvwT2d5okBzROEYyTqWEAZqqdNkxRytLTIDgye4yPoGpxsrtCcZo0MO8fKdQbzF9jJPFQP1oxucOXGPXzVnE8wBOQHPKObDGpdoxldp0TWjqyqfgPhf9pAmQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VS2gTQRjeNckk6Wvaavp+bF9aNYY+bYsUtk20lpa22AdqDO1mM8LayW7YRyEVwYMHETx58eLNi0pFbA+CIJ69iUcvKujBQ2+CeFDn326SbWmlYEE35NuZb/75/pn//3eG4zmO+8UeeMNTcojB9JRkKpoq0XHVMHUrTVTTiEQ1nYSFBaIbbGh4MNIFv7AQtahp6WRYJZapSzQszFhJqsgTJDunLRN1WLUo9YF6/26iMcmUFiRqEaZPLcMk+jmF0FRUo5TIYO5lM9FV4AyfKqWJUWR35rIZYmB5a0pUykiyYmY9yMPd4WezjEtHChJGZIyoRFfkyKRimEvd8fguJuMwFhbShqzpVEkWNtq3340mBwakfrn/dPdQbx/pGhxKJG7sfymwnwP2HoBMBj0AEMSgjwHkwQvU/xQmWA9aVJgrw7doKKsksLiypcpG6vZaRDwRCAQRm4qdf4XXaSA/QEzJCFM6CrC2H9oXiIGCEAfozJqSbqKi3NhZNYWKQYKVIiVZYUSY1GS7WlEJoyvz9Eg6QxXTShFUyvjqPN+jpoQYi90Km7RCUJlLK1rQwi6tqEur3KUV3alVAbuaIdKyMFpQqmRkuUMWdA4zNuSwO1SOsCEfbLUDhVizKKaxrBCBMV6oi39bqX8sgFKXXzvnVa6c+6EA7KqGGHpq9iqWYDVkvgagFqAOoB6gAaARoAmgGUAAaAFoBWgDaAfogND5q7b5LHatL3gUrI79LXSCG1zteIEK5nCN00POOc3h2hzzsukK9/39RRHX5ZhPz+fuXf+REHF9nvm2fu3Sl8sibnDpiHe/rom40cV8eHf7oYibcsyZR6GWnxtxETe7bG5+vvVYxMK29fieibglx7x58mr9wRib1eqyWdrseyHiNrfO5se117g9x4R67s8/fTst4g6H4XkvhLPZie+8yk74WVaRElVW7a/gvEZTRIfi8cI1ErQtIA0lI4ZB0kmanWIXBs/xAXQcbjZHaFw1e3vsa+UEg4kDrGQesgdrRie5QuFufWr2EQwO+c6c0SkGZY7RqKZRIql5q+LfVQrscJkHAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1Vy08TQRjfte205TWA8n50eVRRa8P7cSBZaAEJBIkgMSEVptsxWZnuNvsgKcYL8WQ8mPgPmBBN9KQevHhRb8T/wYOJZ+8+ovMtu3QhYEgk0W3625nffPP7Zr7v2xlBFAThF3/gDU/FGQ7XFoil6hphs5ppGXaeapaZTOkGTUgr1DD50Phoshd+CSllM8s26LhGbcsgLCEt2lmmKnO0uKxvUG1csxkLgfrQUaJpYpEVwmzK9ZltWtSYVinLpXTGqALmQT4T3QbODGkkT80yp7NcLFATK3tTUqRAFNUqBlBAeCAuFTmXT5YkzOQM1aihKsl51bTW+1ZXjzCZhbGElDcV3WBqtrTRwZNuNDsyQoaUoeG+sYFB2js6lsncO/lSYD+n7D0CmYwGACCI0RAHyEMQqP8pTLAetKZyV2ZozVS3aGRtc0+VjzQft4jVTCQSRXwqdv81QbeBwgBptSAtGCjC22FoX6cmikIcoLNkEcNCZd7YlJZD5SDBS5HRojQhzeuKU62ogtO1+/REvsBUy85RVMn5hn2+X8tJaR67TT5pk6Iqn1aqpIV9WimfVrVPK3VYqwZ2tUjJhjRZUqrlZLVLlnTOcrbOZQ+pnONDIdhqHNXxZlla51mhEmeCUBf/tlL/WACVPr9Ozut9OQ9DAThVDTEMNB5XLNEGyHwjQBNAM0ALQCtAG0A7QAxAAugA6AToAugGiEPowvUHfJb71hc9D1YX/hZ6wA1ucL1ABQu40e0h95wWcJPHfH69/Pjut4yMmz0mktv52XqfyLjFY6Y+7W7/iK3LuNWnI39QX8q4za98U34h43aPefu0cttW+KyY3+aj+ErGkp+582xHxh0eMzf85et7mc/q9Nk8mf7+RsZdB3ZR//wd7vaYW4/iNT0PZ2QcdxlRDEI4Y258b2j8hF/iFUmYuuV8BVd1lqMGFE8QrpGoYwFpqJgwTZrPsuICvzBEQYygi3CzuUKzmjXQ71wrlzjMnWIli5A9WDO6LJQKd+9Tc45gcCj2eEZXOFS5RpO6zijR9q3KfwNP9y0NmQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VS2/TQBC2SbJxmrZuCn2lL/cRKDREfdIWKcipA7RqVaq+LlUpjrNIVjd25LUrpRKIAyf4C9woZxAHJA5IOSDxA7j1xB/gDBcEO67duFWLKoEEjvJ5/e3MN7szYy/Hcxz3k11wh6v+AoN7S6qtm4ZK5g1qW04JGzbNKKaF09IGtiibyk5nRuCXlhSH2I6FswZ2bEslaWnZKRBdW8CVNXMHG1nDISQC6pOnieZVW91QiYOZPnGoja07OiZFxSQEa2AeZp7oIXA0YqglTOvch7VKGVNRO3RR1LKq6XYlhELcM361wrhSpiZBM3exgS1dyyzq1H4wurl5isk8zKWlEtVMi+iF2kYnzrvRwtSUOqlN3hidGZ/AI9MzW1uPzr8U2M9fji5AJWMhAEhiLMIA6hAG6n9KE6wHbessFI1sU30PC9u7h6psJnnWIja3BCGGmKvo/RNhb4CiAHm9LC1ZSGDjKIxXMEUxyAM8rNqqZaM6f+62UURxkGCtSHBFykmLpuZ2K6pndPMRnSuViW47RYwaGN92xI8ZRSnPcrfLnHYxagxoKTUtMaClBLSaAlrKSa0E7GoZqzvSbE2pmZFNHlnTucjYFo89oXKJTUVgqynUwoZ1eZNVBUuMCUNf/NtO/W0DNATiujVvDdQ8Cg3gdjXkMNR+VrPE2qDy7QAdAEmAToAugG6AHoBeAAmgD6AfYABgECAFqYu2HosZD6wvdhmsrvwpDEEYsc2LAh3Mie3eE/K+05zY4TNC8eWPrqeqLCZ9ZuVr7ntLpCiLnT6z3j9T+bhfkMWugM6Xz6/fymJ3gJHfD+/LYo/PfEgcPJ86YF69AZsnySrzkgJMVfj0Shb7fOZNNt6dqjKv/mNeN9/J4sAxJvGiKg76zP25XOfjb7dkMeUxPB+GdPZ6+V032Bd+lXWkSvQ99y2YM0kRW9A8YThGYq4FlKE+RykuFUhliR0YPMcL6CqcbJ7QvGGPj7nHyjUGC3+xk3moHqwZDXO1xj181dxPMATkh3yj6wwaPaNZ0yRYNY6s4r8A7Lt6FpkHAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VzU8TQRTfte20y9dQECjfy6eopfIpcGiypQUhECSAXAjB7XZINkx3m51dkpKYcNariRdjvPoHyJmjV48mHg03byR6MTpv2aUrAUMiiW7T38785s3vzbz3dkYQBUH4yR94w1Nzi8PjFdXWTUOliwazLadIDJulsqZFkvImsRgfSk+nRuCXlLMOtR2LpA3i2JZKk/Kqk6e6tkTKG+YeMdKGQ2kE1CcvE82ptrqpUodwfeowm1jzOqGFrEkp0cA8zGeiXeBYxFCLhFW5nY1yiTCsnU3JqiVV0+1yCIWE5+J6mXPFVEWCpR4Rg1i6llrWmf10dGvrEpNFGEvKRaaZFtXzlY1OXHej+akpdVKbfDg6Mz5BRqZntrefXX8psJ8b9h6DTEohAAiiFOEAeQgD9T+FCdaDdnTuikV2mH5AYjv7Z6p8pO2qRWxtx2IS4lOx94+HvQaKAuT0krxioRhvR6G9RhiSIA7QWbdVy0ZV/ticUUDVIMFLkZKynJGXTc2tVlTD6YZzOlMsUd12CgTVcr7lnB8zCnKOx26fT9onqC6gla1o4YBWNqBVH9DKXtSKw65Wibonz1aUGjhZ75EVnUbONnnsBZXbfCgCWx1ATbxZlTN5VojMmTDUxb+t1D8WQG3Ar5vz5kDOo1AAblVDDEOJq4pFaoHMJwBaAdoA2gE6ADoBugC6AWSAHoBegD6AfoABCF20+Tef1YH1SYNgdedvYQjc4BbPC1SwgBNeD3nntIBbfWbta+Z7U6Sg4DafeSMtfImTXQW3+8zJh3eF0wdEwR0Bnbdx/UjBnUHlb6evFNzlMx8PR7UXG3xWd8BGTtL3CpYDzOF8/WsF9/jM6o+e1NwIn9UbsDlO73FffUFfnxtLx7jfZ14ODp98OkooeMBjRDEM4ez24vvE4Cf8Oq9IleoH7lewYNICsaB4wnCNSK4FpKEmwxgp5ml5hV8YoiDG0F242TyhRcMeH3OvlXsclm6wkkXIHqwZ3RcqhXv2qblHMDgUh3yjYQ51ntGsaVKiGudW1b8A0d1s0pkHAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VW08TQRTete20C4WlKPfbclPU2nCrwANJoQVBCBJBXkjF6XbQDdPdZme3SVGfTHzwTZ98Mv4LExP/iM/+Dz1n2dKVgiGRRNv06+w3Z74zc863u5IsSdJP+OA/fuLXAB5tUcewTMrXTeHYbomZjkhlLZsltT1mC5hanE9N4jepZV3uuDZbNJnr2JQntW23wA19g1V3rSNmLpou5xFUT58nmqMO3aPcZaDPXeEwe9VgvJi1OGc6hodhJTlETkRMWmKiybvYrZaZUPWTJVlaprrhVEMkJL2Td6rAlVJ1CZF6wExmG3pq0xDOs6n9/XNC1nEuqZWEbtncKNQPOnvZgxbm5mhaT9+fWpiZZZPzC/n868tvBc9zxdlj2EklhIBFVCIA2IcwUv9TmXA/5MCAVCJyIIxjFjuonKjCTO9Fm9jPx2IKgaWq/0uE/QGJIuSMsrZlkxiMozh+zARRsA54seNQ2yFNtbkVs0iaUQKsyFlVW9I2Ld1zK4kD3X5KL5XK3HDcIiMtwHed8tNmUctB7SqwqMJIa0ArW9dSA1rZgFZbQCt7ViuBp9pm9Ehbriu1A9nmk3Wd68B2+OwZlRswFcGjjpMOGDblLOgK04AJoy/+rVP/aICWQF6v552BnkfRAJ6rsYah7ovMonRh57sRehB6EfoQ+hEGEAYRhhA0hGGEEYRRhDGEcSxdtPO3nM2B/Sk3MerW38IEplG7/CzoYEnt9q+I/5yW1J4a80lZ+5Fghxm1t8a8yr+pPHz/IqP21ZijD0/ZR/d5Ru0P6qQTXzLqQJB5+fVtRh1syDUUYD6vfv+WUbWGmOEGZqRh1WhDzFgDM+4zshTGcg759X1iwhN+BxxJuXHs3QVrFi8yG80TxteI4kVgG+JLQrBSgVe34IUhS3KM3IaguC+0bjoz095r5Q7AxhU6Wcbu4Z7JXalu3JNbzXsEY0J5ohZ0D6DVD1q2LM6oeRrV/AtRvxwAmQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VXU/TUBhu3Xa2wqCA8jW+ypeizoVPgQuSQSeKECSCxIQs2HXHWDlrl552yYgmJl6YmJjoP/DSC3+AF+qt/gCvvPcvcGWi71s6VhgYEkl0y56dPuc9z3vO+z5tBVEQhF/wwX/8xM8B3FnVHMMyNbZkcsd2C9R0eEq1bJpUNqnNYWpuJjWK36SiusxxbTpnUtexNZZU1twcM/RlWt6wdqg5Z7qMRVB96jjRjOZomxpzKegzlzvUXjQoy6sWY1TH8DCsJA+R4xFTK1Be511slIuUy/r+ElUrarrhlEMkJLwU18vAFVJVCZ66SU1qG3pqxeDOg7GtrWNClnAuqRS4btnMyFUPOnnag+amp7Upfer62OzEJB2dmc1mn55+K3ieM84ew05KIQQsohQBwD6EkfqfyoT7IdsGpOKRbW7s0th2aV8VZhInbWIrG4tJBJbK/q857A9IFCFjFJVVm8RgHMXxXcqJhHXAi3VHsx1SV5m7YeZJPUqAFRktK/PKiqV7biVxoFsO6PlCkRmOm6ekAfj2A37czCsZqF0JFpUoaQxoqVUtOaClBrSaAlrqUa1mPNUa1XaUhapSC5BNPlnVOQ9sq88eUbkAUxE86jBphWFdxoKuUAWYMPri3zr1jwZoCOT1et4W6HkUDeC5GmsY6jjJLFI7dr4DoRMhgdCF0I3Qg9CL0IegIPQjDCAMIgwhDGPpom2HctYH9iddxKhLfwsjmEZu97OggwW5w78i/nNakDsrzJPs89LtN4/ScqLC3P/y7ePe18dpuavCvBp59+LneyMtdwd0niU+f0jLPYeYH6/Tcm9Nrr4A83bx+6e0rNTE9NcwAzWrBmtihmqYYZ8RhTCWs8+v7z0TnvDr4EiNGbveXXDLYnlqo3nC+BqRvAhsQ3yec1rIsfIqvDBEQYyRyxAU94WWTGdi3HutXAFYPkMni9g93DO5KlSNu3+reY9gTCiOVIKuATT6QQuWxahmHkTV/wbivUOImQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VS08TURSese1tBwoDKO/X8FLUWnkKLEgKU1ECQSJITAjB2+klGbmdaebOkJTExLUrf4I7f4OJGneauHXl2o0bY1y4xXOGKR0pGBJJtE2/3vnuud+595xvZiRZkqQD+OA/fpIXAO6tUNe0LcoXLeE6XoFZrkjrtsNS2gZzBEzNTqdH8JvSdI+7nsNmLea5DuUpbdXLcdNYYqV1e5dZs5bHeQzVJ08SzVKXblDuMdDnnnCZs2AyntdtzpmB4VFYSXaQEzGLFpio8S/WS0UmVONwiU6L1DDdUoREpGfyWgm4QroiIdJ3mMUc00gvm8J9NLq5eULIIs6ltIIwbIebucpBJ8560NzUFJ00Jm+NzoxPsJHpma2tJ2ffCp7nnLMnsJNKBAGLqMQAsA9RpP6nMuF+yLYJqURsW5j7LLG9d6gKMx2nbWJzK5FQCCxVg19jNBiQOELWLGorDknAOI7j+0wQBeuAF2sudVxSU567beVJLUqAFTkraXPasm34biVJoJuO6LlCkZuul2ekDvjWI37MymtZqN0eLNpjpD6kpVe01JCWHtJqCGnpx7Ua8VSrjO5q8xWlJiAbArKicxHY5oA9pnIJpmJ41CHSDMOarA1dYRowUfTFv3XqHw1QF8rr97wl1PM4GsB3NdYw0naaWZRW7HwbQjtCB0InQhdCN0IPQi+ChtCH0I8wgDCIMISli7f8lrM2tD/lMkZd+VsYxjRqa5AFHSypbcEVCZ7TktpeZh6+//T654fHGbWjzCy8vfltWS5k1M4y078j//j+ZTejdoV03jkfX2XU7hDz9OXX5xm1pypXb4h5sfD5TUbVqmL6qpj+qlUDVTGDVcxQwMhSFMvZG9T3gQVP+DVwJOXmvn8X3LV5njlonii+RhQ/AtuQnBOCFXK8tAIvDFmSE+QqBCUDoUXLHR/zXyvXAJbO0ckydg/3TK5LFeMe3mr+IxgTysPloBsA9UHQvG1zRq2jqNpf6NjZvJkHAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VXU/TUBhu3Xa2wqCA8v1VvhR1Tj4FTEgGnSCBIBHkhiCedcekctouPS3JMP4B4413XnrJbzDRP+GdV157YaJ/QN+3dKwyMCSa6JY9O33Oe573nPd92kqyJEk/4IP/+ElfAniwTj3TsSlfsYXn+hazPZHVHZdltG3mCpian82O4Tej6T73fJfN28z3XMoz2oZf4Kaxyspbzj6z522f8wSqT58lmqce3abcZ6DPfeExd8lkvKg7nDMDw+OwkjxFTiRsajFRF1xslUtMqMbxEp2WqGF65RiJSS/lzTJwVrYqIbLLzGauaWTXTOE9Gd/ZOSNkBecymiUMx+VmoXrQqYsetDAzQ6eN6Tvjc5NTbGx2bnf3xcW3guf5y9lT2EklhoBFVBIA2Ic4Uv9TmXA/ZM+EVCKxJ8xDlto7OFaFma7zNrGzm0opBJaq4a85Hg5IEiFvlrR1l6RgnMTxQyaIgnXAi02Puh6pq8zds4ukHiXAipyVtQVtzTECt5I00C0n9IJV4qbnFxlpAL79hJ+wi1oeancAiw4YaYxo6VUtNaKlR7SaIlr6aa1mPNUGo/vaYlWpBcimkKzqXAa2NWRPqVyBqQQedYS0wrAu70BXmAZMHH3xb536WwM0RPIGPW+L9DyJBghcjTWMdZxnFqUdO9+B0InQhdCN0IPQi9CH0I+gIQwgDCIMIQwjjGDpkm2/5KyP7E+5ilHX/hRGMY3aHmZBB0tqR3hFwue0pHZWmKUPt7+uyVZO7aowr4+cN8t3nZzaXWGetT3+ctRr59SeiM7nj9/e5dTeqPLz769yal9Nrv4I83bp0/ucqtXEDNQwgzWrhmpihmuYkZCRpTiWsz+s7yMbnvCb4EjKzcPgLrjv8CJz0TxxfI0oQQS2Ib0gBLMKvLwOLwxZklPkOgSlQ6EV25ucCF4rNwBW/6KTZewe7pnclKrGPb7VgkcwJpRHK0G3ABrDoEXH4YzaJ1H1PwGPM9JXmQcAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1VXU/TUBhu3Xa2wqCA8v1VvhRlLnwKmJAUOkECQSLIzVzwrDsmDWft7GlJRmK888LEC++8MfHSH6F/xD+j71s6VhgYEkl0y56dPuc9z3vO+z5tJVmSpF/wwX/8pG8BPNuhnuXYlG/awnP9MrM9kTUcl2W0A+YKmFpZyk7jN6MZPvd8l63YzPdcyjParl/klrnFqvvOEbNXbJ/zBKovXCaaox49oNxnoM994TF33WK8ZDicMxPD47CSvEZOJGxaZqIpuNivVphQzdMlBq1Q0/KqMRKTPsh7VeDK2bqEyG4wm7mWmd22hPdqJp+/JGQT5zJaWZiOy61i/aDz1z1ocXGRLpgLj2aW5+bZ9NJyofD2+lvB89xw9hR2UokhYBGVBAD2IY7U/1Qm3A85tCCVSBwK64SlDo9PVWGm76pN5AuplEJgqRr+2uPhgCQRclZF23FJCsZJHD9ngihYB7zY86jrkaba3BO7RJpRAqzIWVVb1bYdM3ArSQPdcUavlivc8vwSIy3Ad5/xs3ZJy0HtjmHRMSOtES2jrqVGtIyIVltEy7io1Y6n2mX0SFurK3UA2RaSdZ3bwHaG7AWVOzCVwKNOkE4YNuUc6ArTgImjL/6tU/9ogJZI3qDnXZGeJ9EAgauxhrGeq8yidGPnexB6EfoQ+hEGEAYRhhCGETSEEYRRhDGEcYQJLF2y61zO5sj+lLsYde9vYRLTqN1hFnSwpPaEVyR8Tktqb4359M35vPHY0dW+czFtb3S1v8a8/KKPiamKrg5EYvSPc991dTC66j17p6tDDbmGI8zX9Z8/dFVriBlpYEYbVo01xIw3MBMhI0txLOdwWN8XNjzh98CRlFsnwV3w1OEl5qJ54vgaUYIIbEN6VQhWLvLqDrwwZElOkfsQlA6FNm1vbjZ4rTwA2LpBJ8vYPdwzmZLqxj291YJHMCaUJ2tBDwFaw6A1x+GM2mdRzb8BTJzLIZkHAAA=</BinaryElements>
 						</Array>
 					</Field2>
 					<Field3>
@@ -1416,13 +1420,6 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1096d84cf51944528912d7d0d7e91b23">
-			<Attributed AttributedType="@0aa3f9853c474600928ec9e20299e8c9">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
 		<p.TypeReference TypeId="c3146c735c644616b349c49c8c4f2286">
 			<Attributed AttributedType="@6d7b03b77b6246019bc90009060beb4f">
 				<AttributeValues>
@@ -1471,8 +1468,8 @@
 		<p.TypeReference TypeId="c58a34a9a770484f81b5fdc85cd5ee68">
 			<VariableArray DereferenceType="@8786acfd05bf40499ea8dabe13eea12f" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="46cfef914efe4e569baaf0d88c3551f2">
-			<Attributed AttributedType="@abf4cc7e3d2d42f388e401923daed245">
+		<p.TypeReference TypeId="2bacf18900ad4a8789fca0b82938fb4c">
+			<Attributed AttributedType="@f7d99a22befc4d08afa39b431f6eea72">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1480,8 +1477,15 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b0b0d0d0a0c14ae2a1b227b5867476a4">
-			<Attributed AttributedType="@b08ca166788c49fbb777aa903b945c5b">
+		<p.TypeReference TypeId="d8ac076e9aa44a3dbf04d72aade036f7">
+			<Attributed AttributedType="@c9cf95e42eb947c3ad1e117034140e41">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ef78e72e330c4e16abd0be7fba9a608f">
+			<Attributed AttributedType="@0d52398903de42d5adfe8b03a3101906">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1489,8 +1493,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="608dd4d3b0ef4c85b9bdce9bf8f448b9">
-			<Attributed AttributedType="@3e0ff2382bed4f729a951e5a4da5e142">
+		<p.TypeReference TypeId="e4f00dfe2c4e4acc9756b228512fdf55">
+			<Attributed AttributedType="@32a08ba4719e4b21b80e9915b033c361">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1507,8 +1511,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="02d9271651de4a09b9bc9e9ee9799104">
-			<Attributed AttributedType="@4358dfd9263e4acbb06fcbff5af3e0dc">
+		<p.TypeReference TypeId="8b037b0d2cac4a3a8f4412b41f1f6ace">
+			<Attributed AttributedType="@4640a084726c43f2b08855306c7dbc00">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1516,8 +1520,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="52e0f73998104ac786d6ca524d59f5fc">
-			<Attributed AttributedType="@b03c26b4eb544ea6946c437d3896afcb">
+		<p.TypeReference TypeId="02589dd8d6e2430da5140c4ae1379410">
+			<Attributed AttributedType="@6b4e5f16bbb94c959d20862fe18f85a1">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1525,8 +1529,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3328ff05b6f94106b3b8147002a51e23">
-			<Attributed AttributedType="@4ebe9c314d384375942608a7f23c1f7e">
+		<p.TypeReference TypeId="ba3da15de8a34f1c9daf46f8aeed0f69">
+			<Attributed AttributedType="@3ee06b3cdaa14d9983eba8007a0748f6">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1534,8 +1538,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9508e190202f4414a483be38153614d3">
-			<Attributed AttributedType="@70f6cab4b5c64fa7814c0efa16e1588a">
+		<p.TypeReference TypeId="a26ac22d0f8449599c7349845dd122e2">
+			<Attributed AttributedType="@0d20c341d9b84e7c9468465df26e3507">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1543,8 +1547,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="156f25ca32cc42bba1ec83c851abb7e8">
-			<Attributed AttributedType="@da6df8b70bad4f809648edadcea86cd0">
+		<p.TypeReference TypeId="e97abf880cb84848b077bff41b619b20">
+			<Attributed AttributedType="@dea6c31912e74e36a81f5af7580cc7b7">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1552,8 +1556,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="66526977a2c247bebe8ed7c225a912e6">
-			<Attributed AttributedType="@ece379b058614ada94e1dfa7eeef7323">
+		<p.TypeReference TypeId="48dc7073d0ab49e294dad1afec1f10f7">
+			<Attributed AttributedType="@ae65123a79e942999bbd1c2bedf5556e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1569,8 +1573,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b34f8f8e5ce445d99e0a7808c7498d49">
-			<Attributed AttributedType="@7f1bab742c6f465e884f06499515bde1">
+		<p.TypeReference TypeId="56b5c1c124b24ab480413784378d799e">
+			<Attributed AttributedType="@617d4c46ef764779b00617ecd8c5a566">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -1630,7 +1634,47 @@
 		<p.TypeReference TypeId="37e6cf33cf414c22a449d0b6054bbedf">
 			<Typedef TypedefName="SRb Results.gtype" UnderlyingType="@26e0136e5cf54392a49c3c761b42f7d6" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="0aa3f9853c474600928ec9e20299e8c9">
+		<p.TypeReference TypeId="6d7b03b77b6246019bc90009060beb4f">
+			<Typedef TypedefName="SRb Graphs Info.gtype" UnderlyingType="@6c907b63ca244214868e84921595661c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e7e9cadbac343bb8752a7116faa2637">
+			<Typedef TypedefName="Dip TypeDef.gtype" UnderlyingType="@96c8c20ed60e4acd89021c1bd321c95e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f9fe799619fd4b6a83e60159e54ee565">
+			<Typedef TypedefName="SRb Params.gtype" UnderlyingType="@e54547b086fb4532a5be8a5e817a1f94" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f7d99a22befc4d08afa39b431f6eea72">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@18f5c62cb4714c72908d47dd503a8c75">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Image" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c9cf95e42eb947c3ad1e117034140e41">
 			<Composite Id="1" Name="iSRb.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -1645,6 +1689,8 @@
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
@@ -1673,65 +1719,27 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Valid Valleys Indexes" DataType="Int32[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="(i)SRb Result" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="SWAP Coordinates" DataType="Boolean" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (2737)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="6" IsStatic="False" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="7" IsStatic="False" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="8" IsStatic="False" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="9" IsStatic="False" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="10" IsStatic="False" IsConstructor="False" Name="iSRb - Write ROI.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="11" IsStatic="False" IsConstructor="False" Name="iSRb - Write Rectangle Points.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="12" IsStatic="False" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
-					<Function Id="13" IsStatic="False" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Module SRb - Core.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="iSRB - Apply Angle to Rotated Rectngle.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (2737)SRb.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="iSRb - Write ROI.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="iSRb - Write Rectangle Points.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="14" IsStatic="False" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
+					<Function Id="15" IsStatic="False" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6d7b03b77b6246019bc90009060beb4f">
-			<Typedef TypedefName="SRb Graphs Info.gtype" UnderlyingType="@6c907b63ca244214868e84921595661c" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="9e7e9cadbac343bb8752a7116faa2637">
-			<Typedef TypedefName="Dip TypeDef.gtype" UnderlyingType="@96c8c20ed60e4acd89021c1bd321c95e" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="f9fe799619fd4b6a83e60159e54ee565">
-			<Typedef TypedefName="SRb Params.gtype" UnderlyingType="@e54547b086fb4532a5be8a5e817a1f94" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="abf4cc7e3d2d42f388e401923daed245">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Ref Image.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="0d52398903de42d5adfe8b03a3101906">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@18f5c62cb4714c72908d47dd503a8c75">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]Image" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
-						</AttributeValues>
-					</Attributed>
-				</Parameters>
-			</Function>
-		</p.TypeReference>
-		<p.TypeReference TypeId="b08ca166788c49fbb777aa903b945c5b">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Averaged Line Profile.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
-				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1746,7 +1754,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1764,10 +1772,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3e0ff2382bed4f729a951e5a4da5e142">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="32a08ba4719e4b21b80e9915b033c361">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Peaks Valleys Detector.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1782,7 +1790,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1805,10 +1813,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="4358dfd9263e4acbb06fcbff5af3e0dc">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="4640a084726c43f2b08855306c7dbc00">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Filter Valleys.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1818,7 +1826,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1841,10 +1849,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b03c26b4eb544ea6946c437d3896afcb">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="6b4e5f16bbb94c959d20862fe18f85a1">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Detect Doubles and Write Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1854,7 +1862,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1872,10 +1880,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="4ebe9c314d384375942608a7f23c1f7e">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="3ee06b3cdaa14d9983eba8007a0748f6">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write Start End Separators for Dips.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1885,7 +1893,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1903,10 +1911,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="70f6cab4b5c64fa7814c0efa16e1588a">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="0d20c341d9b84e7c9468465df26e3507">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute Dips Percentages.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1916,7 +1924,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1934,10 +1942,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="da6df8b70bad4f809648edadcea86cd0">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="dea6c31912e74e36a81f5af7580cc7b7">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Set Relative Angle.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1952,7 +1960,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -1962,7 +1970,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Rectangle Points" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@b109a30864324b80bb90937ae6f0a97b">
+					<Attributed AttributedType="@bd1a292bc1994517a05043c32af64dbb">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]ROI min(x,y)" />
 						</AttributeValues>
@@ -1975,10 +1983,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ece379b058614ada94e1dfa7eeef7323">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write ROI.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="ae65123a79e942999bbd1c2bedf5556e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Write ROI.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -1993,7 +2001,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in (no error)" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -2009,15 +2017,15 @@
 		<p.TypeReference TypeId="909b0658668e4537bd7eabbef1443593">
 			<VariableArray DereferenceType="@242e02603b1d4e269dc576050be95792" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="7f1bab742c6f465e884f06499515bde1">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="617d4c46ef764779b00617ecd8c5a566">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@d8ac076e9aa44a3dbf04d72aade036f7" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@0a4814e9969a4d5b89d52e6fe706a8f6">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]First Visible" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@6d4a458823ca48a2afe9d645a83cdc75">
+					<Attributed AttributedType="@3dd93a87e19a48fea5922650ae96916f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb in" />
 						</AttributeValues>
@@ -2032,7 +2040,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dips" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@4fd6bf504ff84a97a160ce6442d044c6">
+					<Attributed AttributedType="@789fa8910964493194a54b850c5945d9">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]iSRb out" />
 						</AttributeValues>
@@ -2137,19 +2145,6 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c8d59c7146754002a7e286b5b38ceec4">
-			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="f476b70272aa4c0386f3a205aaab8959">
-			<VariableArray DereferenceType="@4da91bb1ab7a4e98ba70ae065c7f4ebf" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="e19d5489fae6494baed813043ca7cf6b">
-			<Attributed AttributedType="@893ae023ecc74c68b7f284b4c194b598">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
 		<p.TypeReference TypeId="6c907b63ca244214868e84921595661c">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
@@ -2192,8 +2187,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6d4a458823ca48a2afe9d645a83cdc75">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@1096d84cf51944528912d7d0d7e91b23" />
+		<p.TypeReference TypeId="3dd93a87e19a48fea5922650ae96916f">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@d8ac076e9aa44a3dbf04d72aade036f7" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="18f5c62cb4714c72908d47dd503a8c75">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType=":UDR:TagRefnum|NI::Vision::Core::Core UDR::VisionCommon.udr::IMAQImage" />
@@ -2201,11 +2196,24 @@
 		<p.TypeReference TypeId="33517a5423de4493bc4b86a1fb30811d">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="4fd6bf504ff84a97a160ce6442d044c6">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@1096d84cf51944528912d7d0d7e91b23" />
+		<p.TypeReference TypeId="789fa8910964493194a54b850c5945d9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@d8ac076e9aa44a3dbf04d72aade036f7" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="e514662b8b6a49ffb833fe0f7de20c2a">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c8d59c7146754002a7e286b5b38ceec4">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f476b70272aa4c0386f3a205aaab8959">
+			<VariableArray DereferenceType="@4da91bb1ab7a4e98ba70ae065c7f4ebf" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e19d5489fae6494baed813043ca7cf6b">
+			<Attributed AttributedType="@893ae023ecc74c68b7f284b4c194b598">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]My Computer" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="28535b7faf654c41a095487949ce0072">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Int32" />
@@ -2234,7 +2242,7 @@
 		<p.TypeReference TypeId="92c7de59414f47978ead67a2740a4269">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@c58a34a9a770484f81b5fdc85cd5ee68" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="b109a30864324b80bb90937ae6f0a97b">
+		<p.TypeReference TypeId="bd1a292bc1994517a05043c32af64dbb">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Int32" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="3f91ff485e174679adacd2d8f47944d6">
@@ -2337,7 +2345,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL1Y4BDoMwDAN57f6013ZpHUzq0A4JOmmnCNluYrG93mXR/Lx62zw3AURnm2dWLWe08iprnEEazkQbpzbPl+poGZ7aPIN0PwYxHL3mGT7cnz+tXkjZcd/w6B5ddXVtHmn3itj7fDXb2YvQyNbV9A98rwksV/ytF7RG1CN44yP3INqsR2DjmHhADXH6NMF2bMlHDmgh6nODyRzbOObKwXVW9RpoXFYNYPgF1HWjz4HoSJdCMKHIGgKIJceBAT36irWvCKGLuAprMCEMKWiFLs2rkkQBREfUP8g/VpfyAUqvPiUmsGTeAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2360,7 +2368,7 @@
 							<Text Height="[float]22" Left="[float]5" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Line&#xD;&#xA;Profile" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]13" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]30">
 								<FontSetting FontFamily="Segoe UI" FontSize="6" />
 							</Text>
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2377,7 +2385,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD3SURBVEhL1YxrDsMwCIN72t1pp80AU5dAk/1IOmmfUGLz8PF6t4fq59HH4X0RIOlqa82i0xltmqY11qAbzpIWbm2tL9HRsnlraw265zGIzdG01nCwXn8a/SDtxL3hrTW6aHVWW9I9Iubuj2b6llxBUyxLi2C2SBeNdAzWQdbz0cjVz7g2jGipk4hI6ypspIN0pkvTBSJdr3gAoqWOwibeqWCmxaW0Ha0uncDyrdiW4Y2yiqkAzWa1CWkq7rZy5UJEGzWEkDSA5gvyDWciooYQ5rrr+N/PuHFz0OvRSOjNObMTJ/aFkRay9d/gLAl5wUTDQoDO7KS1DzS+HUabfrivAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2394,7 +2402,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVEhL1YwBDsMgDAP72v1pr2UBU9dNINPUMqknC9kh8fZ6l0X6e/W29bkZ4HyMUVm1O2N0v26NmkzlzHljGKO+VGvkcBijJtP9GOhw9hs1/biuh1YvpOz03Oija5yqa2q6pb1XaO/91WxnL4xG9TAJPK4i/a8ZjephEnjcpTfw+saYYDu2dMjdMNaPHZ0nYLUrHnDiTF1tYDjE/g7lq7+yqtdA47JqoAGeL2g/lcQrpymNAa8TI9lUAyyelhhhGIH+Om8gkvGlAe8OGOOmGjC+NODtBTqEAW4IA07hXp5YXcoHNElQE5n0d18AAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2411,7 +2419,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADESURBVEhL7YxbDsMwCAR92typp3V4mRIwyYdNpEodoYhdnGnHpxfN6+rWpIeFcXuMce7U7jeN7uqe6SSt+c3twDTGeVDbqOU0xkna8TNjy+waJz2sz4+qC+kDyYRUa1zUmGi22EVhvfvVat/iBdBCLhyFb4tc1GznwzrsqlerFzdCYywByaaxQPsdfeQW+40xA84y9unUgi8IuiAuOviGYx/pzov9Rm56QQpCqlHyopGhOyI58HBeocoLVHmBv9pRpu79BF9sxJ598AvPAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2428,7 +2436,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVEhL1YwBDoMwDAN57f6013ZpHYxJUxCCTuIUVbabePl8y6T5e/WyeG4CBN3bfo6qwxlt+A1rnEEqZ0Ebqe3npFotw9T2M0jXY6Dh6Lef4cf9eWn1RMqK+4ZH99hVV9fmkXav0N7nq9mOXiQGdNtKvg7gZR2yhk4I8apI4aqPnqnWBK+KFGxvk56FMN3psV/79tHVahrQDPEChCPse5vT7UvM6jXQOK0aBB80rWojtWAXURBN2mLc7AXZtkH1klAHUZcaCA3VIHrAPRUk5EGQna93DffjilGuRP8gb6wu5Qdtdj4l/CyiOgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2445,7 +2453,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVEhL7Y7dDoAgCEZ92t6ppzUEIoNIm9LW1tl3IX+n0rLmoLyuTon78CDU25Y2d2p1JqWaqjWJ063O1Bu4LG0a6rqU5mVp43T3Y6JuelMbdzCej6oDyTtcI9wa46QuFWaKnRW1d75a7FO8QLGgq0Sg2SAnNdlpMA654tUTvcDhvVfLqP/zLMWT9k2/FyBjl/qRFyhGghsOstDcFND68Hc6ifICUV7gVyvC1DlvmOAhUJ7TzRkAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2462,7 +2470,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVEhL1YwBDsMgDAP72v1pr2WAU88EyFq1TOopQrZDvL3eadH8vXrbLM8CON3bfqJqd0brtu4bZ5LKmdOZoe3nR7VahkPbzyTdj4GGs20/08X1eWj1QtKO+YpF12iqi6tzS7tVaO/91Wx3vbbaNcQRytd6UIZgBzRxq5jytR7YBMdlV7cUMfj0neDmSJ3SVMfHp6t1zh7HrOrNoHFZNVBP3QugYQZhxnzFR2qp9SVq3QrkcPADgm9gAUOl8fgBYJkHNqOaNNHsWAUINGnMvTyxOqUPYcJw8lwXF9wAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2479,7 +2487,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC9SURBVEhL7YxBDsMwCAT92vypr3XA4BWB0Ei1qVSpoz2wGE87Xr0oX1e3pnsaBDfHGvNO7b6huld3hiRb883NxG2NeVDbiuVtjUm287Ngl9lrTPqwnh9VF9In2ge6WuOi5jayxa4K692vhn2Ll2DLcHGAvC1yUYtdHtYRV73aebkPtM8NZhky2Ii4a2fJagY9a+IprwaodkDNkJ+ceIqNDFnNoANFFwYs7RCXGXL8cPQZVV6iykv81Y4yde8nq9XigPa9YZgAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -2496,7 +2504,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7YxREoAgCEQ9bXfqtIaCZKD1IdtMM73ZDxfkpW3PoLyuTknm9GDM21efO7U502q25ptmMu3OzJsYVp8HdV91OKw+k2k7ZvrhbOszXazno2oguSG9IqM1LurSakLsoui98Wq1h3iJYqmuEoV3i1zUbOfFOuzCqwO9xOkFqmO9BBthakYGcaC8BMpLoLzErzbA1Dkf+KEzPnjUapcAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
