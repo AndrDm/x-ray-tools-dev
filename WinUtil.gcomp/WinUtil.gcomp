@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="37BBD94C1D81FB5A938278B351F0CFDD2EE5A2D97BEDFC25DE75DE91B1BF299224E0F0FBCE1A4134604573E03B96A495E13FB12B59A8D2423F7D5551B62E2AE2" Timestamp="1DBAD1B895B46FE" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="dd301063eef044b7a9ae24b5bc43203e" RootNamespaceId="9166d5f2800e4a44b7c9bcfea2455d82" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="d9682c7a6d6148a985a74bbab9f42b71" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d3df2fc4546e475da0f2a7e239565e4d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="8e6f472af33f49cca9ae667ffc5ad232" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="2bc322e691eb4e6390bb71e12fa6f730" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="6b4ded3ceb5c4cb3bb6cbb9adcf396bf" Name="Default">
+			<CompilerSymbolTable Id="239def2b12fd4b889d1064737c02a9cf" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="7fd990c3e9c94787969f1ecb5ff1fc70" />
+			<ComponentItemProperties AssociatedEnvoyId="6ca943f7a6f84b019a57404382553903" Exported="True" Id="876f2bcc7ac6413399dede211783a37f" />
+			<ComponentItemProperties AssociatedEnvoyId="95a2e4d6c7bc48669e8d7b0cd0bd46bd" Exported="True" Id="c74253abce8b44768bbf0748d489901c" />
+			<ComponentItemProperties AssociatedEnvoyId="da394f2acf9b463aa134f5e22c2a4f0e" Exported="True" Id="c27319d37e424a70a7a06ae963d784fa" />
+			<ComponentItemProperties AssociatedEnvoyId="591b694b6344e7fb6e8709534d31e79" Exported="True" Id="74aad02b009445fba2980cfe8d969d1a" />
+			<ComponentItemProperties AssociatedEnvoyId="b48cc07e3c00462fae8707cf4eed793e" Exported="True" Id="195d5b333254c08b82787e2b05ff9db" />
+			<ComponentItemProperties AssociatedEnvoyId="72ff38a7254841458a0e723027fa1353" Exported="True" Id="d64ea7e2b5c34efabf17236d0a0b8a5b" />
+			<ComponentItemProperties AssociatedEnvoyId="bbfb9f73428d4bd9a6d16b5d591b47a4" Exported="True" Id="7906f0c8c3d542bdad54ca505795c6f3" />
+			<ComponentItemProperties AssociatedEnvoyId="98a3e0a2d54c43af9261eb74cc37ca64" Exported="True" Id="10ecdbe072f64a27aba26353adecc206" />
+			<ComponentItemProperties AssociatedEnvoyId="7ee0fd82e6f84529adc133b59479fd2f" Exported="True" Id="3be297ff5d8842d592eb58c5798948a8" />
+			<ComponentItemProperties AssociatedEnvoyId="4cf714dccd4c4bb49ec4c7d83f2c7d13" Exported="True" Id="a77b9bf4dae744d0b3f70a29c13a7a2b" />
+			<ComponentItemProperties AssociatedEnvoyId="94804365164b4eb884b09e5672d5c9c7" Exported="True" Id="d473c3323da249aab396461625ab06b8" />
+			<ComponentItemProperties AssociatedEnvoyId="2d3695d5899c40e7bf531fe86610ecda" Exported="True" Id="3bdf9db2384041a186d886917a766c39" />
+			<ComponentItemProperties AssociatedEnvoyId="42c87d57b8774dbe90d80e76c5bf0f8f" Exported="True" Id="1d818a73747843a98db4bdf18a658464" />
+			<ComponentItemProperties AssociatedEnvoyId="6e62f639ee5241e3b186832c620596f2" Exported="True" Id="296ef8c23284fb9bada1d531d5b0cf3" />
+			<ComponentItemProperties AssociatedEnvoyId="1c123bd8df564e22a531fc0d27a785dc" Exported="True" Id="41bc8b8b9c724abba30a424d3207103c" />
+			<ComponentItemProperties AssociatedEnvoyId="9aa6b4ee1ac44dcdb1b8721278702fa8" Exported="True" Id="a8c948cbeead418b9012a114b15ede66" />
+			<ComponentItemProperties AssociatedEnvoyId="49b53cff841b40749991749c4e7d4b5f" Exported="True" Id="32d01192f8974178a07638b28baf7c01" />
+			<ComponentItemProperties AssociatedEnvoyId="46c5973a928e44f292f3abc5166f6b31" Exported="True" Id="41042ee766c6416184142456cf2a05fd" />
+			<ComponentItemProperties AssociatedEnvoyId="660345b1366747128459a8b9203b8bb8" Exported="True" Id="9edd8af4a18d462a9c74e2f4fa0b4093" />
+			<ComponentItemProperties AssociatedEnvoyId="ee277a2ef3d8413aba43a976515a7fe5" Exported="True" Id="196b21aeaca84e269fa9aaf5df45c98f" />
+			<ComponentItemProperties AssociatedEnvoyId="59c7f8ff0b6646bdb9d810e5c1db226c" Exported="True" Id="dd277b4abbb44f9eb66bd4a10f91bd73" />
+			<ComponentItemProperties AssociatedEnvoyId="edaa5f87deb243b2abcda50ad3a4414b" Exported="True" Id="2510d11f7ea9482a85ba3421743dff75" />
+			<ComponentItemProperties AssociatedEnvoyId="df0677b2d3244e68b61f1956359d7feb" Exported="True" Id="247ae1c570b44c80b81242f4f46acd17" />
+			<ComponentItemProperties AssociatedEnvoyId="b755c3e5ee0e420286574bb412646a12" Exported="True" Id="542f9f439f2c426c998af4f6fef3b94e" />
+			<ComponentItemProperties AssociatedEnvoyId="9788e4602ab44923acbaa32aa17c7512" Exported="True" Id="5dd0a2647e9d465cb0c8a5d4fb0fa3b8" />
+			<ComponentItemProperties AssociatedEnvoyId="9a419d3e56034ec9953522a1f46b5098" Exported="True" Id="c3b6102466004e02998ce33ed7943af6" />
+			<ComponentItemProperties AssociatedEnvoyId="385f87920aea4c7db6476c27fbd527f1" Exported="True" Id="3fc3a5a4e4bd4ea2beac240792b9d45d" />
+			<ComponentItemProperties AssociatedEnvoyId="4e903474c65b46d9b22621bbf77a270f" Exported="True" Id="48361d5409f64dfdaace570e6774f7c8" />
+			<ComponentItemProperties AssociatedEnvoyId="52b965a97d924effab7ab4e294653845" Exported="True" Id="45c19ea4238e4fd2a01cd352f2d28d78" />
+			<ComponentItemProperties AssociatedEnvoyId="c9f00eec444a48b492a1876d199af27b" Exported="True" Id="7f409ed78f574fa99e67dd65e7e38660" />
+			<ComponentItemProperties AssociatedEnvoyId="dc04a29fbebb4f218a26f9236b7bd8a9" Exported="True" Id="3a5150add65342ed9df686d3c581b1ae" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="63a7557fbb1f4a768b13d94bc431fb8f" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d728c0b68372437e81780b6d03ded98e" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="38cb809843744c1a8687e9c5797d0df6" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9166d5f2800e4a44b7c9bcfea2455d82" Name="Main">
+				<SourceFileReference Id="6ca943f7a6f84b019a57404382553903" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Control Window.gvi" StoragePath="Control Window.gvi" />
+				<SourceFileReference Id="95a2e4d6c7bc48669e8d7b0cd0bd46bd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Extract Window Origin - Size.gvi" StoragePath="Extract Window Origin - Size.gvi" />
+				<SourceFileReference Id="da394f2acf9b463aa134f5e22c2a4f0e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Flash Title Bar.gvi" StoragePath="Flash Title Bar.gvi" />
+				<SourceFileReference Id="591b694b6344e7fb6e8709534d31e79" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generate String Buffer.gvi" StoragePath="Generate String Buffer.gvi" />
+				<SourceFileReference Id="b48cc07e3c00462fae8707cf4eed793e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get VI FrontPanel RefNum.gvi" StoragePath="Get VI FrontPanel RefNum.gvi" />
+				<SourceFileReference Id="72ff38a7254841458a0e723027fa1353" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get VI RefNum.gvi" StoragePath="Get VI RefNum.gvi" />
+				<SourceFileReference Id="bbfb9f73428d4bd9a6d16b5d591b47a4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Window Name.gvi" StoragePath="Get Window Name.gvi" />
+				<SourceFileReference Id="98a3e0a2d54c43af9261eb74cc37ca64" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Window Rectangle.gvi" StoragePath="Get Window Rectangle.gvi" />
+				<SourceFileReference Id="7ee0fd82e6f84529adc133b59479fd2f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Window RefNum.gvi" StoragePath="Get Window RefNum.gvi" />
+				<SourceFileReference Id="4cf714dccd4c4bb49ec4c7d83f2c7d13" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Hide Window.gvi" StoragePath="Hide Window.gvi" />
+				<SourceFileReference Id="94804365164b4eb884b09e5672d5c9c7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Make Window Always on Top.gvi" StoragePath="Make Window Always on Top.gvi" />
+				<SourceFileReference Id="2d3695d5899c40e7bf531fe86610ecda" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Maximize Window.gvi" StoragePath="Maximize Window.gvi" />
+				<SourceFileReference Id="42c87d57b8774dbe90d80e76c5bf0f8f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Minimize Window.gvi" StoragePath="Minimize Window.gvi" />
+				<SourceFileReference Id="6e62f639ee5241e3b186832c620596f2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move Window to Bottom.gvi" StoragePath="Move Window to Bottom.gvi" />
+				<SourceFileReference Id="1c123bd8df564e22a531fc0d27a785dc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move Window to Top.gvi" StoragePath="Move Window to Top.gvi" />
+				<SourceFileReference Id="9aa6b4ee1ac44dcdb1b8721278702fa8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move Window.gvi" StoragePath="Move Window.gvi" />
+				<SourceFileReference Id="49b53cff841b40749991749c4e7d4b5f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Not a Window Refnum.gvi" StoragePath="Not a Window Refnum.gvi" />
+				<SourceFileReference Id="46c5973a928e44f292f3abc5166f6b31" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PostMessage Master.gvi" StoragePath="PostMessage Master.gvi" />
+				<SourceFileReference Id="660345b1366747128459a8b9203b8bb8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Redraw Window.gvi" StoragePath="Redraw Window.gvi" />
+				<SourceFileReference Id="ee277a2ef3d8413aba43a976515a7fe5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Rename Window.gvi" StoragePath="Rename Window.gvi" />
+				<SourceFileReference Id="59c7f8ff0b6646bdb9d810e5c1db226c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Resize Window.gvi" StoragePath="Resize Window.gvi" />
+				<SourceFileReference Id="edaa5f87deb243b2abcda50ad3a4414b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Restore Window.gvi" StoragePath="Restore Window.gvi" />
+				<SourceFileReference Id="df0677b2d3244e68b61f1956359d7feb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Revoke Window Always on Top.gvi" StoragePath="Revoke Window Always on Top.gvi" />
+				<SourceFileReference Id="b755c3e5ee0e420286574bb412646a12" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Parent.gvi" StoragePath="Set Parent.gvi" />
+				<SourceFileReference Id="9788e4602ab44923acbaa32aa17c7512" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Window Z-Position.gvi" StoragePath="Set Window Z-Position.gvi" />
+				<SourceFileReference Id="9a419d3e56034ec9953522a1f46b5098" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Show Window.gvi" StoragePath="Show Window.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="385f87920aea4c7db6476c27fbd527f1" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Window Rectangle.gtype" StoragePath="Window Rectangle.gtype\Window Rectangle.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="4e903474c65b46d9b22621bbf77a270f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Window Refnum.gtype" StoragePath="Window Refnum.gtype\Window Refnum.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="52b965a97d924effab7ab4e294653845" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="user32.sli" StoragePath="user32.sli" />
+				<SourceFileReference Bindings="EnvoyManager" Id="c9f00eec444a48b492a1876d199af27b" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="kernel32.sli" StoragePath="kernel32.sli" />
+				<SourceFileReference Id="dc04a29fbebb4f218a26f9236b7bd8a9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move Window to Topmost.gvi" StoragePath="Move Window to Topmost.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="20e18e3d284e42729d1b78228fc34d40" Name="WinUtil.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="6b4ded3ceb5c4cb3bb6cbb9adcf396bf" Id="c05efaae47894d02afaffa2bb4a47240" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

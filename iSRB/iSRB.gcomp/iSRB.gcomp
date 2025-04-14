@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9C143A18E14560E65E847624BB1E2682A905C4363D371EF0EF51D2939A4FE7C5F135BF8F870B748A3A16D869ED1230707855A7A8E0D478E2877615712115D6A1" Timestamp="1DBACF43F7266F9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="600AD07D451B17EB16AFB141B9C33543C50AEDEEA54A241B1BFA216705BFA17E400BB073A250A56E04BA936F12514ED42EC3A257B1C734CC44BD68869210A2D5" Timestamp="1DBAD0B95C5B2A6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -17,7 +17,6 @@
 			<CompilerSymbolTable Id="7bc43d7897264c8f95719a5f53d75b2d" xmlns="http://www.ni.com/PlatformFramework" />
 			<GLibraryProperties Id="bee45a2fcc60440989a644323989393f" />
 			<ComponentItemProperties AssociatedEnvoyId="8e3e187cebcc4664b3e5bd29d9473641" Exported="True" Id="346a48dc30bf44069579295fafce4a0e" />
-			<ComponentItemProperties AssociatedEnvoyId="fee336c657e04993af272f03bc848d39" Exported="True" Id="82da3a3a6bef4fdf92fe1f0efb431abf" />
 			<ComponentItemProperties AssociatedEnvoyId="f197da3b14794b7a9ef876714f536818" Exported="True" Id="f1264725e6e2409895c6be492cb5e92e" />
 			<ComponentItemProperties AssociatedEnvoyId="fe677720df5e4feeb2a3acf664eeb95b" Exported="True" Id="6917e4266fe34ecb8dee7eacd08b9f9f" />
 			<ComponentItemProperties AssociatedEnvoyId="bbdc7bd5a11a4c7fac397237ba573d77" Exported="True" Id="886961e40af446b69d8d8c57dec3dbe9" />
@@ -34,7 +33,6 @@
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b531b501e2f487abe9c1b1d37d97682" Name="My Computer">
 				<SourceFileReference Bindings="EnvoyManager" Id="8e3e187cebcc4664b3e5bd29d9473641" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="iSRb.gtype" StoragePath="iSRb.gtype\iSRb.gtype" />
-				<SourceFileReference Id="fee336c657e04993af272f03bc848d39" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Module SRb - Core.gvi" StoragePath="Module SRb - Core.gvi" />
 				<SourceFileReference Bindings="EnvoyManager" Id="f197da3b14794b7a9ef876714f536818" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Graphs Info.gtype" StoragePath="SRb Graphs Info.gtype\SRb Graphs Info.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="fe677720df5e4feeb2a3acf664eeb95b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Line Profile.gtype" StoragePath="SRb Line Profile.gtype\SRb Line Profile.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="bbdc7bd5a11a4c7fac397237ba573d77" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="SRb Params.gtype" StoragePath="SRb Params.gtype\SRb Params.gtype" />

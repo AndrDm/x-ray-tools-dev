@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6A4CEBAEEA609D8FACA7100B0AC271D6923A7F85E6E71857C6F30C9C4EE33458DA457552FB4595F6D4E986EDB6419D7D1EFE38C31E964E6B8BFBBAA94349A9FB" Timestamp="1DBAD168C4C227B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="f09d09f0db274ebaab09603e374f53d6" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">This function will  make the window named in the 'window name' input, or identified by the 'window refnum' the topmost window, so it will always be on top of other windows.  If 'not a window refnum' is passed in, then the function will use the window name to get a window window refnum.  If the window cannot be found, an error will be returned.</p.UserDescription>
+		<Icon Id="8af7972be8774ce89cef01d1b42b4dce" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="98e62d5398a945f68541c394ba689f8c" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="7f672cad93174a87a7b426038a4c7acc" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="aaa2f594be264d09a03f02cedcaebe34" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="631fdea2c1343baab4d8a55d4bfdf30" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="926f150aba354ef1b96832e7ad51b037" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADoSURBVEhL3ZGBDoMwCET9/2/znxztXSkF1q3qsmwvpj0OuBjd9o/xf9HbWbiOK6UPFY4nT5/xAleKnQ6J+kyjy+KtDNEsmpgQh0UcR/b6Q9HEhCRiHn2RWbT0VrFZrqRAgeklFqLlVFFWmyNYUxGHEQH66HF8hR5RhSuLQIFRAF3XKapdgAmkZMTL6FVsloM+ehxfoUc04WD0RZDlYDSKJXTre9EXQZbjzPu+ye9G84OF3xJNV4Iy1LqAPq9xJz1B2lVsSaWWW4OwjjutEAbNa5yzJ4h+7FohZFY6V3VsiVAtDJr37ez7A/gFM4hWYFy8AAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="2fd19a7351024e318c5a7c37d08191d3" ListViewHeight="130" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="6ea1d73e8bc46edaecea0e52ec69ba1" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="c887d122f09b4618990ccfc39b86a7cd" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 65" Parameter="65f6b5df5f884b5aa41b6ab91bc1e9aa" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 80" Parameter="2467cc8fa7747cc80960fa7b9b3d993" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 95" Parameter="e13806836cf4be4a083bfc7ade70681" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 110" Parameter="54fb1b4c81a44b6f8e4e7d0a60800d16" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="80c36e7ef5124438a026b67575611d2e" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="3dfbab0dfad045fba797b5f54fc3bc42" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="6dd6a32360c64428b7851ddc44894eb8">
+			<DataAccessor Bounds="275 245 40 15" DataItem="2467cc8fa7747cc80960fa7b9b3d993" Id="c39a551d3afb46b2a842f1731fc792d7" Label="60a6431b07f14061bb9aadddbe9a7dd7" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="c39a551d3afb46b2a842f1731fc792d7" Bounds="228 245 42 14" Id="60a6431b07f14061bb9aadddbe9a7dd7" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1205 245 40 15" DataItem="54fb1b4c81a44b6f8e4e7d0a60800d16" Id="641ea5a7dc4c4522926d4fdd8df321d4" Label="ca8ae7d2d3fd4692aed71d4451b3c9bf" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="641ea5a7dc4c4522926d4fdd8df321d4" Bounds="1250 245 50 14" Id="ca8ae7d2d3fd4692aed71d4451b3c9bf" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="275 215 40 15" DataItem="6ea1d73e8bc46edaecea0e52ec69ba1" Id="7e191bf1501f430eadb98f5abba4276d" Label="4b38c8555fa34d4b83892c0259f5eebc" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="UInt64" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="7e191bf1501f430eadb98f5abba4276d" Bounds="184 215 86 14" Id="4b38c8555fa34d4b83892c0259f5eebc" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>window refnum</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1205 215 40 15" DataItem="e13806836cf4be4a083bfc7ade70681" Id="fd24b59e6b8d441db405655d8be02217" Label="669c3b83e59645d6b42f65fcab09f60c" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="UInt64" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="fd24b59e6b8d441db405655d8be02217" Bounds="1250 215 107 14" Id="669c3b83e59645d6b42f65fcab09f60c" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>window refnum out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="275 285 40 15" DataItem="65f6b5df5f884b5aa41b6ab91bc1e9aa" Id="1bba28d7d6194630945a1df40e357e06" Label="16008f8aeeab4e76b3b648b987ef1559" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="1bba28d7d6194630945a1df40e357e06" Bounds="200 285 70 14" Id="16008f8aeeab4e76b3b648b987ef1559" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>activate? (F)</p.Text>
+			</NodeLabel>
+			<Literal Bounds="783 170 80 15" DataType="UInt16" Id="77269302808842569e221db73d48ba1d" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>1</p.Data>
+				<RingBehavior ValueFormatter="LV:G6">
+					<RingConstantInfo DisplayValue="Not Topmost" ValueType="UInt16">
+						<p.Value>0</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="Topmost" ValueType="UInt16">
+						<p.Value>1</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="Top" ValueType="UInt16">
+						<p.Value>2</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="Bottom" ValueType="UInt16">
+						<p.Value>3</p.Value>
+					</RingConstantInfo>
+				</RingBehavior>
+			</Literal>
+			<DataAccessor Bounds="275 185 40 15" DataItem="c887d122f09b4618990ccfc39b86a7cd" Id="6979d99f1a064355a6396eff7ec68235" Label="3909b17e46a342a8914da2b38a6ddb16" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="6979d99f1a064355a6396eff7ec68235" Bounds="169 185 101 14" Id="3909b17e46a342a8914da2b38a6ddb16" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>window name ("")</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="e6a22abd2a874253b35e0d90e8fd369d" Bounds="895 178 125 14" Id="6f58e48d44844d7c973174a40b667c84" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Set Window Z-Position</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="365 160 315 100" DataType="UInt64" Default="c67d670fe0b64b9ca528817dca230710" Id="9c56eb80bc9d4af28cf5788f689044e0" Selected="6d83c0c27fd040f88e845ceee2d3c278" UserSelectorBounds="108 0 100 17">
+				<CaseStructure.Case Bounds="5 5 305 90" Id="c67d670fe0b64b9ca528817dca230710" Pattern="Default">
+					<Wire Id="e277b895d5ce45239f71d7257812faf8" Joints="N(d82917cae3c14f1aaff5f8a2c3480ac1:c67d670fe0b64b9ca528817dca230710)|(4,55) N(5bf2a169f9d74bfcb316458ca7b1d722:c67d670fe0b64b9ca528817dca230710)|(301,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="f46182764fd747b6b2a6a81d83771c14" Joints="N(ea69c7974904fa08888384e9eb28041:c67d670fe0b64b9ca528817dca230710)|(4,80) N(dedd6669c5d74fc5a11cf4f8f74848d3:c67d670fe0b64b9ca528817dca230710)|(301,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 305 90" Id="6d83c0c27fd040f88e845ceee2d3c278" Pattern="0">
+					<NodeLabel AttachedTo="e5264592b67f48979a7b65be22bf76b0" Bounds="30 28 115 14" Id="6f2aa2394196439c8ff96a2a57c8f4f9" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Get Window RefNum</p.Text>
+					</NodeLabel>
+					<Wire Id="acbf5880fdd74cfbbbafb0f41684adb0" Joints="N(64f55c09decf4f4494f0f949fd08383e:6d83c0c27fd040f88e845ceee2d3c278)|(4,25) h(10) v(25) N(e5264592b67f48979a7b65be22bf76b0:L0)|(30,50)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="1088a6ea523e46f49e2544a955cd3723" Joints="N(e5264592b67f48979a7b65be22bf76b0:R3)|(70,80) N(dedd6669c5d74fc5a11cf4f8f74848d3:6d83c0c27fd040f88e845ceee2d3c278)|(301,80)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="41736989eb449e4bd572611e35865e5" Joints="N(e5264592b67f48979a7b65be22bf76b0:R0)|(70,50) h(226) v(5) N(5bf2a169f9d74bfcb316458ca7b1d722:6d83c0c27fd040f88e845ceee2d3c278)|(301,55)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="77c808c582e142e9b26cbe13a6906bf9" Joints="N(ea69c7974904fa08888384e9eb28041:6d83c0c27fd040f88e845ceee2d3c278)|(4,80) N(e5264592b67f48979a7b65be22bf76b0:L3)|(30,80)" xmlns="http://www.ni.com/PlatformFramework" />
+					<MethodCall Bounds="30 45 40 40" Id="e5264592b67f48979a7b65be22bf76b0" Label="6f2aa2394196439c8ff96a2a57c8f4f9" ResolveFailedHint="&quot;C:\\Users\\108003658\\OneDrive - Baker Hughes\\Documents\\LabVIEW Projects\\2025_04_14_10_13_07\\LooseFiles_WINUTIL 2018.lvproject\\Main.gcomp\\Get Window RefNum.gvi&quot;" Signature="@d4dd5050f9f84817936d19b26a589b16" Target="Main::Get Window RefNum.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L0" Desc="window name (&quot;&quot;)" />
+								<Parameter Id="L3" Desc="error in" />
+								<Parameter Id="R0" Desc="window refnum (NaWR)" />
+								<Parameter Id="R3" Desc="error out" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="UInt64" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 55 13 10" Docking="Left" Id="d82917cae3c14f1aaff5f8a2c3480ac1" Terminals="9c56eb80bc9d4af28cf5788f689044e0=e59de81173244f62bb739e1eae6e6e2b, c67d670fe0b64b9ca528817dca230710=e277b895d5ce45239f71d7257812faf8, 6d83c0c27fd040f88e845ceee2d3c278" />
+				<CaseStructure.Tunnel Bounds="-4 80 13 10" Docking="Left" Id="ea69c7974904fa08888384e9eb28041" Terminals="9c56eb80bc9d4af28cf5788f689044e0=f3ba9474bddd4ee9a12dc7f9792c01f3, c67d670fe0b64b9ca528817dca230710=f46182764fd747b6b2a6a81d83771c14, 6d83c0c27fd040f88e845ceee2d3c278=77c808c582e142e9b26cbe13a6906bf9" />
+				<CaseStructure.Tunnel Bounds="306 55 13 10" Docking="Right" Id="5bf2a169f9d74bfcb316458ca7b1d722" Terminals="9c56eb80bc9d4af28cf5788f689044e0=494785c140be42ed82c1153a8f433603, c67d670fe0b64b9ca528817dca230710=e277b895d5ce45239f71d7257812faf8, 6d83c0c27fd040f88e845ceee2d3c278=41736989eb449e4bd572611e35865e5" />
+				<CaseStructure.Tunnel Bounds="306 80 13 10" Docking="Right" Id="dedd6669c5d74fc5a11cf4f8f74848d3" Terminals="9c56eb80bc9d4af28cf5788f689044e0=2eebe5c6eff3439eaa80e52b03464cf4, c67d670fe0b64b9ca528817dca230710=f46182764fd747b6b2a6a81d83771c14, 6d83c0c27fd040f88e845ceee2d3c278=1088a6ea523e46f49e2544a955cd3723" />
+				<CaseStructure.Tunnel Bounds="-4 25 13 10" Docking="Left" Id="64f55c09decf4f4494f0f949fd08383e" Terminals="9c56eb80bc9d4af28cf5788f689044e0=8d617d2b06114b68afab2fe8fb9239de, c67d670fe0b64b9ca528817dca230710, 6d83c0c27fd040f88e845ceee2d3c278=acbf5880fdd74cfbbbafb0f41684adb0" />
+			</CaseStructure>
+			<Wire Id="9e4ccc598fae48bca5a7092cb68e82ce" Joints="N(77269302808842569e221db73d48ba1d:Out)|(863,175) h(6) v(35) N(e6a22abd2a874253b35e0d90e8fd369d:L1)|(895,210)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e3b58a410d8c484f8220492d3fa86d55" Joints="N(1bba28d7d6194630945a1df40e357e06:Value)|(315,290) h(574) v(-70) N(e6a22abd2a874253b35e0d90e8fd369d:L2)|(895,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="8d617d2b06114b68afab2fe8fb9239de" Joints="N(6979d99f1a064355a6396eff7ec68235:Value)|(315,190) N(64f55c09decf4f4494f0f949fd08383e:9c56eb80bc9d4af28cf5788f689044e0)|(361,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="f3ba9474bddd4ee9a12dc7f9792c01f3" Joints="N(c39a551d3afb46b2a842f1731fc792d7:Value)|(315,250) h(41) v(-5) N(ea69c7974904fa08888384e9eb28041:9c56eb80bc9d4af28cf5788f689044e0)|(361,245)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e59de81173244f62bb739e1eae6e6e2b" Joints="N(7e191bf1501f430eadb98f5abba4276d:Value)|(315,220) N(d82917cae3c14f1aaff5f8a2c3480ac1:9c56eb80bc9d4af28cf5788f689044e0)|(361,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="494785c140be42ed82c1153a8f433603" Joints="N(5bf2a169f9d74bfcb316458ca7b1d722:9c56eb80bc9d4af28cf5788f689044e0)|(684,220) h(205) v(-20) N(e6a22abd2a874253b35e0d90e8fd369d:L0)|(895,200)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2eebe5c6eff3439eaa80e52b03464cf4" Joints="N(dedd6669c5d74fc5a11cf4f8f74848d3:9c56eb80bc9d4af28cf5788f689044e0)|(684,245) h(175) v(-15) N(e6a22abd2a874253b35e0d90e8fd369d:L3)|(895,230)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="63bbc1e907fa4fe9976d9f52cad5ee6a" Joints="N(e6a22abd2a874253b35e0d90e8fd369d:R0)|(935,200) h(264) v(20) N(fd24b59e6b8d441db405655d8be02217:Value)|(1208,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="a6c635c342e404cb12ccd398cc83d62" Joints="N(e6a22abd2a874253b35e0d90e8fd369d:R3)|(935,230) h(264) v(20) N(641ea5a7dc4c4522926d4fdd8df321d4:Value)|(1208,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="895 195 40 40" Id="e6a22abd2a874253b35e0d90e8fd369d" Label="6f58e48d44844d7c973174a40b667c84" ResolveFailedHint="&quot;C:\\Users\\108003658\\OneDrive - Baker Hughes\\Documents\\LabVIEW Projects\\2025_04_14_10_13_07\\LooseFiles_WINUTIL 2018.lvproject\\Main.gcomp\\Set Window Z-Position.gvi&quot;" Signature="@3e513a003c6a4a7b82df0672d5cd2e02" Target="Main::Set Window Z-Position.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="window refnum" />
+						<Parameter Id="L1" Desc="z-order position" />
+						<Parameter Id="L2" Desc="activate? (T)" />
+						<Parameter Id="L3" Desc="error in" />
+						<Parameter Id="R0" Desc="window refnum out" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="UInt64" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="UInt16" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="UInt64" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+		</BlockDiagram>
+		<NativeFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" HtmlPanel="[bool]False" Id="df9e2aa99dfa47f8ab0e45a48e66716b" Left="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="1451f9caf4e48bd9fa8d6fc4af81ee6" StartupLocation="[SMWindowStartupLocation]CenterScreen" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="67ac90b069604dd7ba777a419dbb4aa7" IsTabStop="[bool]False" Label="[UIModel]36004b997d654dfbbe6a1471e69d4e80" Left="[float]155" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]378" Value="{DataItemBinding Id=2467cc8fa7747cc80960fa7b9b3d993}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.\n\nRight-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error."</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="46122e839e0f476086320291f9746f14" Label="[UIModel]faa7a5fe93e34b2ba54a628d588a8e2b" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="faa7a5fe93e34b2ba54a628d588a8e2b" LabelOwner="[UIModel]46122e839e0f476086320291f9746f14" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="c90204d208a44236a1c5bc6de206b929" Label="[UIModel]2e5da7b2be804eb3bcd29cade1d448ae" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="2e5da7b2be804eb3bcd29cade1d448ae" LabelOwner="[UIModel]c90204d208a44236a1c5bc6de206b929" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="32a5b92d26449b0b3a9ed56ccd0b2e5" Label="[UIModel]6e330857464e4706807e91f37bd854a6" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="6e330857464e4706807e91f37bd854a6" LabelOwner="[UIModel]32a5b92d26449b0b3a9ed56ccd0b2e5" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="36004b997d654dfbbe6a1471e69d4e80" LabelOwner="[UIModel]67ac90b069604dd7ba777a419dbb4aa7" Left="[float]155" Text="[string]error in" Top="[float]358" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]None" BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="9c0d750e415e43699ffcafa27dd3c31b" IsTabStop="[bool]False" Label="[UIModel]e2ea2b8cac38447398de5b1df19d1101" Left="[float]640" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]378" Value="{DataItemBinding Id=54fb1b4c81a44b6f8e4e7d0a60800d16}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.\n\nRight-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error."</p.InfoTipDescription>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="e8f02e84d6a4fa18af213b969f277ae" IsReadOnly="[bool]True" Label="[UIModel]85a68da451be4dfa9008800182eba9a8" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="85a68da451be4dfa9008800182eba9a8" LabelOwner="[UIModel]e8f02e84d6a4fa18af213b969f277ae" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="4142ef51350f4af38c07bb378cc0c89a" IsReadOnly="[bool]True" Label="[UIModel]a9db6e3c3f9c487781bb776cc62b22c4" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="a9db6e3c3f9c487781bb776cc62b22c4" LabelOwner="[UIModel]4142ef51350f4af38c07bb378cc0c89a" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="3aecbb5b0c994f7c94a8c3e3e53354a8" IsReadOnly="[bool]True" Label="[UIModel]72fca832d3aa4c5f97b3ce748e248e50" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="72fca832d3aa4c5f97b3ce748e248e50" LabelOwner="[UIModel]3aecbb5b0c994f7c94a8c3e3e53354a8" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="e2ea2b8cac38447398de5b1df19d1101" LabelOwner="[UIModel]9c0d750e415e43699ffcafa27dd3c31b" Left="[float]640" Text="[string]error out" Top="[float]358" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Height="[float]24" Id="c25b2e2b50994873aedfa3bb7542b6a0" Interval="[ulong]1" IsTabStop="[bool]True" Label="[UIModel]25b1a4738d6a4447b1e8cf1f800d6261" Left="[float]100" Maximum="[ulong]18446744073709551615" Minimum="[ulong]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]2" TextAlignment="[TextAlignment]Left" Top="[float]30" Value="{DataItemBinding Id=6ea1d73e8bc46edaecea0e52ec69ba1}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt64" Width="[float]30" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Identifies the window to be made the topmost window.  If not valid, the window name input is used.</p.InfoTipDescription>
+			</NumericText>
+			<Label Id="25b1a4738d6a4447b1e8cf1f800d6261" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]c25b2e2b50994873aedfa3bb7542b6a0" Left="[float]138" Text="[string]window refnum" Top="[float]30" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Height="[float]24" Id="1bb703f101954930bf8ff7082e40f25c" Interval="[ulong]1" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]40f6f9a3e6924edb93809b9cbfcb406a" Left="[float]100" Maximum="[ulong]18446744073709551615" Minimum="[ulong]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]3" TextAlignment="[TextAlignment]Left" Top="[float]30" Value="{DataItemBinding Id=e13806836cf4be4a083bfc7ade70681}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt64" Width="[float]30" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Identifies the window that was made topmost.</p.InfoTipDescription>
+			</NumericText>
+			<Label Id="40f6f9a3e6924edb93809b9cbfcb406a" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]1bb703f101954930bf8ff7082e40f25c" Left="[float]138" Text="[string]window refnum out" Top="[float]30" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Square LED" ClickMode="[ClickMode]Press" Content="[string]Off/On" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]Off/On" FalseContentVisibility="[Visibility]Collapsed" Foreground="[SMColor]#ff000000" Height="[float]31" Id="2e2a980146ee4ee7842bc2de5cb4c7bb" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]18a7066786ad43e5b5bf5ba774e5b8b1" Left="[float]150" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]4" TextAlignment="[TextAlignment]Center" Top="[float]273" TrueContent="[string]On" Value="{DataItemBinding Id=65f6b5df5f884b5aa41b6ab91bc1e9aa}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Controls whether or not the window will be activated when it's z-order position is changed.</p.InfoTipDescription>
+			</Switch>
+			<Label Height="[float]16" Id="18a7066786ad43e5b5bf5ba774e5b8b1" LabelOwner="[UIModel]2e2a980146ee4ee7842bc2de5cb4c7bb" Left="[float]150" Text="[string]activate? (F)" Top="[float]253" Width="[float]63" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="90221192f5674173b243c98a6444bb27" IsTabStop="[bool]True" Label="[UIModel]7152bc6300b6476cbe6a6276df4f5484" Left="[float]150" TabIndex="[int]5" Text="{DataItemBinding Id=c887d122f09b4618990ccfc39b86a7cd}" TextAlignment="[TextAlignment]Left" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]170" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]151" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="7152bc6300b6476cbe6a6276df4f5484" LabelOwner="[UIModel]90221192f5674173b243c98a6444bb27" Left="[float]150" Text="[string]window name (&quot;&quot;)" Top="[float]150" Width="[float]94" xmlns="http://www.ni.com/PanelCommon" />
+			<Menu Id="2f88747d84004b4aaf13fe63f551f749" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="4" DataType="Error" Id="2467cc8fa7747cc80960fa7b9b3d993" Name="error in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Error" Id="54fb1b4c81a44b6f8e4e7d0a60800d16" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="UInt64" Id="6ea1d73e8bc46edaecea0e52ec69ba1" Name="window refnum" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Identifies the window to be made the topmost window.  If not valid, the window name input is used.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="UInt64" Id="e13806836cf4be4a083bfc7ade70681" Name="window refnum out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Identifies the window that was made topmost.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="3" DataType="Boolean" Id="65f6b5df5f884b5aa41b6ab91bc1e9aa" Name="activate? (F)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Controls whether or not the window will be activated when it's z-order position is changed.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="String" Id="c887d122f09b4618990ccfc39b86a7cd" Name="window name (&quot;&quot;)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="d4dd5050f9f84817936d19b26a589b16">
+			<Attributed AttributedType="@e1966b155e71420ba9c6de806fbfd26c">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e513a003c6a4a7b82df0672d5cd2e02">
+			<Attributed AttributedType="@3f47db4e050a43f79482d6f92c83de76">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e1966b155e71420ba9c6de806fbfd26c">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Window RefNum.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@fedfe8ed6df74b1baaa7622a7d0e5993">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]window name (&quot;&quot;)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@186ff2a91d944387997042a0b20bcb66">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]window refnum (NaWR)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3f47db4e050a43f79482d6f92c83de76">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Window Z-Position.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@c96210929dd54d849ef1590274a65deb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]window refnum" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b085e662766f474eba7312f929b7248f">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]z-order position" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@0d78262692f24cf1b41b58703b44617b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]activate? (T)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@33517a5423de4493bc4b86a1fb30811d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@186ff2a91d944387997042a0b20bcb66">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]window refnum out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fedfe8ed6df74b1baaa7622a7d0e5993">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="33517a5423de4493bc4b86a1fb30811d">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="186ff2a91d944387997042a0b20bcb66">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="UInt64" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e514662b8b6a49ffb833fe0f7de20c2a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c96210929dd54d849ef1590274a65deb">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="UInt64" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b085e662766f474eba7312f929b7248f">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="UInt16" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0d78262692f24cf1b41b58703b44617b">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Boolean" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="Main::Get Window RefNum.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADfSURBVEhL7ZCLDcMwCESz/wbZKTu1YM708LdqbFWq+mTDYcM5ynFtA9ZHohZCup+A1tgMFyuEnh6jruepi8d1Rzsv+XyMzpg1ub+sORqsx0hn21pTgoVpE1N0pmd9E7UmcGhpB/mFpcATiX5run28scIIFOlg7dGGDRdG9pUVRoqoAinXgmiaH6wwAtW0Xgg8keQzbuB2wt9a+J71QuCJRM9+AI//jPVC4GlpB13r8H7WLOZRdpO6tRCGH3o0VMtu4h2sWfSioVp2E1xTrMUkym5StHLpoihdIKaTDVzXE4lMLcFC0A3sAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Main.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Main::Set Window Z-Position.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEMSURBVEhLxZIBEoMgDAT7/7f5J3vm6HkEVMR2umOZSwJbOvW1/Izfq19BG0DMZygWFuAoT1AOy4LgmWGO/TBFrvuCGgpZUmaY49Hhc/ZbA7aEOj7tZgVnr9MM5bqubJ7kbWvdFPtMgRmrKxiO+gpOGbBw0Ey309q9tZektAhbQh0GrQyefRVV8V3+pI6fe03Z3XChjhV/Wv/Rni55EPcYAu+JXpUuHXWs1e380bYhNcYOD+hkCsT7FLUUdazYlxWOj26ouW+cI7WXWT34Na0agbAEN9RpmyiiDyxBVg/iCtLpbJ+pW/M8ab2go2bJADw7PEhClcnqE1pFaDdKXVN9+SU8I9qOczZ7xLK8AT0Sz+vdYCDXAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Main.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

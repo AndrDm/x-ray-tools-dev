@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="094B20D2FEF152F82CE8A9A5339DAA809EC83E0EF29576CC4E11BD1C9B67D42F162721ABF2C2BA1A2F489EE5036379255225E9C82CB99A37F2E9C9B376DC8353" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="79C890E7582707CCDED26F3B05799FE606E5678237BB94B0E23A8D6C1C4B2E8F68BFEDEB31EC835E79EE89E51046E6B088D95445C61BC49F9DD3695A3B447D38" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -174,13 +174,12 @@
 						<WeakDefaultComponentConfigurationReference Id="a4b0dbe65557435fbcfd7102260124c4" PackageName="ni-vision-algorithms-src-20.6.0.niaddon" Target="Deep Learning.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="733909f77a224a22b583c7a28d7b52d4" Target="iSRB.gcomp::Default" />
 						<ComponentConfigurationReferenceDependencySource Id="4921db4457d644b98cf5a149dc337292" Target="iSRB Measurement.gcomp::Configuration1" />
-						<WeakDefaultComponentConfigurationReference Id="fdd93d1d234b467bbeff21f7e60e411e" PackageName="ni-mxlc-base-src-20.0.0.niaddon" Target="MXLC.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="f0012abc99541f19716f2e19c16bc00" PackageName="ni-vision-imaqdx-src-20.6.0.niaddon" Target="IMAQdx.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="d62c787e97dd4f029df560f9d4bb90f9" PackageName="ni-vision-imaqdx-src-20.6.0.niaddon" Target="IMAQdx Compatibility.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="430f59574a8248149512dc5662c6ed85" PackageName="ni-daqmx-api-src-20.1.0.niaddon" Target="DAQmx.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="6764bf28d7cc41b284499b3134444bed" Target="Image_Cropper.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="24ae935e9e15407994248f7fc64e56a4" Target="Image Cropper.gcomp::Configuration1" />
 						<ComponentConfigurationReferenceDependencySource Id="eb8875b1be1148a888b3218f42ff7feb" Target="CUI.gcomp::Configuration1" />
+						<WeakDefaultComponentConfigurationReference Id="5b97ec2e0bba40d8a2513436d2790c39" PackageName="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" Target="Keysight344XX.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="42097c5a02344128ba7a035913ec2575" PackageName="ni-visa-base-src-20.0.0.niaddon" Target="VISA.gcomp" />
+						<ComponentConfigurationReferenceDependencySource Id="5ef237730dd84eb9ae18705ea1d13771" Target="WinUtil.gcomp::Default" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="40650666600d4875afa9008274692cd1" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -200,9 +199,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="b9470c6d165e4d4197721ac17e7941be" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistanttemplates-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/AssistantTemplates-src/20.6.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="9c44aff1fe894f0b9d28acb40bc49acb" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistantutilities-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/AssistantUtilities-src/20.6.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="1c14971729c24591a18edf23d05dc8f4" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/Core-src/20.6.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="d79c4a6a9ab54dfa813dfaea2b1b6fc9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-20.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/20.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="c6b02d9fcf8d454d82f93f0ac5ee9530" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-20.0.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/20.0.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="5dcef7756614368a4541878b485d2b6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/20.6.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="d2473209556b45f48fac2736d6c9a416" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="28e65311c16d4dc8ad28ffd18dcc45f9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="9183cc3bca6049ef816d9d7d38d247cd" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="99426230cc3246c4ae6d5866ebb51f22" RootNamespaceId="9183cc3bca6049ef816d9d7d38d247cd" xmlns="http://www.ni.com/GComponent.xsd">
@@ -229,6 +227,7 @@
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="c6ed02545eef45c4b292652dcd971ab4" ModelDefinitionType="ComponentDefinition" Name="Image_Cropper.gcomp" StoragePath="Image Cropper\Image_Cropper.gcomp\Image_Cropper.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/LabVIEW.NativeBackEndCompiler}ComponentExecution_NativeApplication,EnvoyManager" Id="27ae47180b9049f49b30428b93dd37c3" ModelDefinitionType="ComponentDefinition" Name="Image Cropper.gcomp" StoragePath="Image Cropper\Image Cropper.gcomp\Image Cropper.gcomp" />
 					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="b50461b3c1ab420db2d2132598c3af03" ModelDefinitionType="ComponentDefinition" Name="CUI.gcomp" StoragePath="CUI.gcomp\CUI.gcomp" />
+					<SourceFileReference Bindings="ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,EnvoyManager" Id="8a88cad9bc348789acbaa281d20e623" ModelDefinitionType="ComponentDefinition" Name="WinUtil.gcomp" StoragePath="WinUtil.gcomp\WinUtil.gcomp" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
@@ -252,9 +251,8 @@
 					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="8f94bd866a6e4e838bda9a450ce138c7" PackageInterfaceDefinitionEnvoyId="84dec465f3204f269e2d496f85b47695" />
 					<PackageInterfaceDefinitionContents Contents="Controls.gcomp,Basics.gcomp,AVI.gcomp,AVI DirectShow.gcomp,Display.gcomp,Display ROI.gcomp,Display Tools.gcomp,Files.gcomp,Overlay.gcomp,RT.gcomp,EDVR.gcomp,Core UDR.gcomp" Id="27cad428d9c14d13a3792f8ade2018d7" PackageInterfaceDefinitionEnvoyId="c18f46b93abe47e58ef9583daa50fd97" />
 					<PackageInterfaceDefinitionContents Contents="Analytic.gcomp,Browser.gcomp,Classification.gcomp,Color.gcomp,Compatibility.gcomp,Complex.gcomp,Ext Lib Support.gcomp,Feature Matching.gcomp,Filters.gcomp,Image Manipulation.gcomp,Measure.gcomp,Morphology.gcomp,Motion Estimation.gcomp,Operator.gcomp,Pattern Matching.gcomp,Pixel Manipulation.gcomp,Processing.gcomp,ROI Conversion.gcomp,ROI Selection.gcomp,ROI Tools.gcomp,Stereo.gcomp,Texture.gcomp,Color Processing.gcomp,Analysis.gcomp,Calibration.gcomp,Contour.gcomp,FPGA Utilities.gcomp,Instrument.gcomp,Shape Detection.gcomp,Tracking.gcomp,OCR.gcomp,Inspection.gcomp,Machine Vision Tools.gcomp,Algorithms UDR.gcomp,Deep Learning.gcomp" Id="26f14cf560cc4c7a9dd16894fb7fc35f" PackageInterfaceDefinitionEnvoyId="8ab54a6d8d5c46acab634a03022eaa4b" />
-					<PackageInterfaceDefinitionContents Contents="MXLC.gcomp" Id="95a620b981ec4457aab32a716cf4bd6e" PackageInterfaceDefinitionEnvoyId="11205d861ad1464e8d345e623cd58228" />
-					<PackageInterfaceDefinitionContents Contents="IMAQdx.gcomp,IMAQdx Compatibility.gcomp" Id="7619747978904d7b8ea2ced562db2628" PackageInterfaceDefinitionEnvoyId="1ee8e02f3d2d44529678b8df7a1c32e1" />
-					<PackageInterfaceDefinitionContents Contents="DAQmx.gcomp" Id="cc0d290c0f374df1906eb4bb0184afb6" PackageInterfaceDefinitionEnvoyId="dd48216d263748849438277bbdc1f58c" />
+					<PackageInterfaceDefinitionContents Contents="Keysight344XX.gcomp" Id="323a1c11bb04f62888aa7da027a59a3" PackageInterfaceDefinitionEnvoyId="c73142c92af4413584fa721617da67b1" />
+					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="77ab2572811544de862b4070f1cd55a2" PackageInterfaceDefinitionEnvoyId="31d4922beea54a3cb08321d195dbd9c9" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="ba2cb6205f9c4e6a814a5e47da427d1a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-actorframework-aflib-src-1.0.1.0.niaddon" StoragePath="ref://NI/ActorFramework/aflib-src/1.0.1.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="84dec465f3204f269e2d496f85b47695" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.5.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.8.5" />
@@ -272,9 +270,8 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="a4319ad70b124c7dbb50b8b84fdf73de" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistanttemplates-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/AssistantTemplates-src/20.6.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="e8fe53788a4d4d35911c6a9d180b6648" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistantutilities-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/AssistantUtilities-src/20.6.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="c18f46b93abe47e58ef9583daa50fd97" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/Core-src/20.6.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="dd48216d263748849438277bbdc1f58c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-20.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/20.1.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="11205d861ad1464e8d345e623cd58228" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-20.0.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/20.0.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="1ee8e02f3d2d44529678b8df7a1c32e1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-20.6.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/20.6.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="c73142c92af4413584fa721617da67b1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-20.0.0.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="31d4922beea54a3cb08321d195dbd9c9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-20.0.0.niaddon" StoragePath="ref://NI/VISA/Base-src/20.0.0" />
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Id="cfb1d35b69884b74afaae98b877f01af" ModelDefinitionType="DistributionDefinition" Name="iSRB Measurement.lvdist" StoragePath="iSRB\iSRB Measurement.lvdist" />
 		</NameScopingEnvoy>

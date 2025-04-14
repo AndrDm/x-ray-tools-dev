@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5463A2318EE885248BE0034220855B32BB5C37EF061D5B492FFF0189B756F7FA5BD86C1D26099386AB39DCEC446F06F76BE27BA9AAB885D32CB5E08D413A0BE9" Timestamp="1DBAD1527D90282" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="UInt64" Id="2ea765af58f04cf98d96f5ded10dd792" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="9fac3d73a63c4a8995dda0848e3e27cd" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="a8c9161a0a664abca25779c0911bcca6" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="502ebe376e7e44dc83b562304452738d" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="91dd414b0b4a409bafb95a353b302ac5" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="e9c91ec64e794ed1bda30eb49849fbd9" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="18f8bd07ab7545279813f5af8af17322" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADUSURBVEhL1YxZDsUgDAN7/0v3WdgKMVvVRa3efJAhGG97Ydskp8Cvxce71XH2PFCdJfNMNegbHqsG7VXjanWP3m5W93xXDT+Lfn5frcsRTdhc4/1q+pAcoANzjWX10EPCgbmGP8eVMjsp4cBcw5/jmuXQgbmGP8eVMjsp4cBcw5/jSh+SA3RgrrGsbpYgfLYHNUEBJWz7fJIcGO5BTVBACbc/Q0j4bA9qggJK2Pb5JDkw3IOaoIAStp9DcoAOzDUm1Yc0YXONN6tPoZ9fVt/h36v3/Qe2H2z2yCZEaAAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="UInt64" Id="94411fb656dc462ea542312d6bdf8a73" Name="window refnum">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5fa512ea36ea442c86b2d8c64fd2352a" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="8bde9af286d64cfabc20de1e090cfd0d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ab6bfeb898e3416bb9d417240527cdcb" Name="Window Refnum.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="664c5afe72b94d629d6db252a326a523" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="be95e256777543f2b63363e057cda6da" xmlns="http://www.ni.com/MocCommon">
+					<NumericText Enabled="[bool]True" Height="[float]24" Id="87b830263d0c4c4c9a130c4050caf5ee" Interval="[ulong]1" IsTabStop="[bool]True" Label="[UIModel]e130ecb467774cabb0f9ed3713fb1b60" Left="[float]108" Maximum="[ulong]18446744073709551615" Minimum="[ulong]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" Top="[float]30" Value="{DataItemBinding Id=94411fb656dc462ea542312d6bdf8a73}" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]UInt64" Width="[float]30" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Id="e130ecb467774cabb0f9ed3713fb1b60" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]87b830263d0c4c4c9a130c4050caf5ee" Left="[float]146" Text="[string]window refnum" Top="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F5D99D34D9734CEBD9B613983DD2ABFF7141A7E7FC6072B9327C7C6FFB1573E4C69C6373C35A14D1CDCAB599656ADCE7D5909DBFFC42E44AA3AAB1640564B17E" Timestamp="1DBACF43F72B72D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="55E0EF2BC345EC863BF88700FF09E41E38446EA2F6D73AB41DE49874CB8F03E8706141F15A22393A78650EBF1D6BA7402C2578712F5049775696848547E223D3" Timestamp="1DBAD3D16679AED" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="34f72061f42e4c11948aaf31120e39c0" RootNamespaceId="a028b23c869f4b8b946d50808c648a9c" UserVersion="0.1.0.13" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="34f72061f42e4c11948aaf31120e39c0" Product="iSRB" RootNamespaceId="a028b23c869f4b8b946d50808c648a9c" UserVersion="0.1.0.30" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="5672bc4df88c45088604716371c84871" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="2c3dbf8732274f06bd8094a5173634bc" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="c5425be16aab4be79f881051f3750987" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
