@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C900F30DAC55FB6BB59D8B5F532AE1511F9E29BAF2F72F939052542C02F125BFF273385FF777F45202E3F594321DE78C075BCA817AD785F3F9A38411DBCCEAD9" Timestamp="1DBAAC93D57D6BC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F22BFF1EA7D1484BD9AA139D8E75975A1BF1894F00BA5A19C403C51C47927595F8C90410AA64FF5557924CC0527EAD7DC0D4C96D2D7915F773CBCE92B73B13AD" Timestamp="1DBACF43F72B72D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
 	</SourceModelFeatureSet>
 	<TypeDefinition BaseType="gObject" BaseTypeSignature="@c8d59c7146754002a7e286b5b38ceec4" DataType="@6334ecdac2884c6f852cd7efc9cd4df3" Id="f238740816124bacb7f64caa43a9dfcf" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -19,18 +19,18 @@
 				<IconTemplate Height="[float]40" Id="9df9c0b9b9bd49e781ec76ca4152b093" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8453f16a924f42dd960ed2e0f24044b9" Id="5ace62ec71f847bdb6cac813b1d76c1c" Target="My Computer::iSRb.gtype::iSRb - Compute (2737)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f3a78d93b1e34be99fffca376df9d86d" Id="6cfb0c68e1c4401bc149f430627e43a" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@fd90f7aa48384c2b81beb1534c48c05e" Id="99ec0f97f545455c88c0e596a03733eb" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@1a678180a0ae440d905e18d7339f77a4" Id="faacec75d83542a8abf1c2ee92620f4f" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f2f408c3b60b4d8b8a8a8011fc386352" Id="ead1e2ddea8b4c7aa0129c23ee356871" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@d45ac2c314414e3e8fc9b8f36f9009f0" Id="bc904760380f4a78b7a0200a5fef2897" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@5006c6e289f6490a8535446b72b6d2f6" Id="8557cff701bc494483591fa1a43d8303" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@99dad417c8774469b8fb01e2fdc89ca9" Id="12b2468f44f44926a6289558ab5d55fc" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@e38b0db5286f4f6abe4d2ae70131a369" Id="d7b2a57e2f8e47eba3f7f78666849777" Target="My Computer::iSRb.gtype::iSRb - Write Rectangle Points.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9c3254451b3e46adaad1c39ac786d4c7" Id="facd5404a0043d89b1d7f7e72e8dba4" Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@af8bb1e8a5a54cab85d53e216bf03f13" Id="d9b4b753eb1e43eaa6a44a9a6b724df1" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9643ebccdddc41b08a357c987cdcde68" Id="67a31617b665418eb0d04c7b7a48870f" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@c8b39d20dccf4b048a9d11b8957a967f" Id="5ace62ec71f847bdb6cac813b1d76c1c" Target="My Computer::iSRb.gtype::iSRb - Compute (2737)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b34f8f8e5ce445d99e0a7808c7498d49" Id="6cfb0c68e1c4401bc149f430627e43a" Target="My Computer::iSRb.gtype::iSRb - Compute (i)SRb.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b0b0d0d0a0c14ae2a1b227b5867476a4" Id="99ec0f97f545455c88c0e596a03733eb" Target="My Computer::iSRb.gtype::iSRb - Compute Averaged Line Profile.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9508e190202f4414a483be38153614d3" Id="faacec75d83542a8abf1c2ee92620f4f" Target="My Computer::iSRb.gtype::iSRb - Compute Dips Percentages.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@52e0f73998104ac786d6ca524d59f5fc" Id="ead1e2ddea8b4c7aa0129c23ee356871" Target="My Computer::iSRb.gtype::iSRb - Detect Doubles and Write Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@02d9271651de4a09b9bc9e9ee9799104" Id="bc904760380f4a78b7a0200a5fef2897" Target="My Computer::iSRb.gtype::iSRb - Filter Valleys.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@608dd4d3b0ef4c85b9bdce9bf8f448b9" Id="8557cff701bc494483591fa1a43d8303" Target="My Computer::iSRb.gtype::iSRb - Peaks Valleys Detector.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@156f25ca32cc42bba1ec83c851abb7e8" Id="12b2468f44f44926a6289558ab5d55fc" Target="My Computer::iSRb.gtype::iSRb - Set Relative Angle.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@6307a30c957143c39feb1673d1bd4869" Id="d7b2a57e2f8e47eba3f7f78666849777" Target="My Computer::iSRb.gtype::iSRb - Write Rectangle Points.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@46cfef914efe4e569baaf0d88c3551f2" Id="facd5404a0043d89b1d7f7e72e8dba4" Target="My Computer::iSRb.gtype::iSRb - Write Ref Image.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@66526977a2c247bebe8ed7c225a912e6" Id="d9b4b753eb1e43eaa6a44a9a6b724df1" Target="My Computer::iSRb.gtype::iSRb - Write ROI.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@3328ff05b6f94106b3b8147002a51e23" Id="67a31617b665418eb0d04c7b7a48870f" Target="My Computer::iSRb.gtype::iSRb - Write Start End Separators for Dips.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		<DataItem DataType="@6334ecdac2884c6f852cd7efc9cd4df3" Id="9c9789a828b64d6d883bf7f86f712a56" Name="Cluster of class private data">
 			<p.DefaultValue>
 				<Cluster>
@@ -44,9 +44,9 @@
 					</Field4>
 					<Field5>
 						<Array Lengths="15" IsBinary="True" Compression="GZip">
-							<BinaryElements>H4sIAAAAAAAEAM1UX2vbMBC3Y8ex8qfZ3sZelg8QTMuatX0IpEvYVjq6Qbu+hJAp7g3EZClIcsGFsYc9bZ9m33C7sw3JoB19KGwyurOku9/d7+Sz53ue9wsHaRrdBop3Z9wJrbg8UdaZPAPlbDLVBoaDSzAWj8aHyS49w8E0ly43MFaQO8PlcPA+X0mRnkJxoT+DGqtcyiahj24DnXHHL7nMAfFlbh2YVwLk1VRLCSmZh+gZfaI921Q8A9suFxfFGmw/rVymfM1T4YogCrwf/nmBe1mygbDJa1BgRJq8FdZ93JvPbzE5obPhILOpNlKsNkT370t0dXDAR+noxd7R833YPTxaLL7cPxXi88DRY7pJFpCgIrImCpohbf1PZaJ8oqXAULa5tOIG4uV1hYonT+9KYr6IYxaha6Oej8P6JWqhCGZiHcW0OkavawiJ+r+9kL/y7G3FLamxLWot4ulRExHH4MldNWFtuugOil6jxf7w6Wzhsy6Z9Uqzfrv+LKKq/79PSvXzW6UnXyvtFbV2k36n9vDLERLYsxr9g8I2PMd6ciluynZ/o+UVGKIeUq+z0oKS6B5bC9lKFmfY1b7nx9GOtynDTGM1oWz+PorTB7wIn4hT0tEjFDt1wJdaS+Dl74ZRxM5v/4hHexoFAAA=</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1UX2vbMBCXY8ex8qfZ3spelg8QTMuatX0IpEvoVjq6QbvCCCFVnBuIyVKQ7IIL+wL70u2dY0gG7ehDYZPxyZLufne/O5+Yxxi7x0EzjXYNxZcLkUmjhTrTLrN5Cjpz8dhY6PeuwTo8Gh7Fe/T0e+NcZbmFoYY8s0L1e1/zhZLJORRX5ifooc6VqhP64DHQicjEtVA5IL7KXQb2VIJajo1SkJB6gJbhD9pzdS1ScM1ycVWswHWTtclYrEQis8IPffbbuyxwL403EC7+CBqsTOLP0mU3+9PpIypndNbvpS4xVsnFhujBc4kuDg/FIBm83z9+dwB7R8ez2a/nh0J8Xth7RJXkPglKIq+joDegrf8pTRRPOJfoytXnTt5BNL9do+LJm6eCmM6iiIdoWqve10H1ETZQ+BO5CiNanaDVLQRE/d8W5K88O1t+S2p8i1qDeDJqIuLo7z6VE96kQrdQdGoN/odNawuft0mtU6p1m9VvUbpgIzNa3wOympfreXRTrb+Puq3KwitHQGBvK/RvGtvwEvMplLwr2/2TUUuwRD2gXuelBgXRPnEO0oUqLrCrPeZF4Q7bpGFiMJtQNn8XxfkLFsIj4hR0+ArFTuXwgzEKRHndcPLYegDrLYpTGgUAAA==</BinaryElements>
-							<BinaryElements>H4sIAAAAAAAEAM1U32vbMBCWY8ex8qPZ3sZelj8gmJY1a/sQSJewLXS0g2Z9CSFT3BuIyVaQ5IILhT7vn97uHEMyaEcfCpuM7izp7rv7Tj4zjzH2CwdpGu0aiotz4aTOhJpm1pk8hczZeKwN9HtXYCweDY/jfXr6vXGuXG5gmEHujFD93pd8pWRyBsVM/4BsmOVK1Ql98BDoRDhxJVQOiK9y68B8kKCux1opSMg8QM/wO+3ZeiZSsM1yMSvWYLvJxmUs1iKRrvBDn/30LgvcS+MthI0/QgZGJvFnad23g/n8AZMpnfV7qU20UXK1JXr4VKKroyMxSAbvDk7eHsL+8clicff0VIjPM0eP6Ca5T4KKyOsoaAa09T+VifIJlxJD2frSyluIljcbVDx5/VgS80UU8RBda9V8GVQvYQOFP5HrMKLVKXrdQEDU/+2F/JVnZyduSY3vUGsQT0ZNRBz9V4/VhDfpolsoOrUG/8OntYPP22TWKc26zeqzCDf9PxuV6v5io9m00pNKj0bdVuXhlSMgsDcV+tcM2/AS6ymUvC3b/ZNW12CIekC9zksLSqJ9ai2kK1WcY1d7zIvCPbYtw0RjNaFs/i6Ks2e8CI+IU9LhCxR7VcD3WisQ5e+GU8TWb4H6L+gaBQAA</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1UzW7TQBC2Y8ex81PTG+JCHiCyWtHQ9hApJRFQFRpESi9RFDbOFC1s1pF3XcmVEAdOcONNeEOY2VhKKqWoh0h0rZ2xd3a++fVYtmVZf3ARp1UvIRmcM80TycSpVDrN5iC1inpJCq3mJaQKRZ2jaI+eVrOXCZ2l0JGQ6ZSJVvNdNhU8PoP8IvkCsiMzIcqE3t4E2meaXTKRAeKLTGlIX3IQs14iBMR03UVN74rOVFmyOaiq+bjIF6DCeKnSYwsWc507jmP9tIc5ns2jFYSKXoGElMfRG670x/3RaMOVU5K1mnMVJ6ng01WgB/cNdHp4yNpx+/n+8bMD2Ds6Ho9/bfJlMP2Mr2+TGYjoPbDZQIp8JV/zbqhTLj9t2aWv988OpXjL1n1qrsAhQnUNykhou3T0kCpH/ngTjqZUeaL4DfiT6yUqSp7c5cRo7PuBh6qlYrsU5QPsAvodXYEeO+EtM6NxUCER1eT/dso/C9BYs2ty7q/lvEIFsEyEuJ3HdxUrCKgDq0gapd1KoezVSKfPF16dvk5Q4Roq/i3E2pr1oEEgOwYkDIpu9paT9EfXsN/fl7z7bcmtvOC6G1YLDdssl8CeFugfJA60IWabCX5jBufrRMwgpcS4NDUDc4OcqJ8oBfOpyM9xPtqW7XuhtUpSP8Fcgxmjj5CcbbFMtgmckHeR7BQGXySJAGYGd0AWa38BHVPCcGQGAAA=</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1UX2vbMBC3Y8ex86de38pelg8QTMuatX0IpE3YVro1Y+kKI4RUca5DmyIFyy64sC+wt33i7U4xJIV09CGwyuhk6XS/+6uzbMuy/uCglUa9hGRwyVKuJBPnUqdJNgeZ6qinEmg1ryHRyOocR/v0tZq9TKRZAh0JWZow0Wp+yqaCxxeQX6kfIDsyE6JM6O1NoH2WsmsmMkB8kekUkrccxKynhICYrrso6d3SmS5LNgddNZurfAE6jJciPbZgMU9zx3GsX/Ywx7N5tILQ0TuQkPA4+sB1enMwGm24ck68VnOuY5UIPl05evhUR6dHR6wdt98cnLw+hP3jk/H49yZbBtPv+PtRzUBEn4HNBlLkK/6adcM04fLblk36+fToUIi3rN2n4gocIpTXoIyEpktHzylzZI834ahKlyea34M/uVuiIuflY0aMxr4feChaKqZLXj7DKqDn6Aq02AkfqBmNgwqxKCf/t1L+mYDGml4Tc38t5hVKgGU8xOnsPZasIKAKrCJplHYrhbBXI5k+X3h12p2iwB1U/AeItTXtQYNAdgxIGBTVbAywuqq77Ki8WGfLtXtT7L92w2ohYZvhEtirAv2LxIY2xGgzwe9N43yvxAwSCoxLXTMwN8iI+qnWMJ+K/BL7o23ZvhdaqyD1FcYaTBt9geRii2myjeOEvItkp1B4ppQAZhp3QBprfwEJ9g9YZAYAAA==</BinaryElements>
+							<BinaryElements>H4sIAAAAAAAEAM1US2/TQBC2Y8ex86jpDXEhPyCyWtHQ9hApJREQFRpEQi9RFNbOgBbW68hrV3IlJM7c+MUws7GUVEpRD5HoWjtj7+x88/QYpmEYf3ARp9WsIBlfsYwnkomRVFmaxyAzFQySFDrta0gVinpnwRE9nfYgF1meQk9CnqVMdNof8lDw6BKKafIdZE/mQlQJvbsLdMgyds1EDogvcpVB+pqDWA4SISCi6zZqOl/oTFUli0HV9ce0WIHyo7XKgK1YxLPCsizjlzkp8CwONhAqeAMSUh4F77jKPh/PZjuujEjWaccqSlLBw02gJw8NNDw9Zd2o+/L4/MUJHJ2dz+e/d/kyDr/h6/tkCSL4CGw5lqLYyLe8m2Qpl1/37NKPh2eHUrxn6y41l2cRobp6VSS0bTp6TJUjf5wFR1OqulD8FtzFzRoVJc/uc2I2d13PQdVKuW2K8hF2Af2OtkCPLf+Omdncq5GIavJ/O+WfBWht2dU5d7dyXqMCGDpC3NbT+4rledSBdSStymGtVHYapDPkK6dJXxeocAM19w5iY8u61yKQAw3ie2U3O+tJOu1r9nO85sao5MOS9/t+vdQw9bIJ7HmJ/kniQJtgtpngt3pwvk3EElJKjE1T09M3yInmhVIQh6K4wvloGqbr+MYmScMEcw16jD5BcrnHMpk6cEI+RHJQGnyVJAKYHtweWWz8BWMhquNkBgAA</BinaryElements>
 						</Array>
 					</Field5>
 					<Field6>
@@ -199,7 +199,7 @@
 										<NumericText Enabled="[bool]True" Height="[float]24" Id="790140bf16264adaaa94a0686c6ad73e" Interval="[int]1" IsTabStop="[bool]True" Maximum="[int]2147483647" Minimum="[int]-2147483648" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]0" TextAlignment="[TextAlignment]Left" ValueFormatter="[string]DisplayFormat=Automatic:Digits=0:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" ValueType="[Type]Int32" Width="[float]65" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 									</ArrayViewer>
 									<Label Id="39b0a3b4b95c443ea62052fa6f8625f6" LabelOwner="[UIModel]6fcdde41686f4d2aa8d78e507c599e66" Left="[float]45" Text="[string]Points" Top="[float]85" />
-									<Label Id="37f91cc3f10c49b7889e40858c33724a" IsVisualChild="[bool]False" LabelOwner="[UIModel]8a77c5e9e36e472bba23df80554564f9" Left="[float]45" Text="[string]Cluster_3" Top="[float]1" />
+									<Label Id="37f91cc3f10c49b7889e40858c33724a" IsVisualChild="[bool]False" LabelOwner="[UIModel]8a77c5e9e36e472bba23df80554564f9" Left="[float]0" Text="[string]Cluster_3" Top="[float]-20" />
 								</Cluster>
 							</ArrayViewer>
 							<Label Id="532c10dcab8344aba7234c6336c4a59d" LabelOwner="[UIModel]3e412501c15b437ba401840efa8593e8" Left="[float]41" Text="[string]Contours" Top="[float]63" />
@@ -220,7 +220,7 @@
 									<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">Y-coordinate of the point.</p.InfoTipDescription>
 								</NumericText>
 								<p7:Label Foreground="[SMColor]#ff000000" Id="94d425fc38cb4af5a6632095cd24fd8b" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]60b102ba60f44a71aeb840389fd47c04" Left="[float]72" Text="[string]Y" Top="[float]26" />
-								<p7:Label Id="497c9a65fb94cfb94d7fc3058698f8e" IsVisualChild="[bool]False" LabelOwner="[UIModel]c640361646524153b8fa845bd0a099f4" Left="[float]50" Text="[string]Cluster" Top="[float]6" />
+								<p7:Label Id="497c9a65fb94cfb94d7fc3058698f8e" IsVisualChild="[bool]False" LabelOwner="[UIModel]c640361646524153b8fa845bd0a099f4" Left="[float]0" Text="[string]Cluster" Top="[float]-20" />
 							</p7:Cluster>
 						</ArrayViewer>
 						<Label Id="841c7446892e4e95b219fcfa243a9558" LabelOwner="[UIModel]4b1b9c1cd2b34fb2a749c7f728e2c12d" Left="[float]4" Text="[string]Rectangle Points" Top="[float]675" />
@@ -310,97 +310,109 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8453f16a924f42dd960ed2e0f24044b9">
+		<p.TypeReference TypeId="c8b39d20dccf4b048a9d11b8957a967f">
 			<Attributed AttributedType="@a610d54418324e6899f76ce79987841d">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f3a78d93b1e34be99fffca376df9d86d">
-			<Attributed AttributedType="@8eb4098fa6b1401c946d7f6f609da2f0">
+		<p.TypeReference TypeId="b34f8f8e5ce445d99e0a7808c7498d49">
+			<Attributed AttributedType="@7f1bab742c6f465e884f06499515bde1">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="fd90f7aa48384c2b81beb1534c48c05e">
+		<p.TypeReference TypeId="b0b0d0d0a0c14ae2a1b227b5867476a4">
 			<Attributed AttributedType="@b08ca166788c49fbb777aa903b945c5b">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1a678180a0ae440d905e18d7339f77a4">
+		<p.TypeReference TypeId="9508e190202f4414a483be38153614d3">
 			<Attributed AttributedType="@70f6cab4b5c64fa7814c0efa16e1588a">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f2f408c3b60b4d8b8a8a8011fc386352">
+		<p.TypeReference TypeId="52e0f73998104ac786d6ca524d59f5fc">
 			<Attributed AttributedType="@b03c26b4eb544ea6946c437d3896afcb">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d45ac2c314414e3e8fc9b8f36f9009f0">
+		<p.TypeReference TypeId="02d9271651de4a09b9bc9e9ee9799104">
 			<Attributed AttributedType="@4358dfd9263e4acbb06fcbff5af3e0dc">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5006c6e289f6490a8535446b72b6d2f6">
+		<p.TypeReference TypeId="608dd4d3b0ef4c85b9bdce9bf8f448b9">
 			<Attributed AttributedType="@3e0ff2382bed4f729a951e5a4da5e142">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="99dad417c8774469b8fb01e2fdc89ca9">
+		<p.TypeReference TypeId="156f25ca32cc42bba1ec83c851abb7e8">
 			<Attributed AttributedType="@da6df8b70bad4f809648edadcea86cd0">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e38b0db5286f4f6abe4d2ae70131a369">
+		<p.TypeReference TypeId="6307a30c957143c39feb1673d1bd4869">
 			<Attributed AttributedType="@00654a4eb9b343f691f5af7520796cc4">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9c3254451b3e46adaad1c39ac786d4c7">
+		<p.TypeReference TypeId="46cfef914efe4e569baaf0d88c3551f2">
 			<Attributed AttributedType="@abf4cc7e3d2d42f388e401923daed245">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="af8bb1e8a5a54cab85d53e216bf03f13">
+		<p.TypeReference TypeId="66526977a2c247bebe8ed7c225a912e6">
 			<Attributed AttributedType="@ece379b058614ada94e1dfa7eeef7323">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9643ebccdddc41b08a357c987cdcde68">
+		<p.TypeReference TypeId="3328ff05b6f94106b3b8147002a51e23">
 			<Attributed AttributedType="@4ebe9c314d384375942608a7f23c1f7e">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
@@ -503,7 +515,7 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8eb4098fa6b1401c946d7f6f609da2f0">
+		<p.TypeReference TypeId="7f1bab742c6f465e884f06499515bde1">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="iSRb - Compute (i)SRb.gvi" ReturnType="Void" DeclaringType="@1096d84cf51944528912d7d0d7e91b23" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@0a4814e9969a4d5b89d52e6fe706a8f6">
@@ -538,7 +550,7 @@
 					</Attributed>
 					<Attributed AttributedType="@a6f424ead7fa44de81eec2bd010871aa">
 						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]XY Graph 8" />
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Output Graph" />
 						</AttributeValues>
 					</Attributed>
 					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
@@ -1115,7 +1127,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC8SURBVEhL7YxRDsMgDEM57e600zJD0ix1gFYDJk3akz8SB156PPOmfF2dkvYYBJrjGjNS0zdb6UrPLJ3WfaMZNNeYC7VfrWyuMZ32+Cz4sneN6R7m86PqjeQD3StazXFSl61miV0V3rtebfYlXlAs1VViyG2Sk1rscphHXPvV5i3TeQaDvgkO79A7v96ZCRw09OiOi74QuOJcMvjTW6kncFW0qGgVFL4Efo7I49GLj9nlBbu84K8mtqlzfgEy/dyGG+DAjQAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1132,7 +1144,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7YxREoAgCEQ9bXfqtIaCZKD1IdtMM73ZDxfkpW3PoLyuTknm9GDM21efO7U502q25ptmMu3OzJsYVp8HdV91OKw+k2k7ZvrhbOszXazno2oguSG9IqM1LurSakLsoui98Wq1h3iJYqmuEoV3i1zUbOfFOuzCqwO9xOkFqmO9BBthakYGcaC8BMpLoLzErzbA1Dkf+KEzPnjUapcAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1144,12 +1156,18 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+							<Image Height="[float]30" Left="[float]4" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVEhL1Y0BDsMwCAP72v1pr81ITIgDpZ2UdNJOqLINcY/Xuzw0P68+Ds1FAKejjXNV7Z6ZdVt3ZpOk9Mxp4dTGualma+GpjZOk/THgMNvGSRfr86fVD1I66hsarTFVV9dmS7tWcO/+amvf0ivUltZVx8Bukaka7Visg67nq7k3akvMAoQRWYzhu6jrugv7XiBrHXfKlrvq3SwysK7j7thCW+JshhwoGnQ0pRZ82QKEkZv1CqO3/aJyagW20AK0fZnpJYsvrRATMF2AzLJoG5/AGsO7XfbSWSEmwF8YZlnEUIBuywpCYajNlPIBbngyMbFJApoAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Left="[float]0" TemplateName="[string]Banner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 							</IconTemplate>
-							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVEhL1Y0BDsMwCAP72v1pr81ITIgDpZ2UdNJOqLINcY/Xuzw0P68+Ds1FAKejjXNV7Z6ZdVt3ZpOk9Mxp4dTGualma+GpjZOk/THgMNvGSRfr86fVD1I66hsarTFVV9dmS7tWcO/+amvf0ivUltZVx8Bukaka7Visg67nq7k3akvMAoQRWYzhu6jrugv7XiBrHXfKlrvq3SwysK7j7thCW+JshhwoGnQ0pRZ82QKEkZv1CqO3/aJyagW20AK0fZnpJYsvrRATMF2AzLJoG5/AGsO7XfbSWSEmwF8YZlnEUIBuywpCYajNlPIBbngyMbFJApoAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<Text Height="[float]22" Left="[float]5" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Line&#xD;&#xA;Profile" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]13" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]30">
+								<FontSetting FontFamily="Segoe UI" FontSize="6" />
+							</Text>
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1166,7 +1184,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVEhL7Y7dDoAgCEZ92t6ppzUEIoNIm9LW1tl3IX+n0rLmoLyuTon78CDU25Y2d2p1JqWaqjWJ063O1Bu4LG0a6rqU5mVp43T3Y6JuelMbdzCej6oDyTtcI9wa46QuFWaKnRW1d75a7FO8QLGgq0Sg2SAnNdlpMA654tUTvcDhvVfLqP/zLMWT9k2/FyBjl/qRFyhGghsOstDcFND68Hc6ifICUV7gVyvC1DlvmOAhUJ7TzRkAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1183,7 +1201,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADESURBVEhL7YxbDsMwCAR92typp3V4mRIwyYdNpEodoYhdnGnHpxfN6+rWpIeFcXuMce7U7jeN7uqe6SSt+c3twDTGeVDbqOU0xkna8TNjy+waJz2sz4+qC+kDyYRUa1zUmGi22EVhvfvVat/iBdBCLhyFb4tc1GznwzrsqlerFzdCYywByaaxQPsdfeQW+40xA84y9unUgi8IuiAuOviGYx/pzov9Rm56QQpCqlHyopGhOyI58HBeocoLVHmBv9pRpu79BF9sxJ598AvPAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1200,7 +1218,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVEhL1YwBDsMgDAP72v1pr2UBU9dNINPUMqknC9kh8fZ6l0X6e/W29bkZ4HyMUVm1O2N0v26NmkzlzHljGKO+VGvkcBijJtP9GOhw9hs1/biuh1YvpOz03Oija5yqa2q6pb1XaO/91WxnL4xG9TAJPK4i/a8ZjephEnjcpTfw+saYYDu2dMjdMNaPHZ0nYLUrHnDiTF1tYDjE/g7lq7+yqtdA47JqoAGeL2g/lcQrpymNAa8TI9lUAyyelhhhGIH+Om8gkvGlAe8OGOOmGjC+NODtBTqEAW4IA07hXp5YXcoHNElQE5n0d18AAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1217,7 +1235,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD3SURBVEhL1YxrDsMwCIN72t1pp80AU5dAk/1IOmmfUGLz8PF6t4fq59HH4X0RIOlqa82i0xltmqY11qAbzpIWbm2tL9HRsnlraw265zGIzdG01nCwXn8a/SDtxL3hrTW6aHVWW9I9Iubuj2b6llxBUyxLi2C2SBeNdAzWQdbz0cjVz7g2jGipk4hI6ypspIN0pkvTBSJdr3gAoqWOwibeqWCmxaW0Ha0uncDyrdiW4Y2yiqkAzWa1CWkq7rZy5UJEGzWEkDSA5gvyDWciooYQ5rrr+N/PuHFz0OvRSOjNObMTJ/aFkRay9d/gLAl5wUTDQoDO7KS1DzS+HUabfrivAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1234,7 +1252,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVEhL1YwBDsMgDAP72v1pr2WAU88EyFq1TOopQrZDvL3eadH8vXrbLM8CON3bfqJqd0brtu4bZ5LKmdOZoe3nR7VahkPbzyTdj4GGs20/08X1eWj1QtKO+YpF12iqi6tzS7tVaO/91Wx3vbbaNcQRytd6UIZgBzRxq5jytR7YBMdlV7cUMfj0neDmSJ3SVMfHp6t1zh7HrOrNoHFZNVBP3QugYQZhxnzFR2qp9SVq3QrkcPADgm9gAUOl8fgBYJkHNqOaNNHsWAUINGnMvTyxOqUPYcJw8lwXF9wAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1251,7 +1269,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVEhL1YxRDsMgDEM5be+007KAaeY60H0AlfoUVU5cXjo+edM8rk6p3S0AyXGNc6eWZ75KK7/5DK70TLLRXeP8UfPqx+4aZ3A9HwM+jto4w2J+XqreSD5pe6Wd5rioy1Znib0p2Lte7fYlXqNYqquMg26Sixp2FPPAtV+90Gv8vBvVa70GjNvUoB3odLNyNrAKnc5XBG6l4hCxSrtyqvDqGcGJF6dTiIgfS8Uh0inkmX2BHz0bnIVhMc8b1Tl/Aa5LwaFzyBPcAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1268,7 +1286,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVEhL1Y4BDoMwDAN57f6013ZpHUzq0A4JOmmnCNluYrG93mXR/Lx62zw3AURnm2dWLWe08iprnEEazkQbpzbPl+poGZ7aPIN0PwYxHL3mGT7cnz+tXkjZcd/w6B5ddXVtHmn3itj7fDXb2YvQyNbV9A98rwksV/ytF7RG1CN44yP3INqsR2DjmHhADXH6NMF2bMlHDmgh6nODyRzbOObKwXVW9RpoXFYNYPgF1HWjz4HoSJdCMKHIGgKIJceBAT36irWvCKGLuAprMCEMKWiFLs2rkkQBREfUP8g/VpfyAUqvPiUmsGTeAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1285,7 +1303,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC9SURBVEhL7YxBDsMwCAT92vypr3XA4BWB0Ei1qVSpoz2wGE87Xr0oX1e3pnsaBDfHGvNO7b6huld3hiRb883NxG2NeVDbiuVtjUm287Ngl9lrTPqwnh9VF9In2ge6WuOi5jayxa4K692vhn2Ll2DLcHGAvC1yUYtdHtYRV73aebkPtM8NZhky2Ii4a2fJagY9a+IprwaodkDNkJ+ceIqNDFnNoANFFwYs7RCXGXL8cPQZVV6iykv81Y4yde8nq9XigPa9YZgAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
@@ -1302,7 +1320,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVEhL1YwBDoMwDAN57f6013ZpHYxJUxCCTuIUVbabePl8y6T5e/WyeG4CBN3bfo6qwxlt+A1rnEEqZ0Ebqe3npFotw9T2M0jXY6Dh6Lef4cf9eWn1RMqK+4ZH99hVV9fmkXav0N7nq9mOXiQGdNtKvg7gZR2yhk4I8apI4aqPnqnWBK+KFGxvk56FMN3psV/79tHVahrQDPEChCPse5vT7UvM6jXQOK0aBB80rWojtWAXURBN2mLc7AXZtkH1klAHUZcaCA3VIHrAPRUk5EGQna93DffjilGuRP8gb6wu5Qdtdj4l/CyiOgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]My Computer.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]iSRB.gcomp" Top="[float]0" Width="[float]40" />
 							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]iSRb.gtype" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>

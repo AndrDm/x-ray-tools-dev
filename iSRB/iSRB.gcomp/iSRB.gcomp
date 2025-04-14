@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9AEE8E27BD282CC56ECE097D322B47C5609E1921982C4901E8404C9A24C63675A88F008B5E6C26C31AC6C116A668568752A887B9EAEB7B270CD1D3561E69F664" Timestamp="1DBAAD5CB95236F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9C143A18E14560E65E847624BB1E2682A905C4363D371EF0EF51D2939A4FE7C5F135BF8F870B748A3A16D869ED1230707855A7A8E0D478E2877615712115D6A1" Timestamp="1DBACF43F7266F9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -45,7 +45,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="ba1093f3c350441696acb4bd0521fb8f" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="LV_ASTM_Toolbox.sli" StoragePath="LV_ASTM_Toolbox.sli" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
-		<NameScopingEnvoy Id="7fac2e2e104942ee94f03495a5cafbd9" Name="My Computer.gcomp" NameTracksFileName="True">
+		<NameScopingEnvoy Id="7fac2e2e104942ee94f03495a5cafbd9" Name="iSRB.gcomp" NameTracksFileName="True">
 			<ContentReference ContentIdentifier="19faad1c421242ec9793e47503d28d6f" Id="e0d9bd35fcd64e1ebe36348541e3e401" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
